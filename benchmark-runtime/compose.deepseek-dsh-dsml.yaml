@@ -1,0 +1,8 @@
+services:
+  main:
+    env_file:
+      - ${OPENROUTER_ENV_FILE}
+    volumes:
+      - ${HOME}/.npm:${HOME}/.npm:rw
+      # Read-only configuration template. Each builder gets a writable clone.
+      - ${HOME}/.dsh-openrouter-dsml:${HOME}/.dsh-openrouter-dsml:ro

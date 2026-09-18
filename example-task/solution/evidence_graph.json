@@ -1,0 +1,13 @@
+{
+  "schema_version": "online-search-evidence-graph",
+  "task_id": "example-task",
+  "rubric_claims": [],
+  "nodes": [],
+  "edges": [],
+  "required_paths": [],
+  "conflicts": [],
+  "calculations": [],
+  "recommendations": [],
+  "decoys": [],
+  "task_data": {}
+}

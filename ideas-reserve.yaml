@@ -1,0 +1,997 @@
+version: 1
+ideas:
+- id: bearing-lot-identity
+  idea: Build a task-adaptive 200-1,800-word live-web Manufacturing anomaly-detection specification for
+    a bearing lot identity case. Require a structured analyst to reconcile lot identifiers, genealogy,
+    and release records, identify lot, supplier, and corrective-action inconsistencies, and distinguish
+    Anomaly confirmed, Reconciled, and Insufficient evidence. Require explicit abstention when the evidence
+    cannot support a finding, exact inline URLs, and a hold, release, rework, escalation, or CAPA-reopening
+    recommendation. Keep the hidden solution a dependency-graph, multi-hop investigation rather than a
+    checklist.
+  scope: Manufacturing; anomaly detection across lot genealogy, supplier identity, inspection and certificate
+    records, nonconformance, corrective and preventive action, release status, chronology, source conflicts,
+    and bounded disposition decisions
+  requester_archetype: quality_engineering
+  domain: Manufacturing
+  task_mode: anomaly_detection
+  instruction_shape: task_adaptive_200_to_1800_word_specification
+  required_workstreams:
+  - 'bearing lot identity: reconstruct lot genealogy and detect identity, quantity, and date inconsistencies'
+  - 'bearing lot identity: match supplier legal names, facilities, certificates, and ownership across
+    records'
+  - 'bearing lot identity: compare inspection, certificate, process, and disposition records using consistent
+    units'
+  - 'bearing lot identity: trace nonconformances to corrective and preventive actions without treating
+    a closure date as proof of effectiveness'
+  - 'bearing lot identity: separate clerical discrepancies, source conflicts, and safety-relevant anomalies'
+  - 'bearing lot identity: verify the controlling manufacturing, quality, and reporting requirements on
+    current public sources'
+  - 'bearing lot identity: test source independence, superseded revisions, scope boundaries, and entity
+    aliases'
+  - 'bearing lot identity: preserve missing evidence and bounded uncertainty rather than inventing a lot
+    or supplier conclusion'
+  - 'bearing lot identity: classify each material finding as Anomaly confirmed, Reconciled, or Insufficient
+    evidence'
+  - 'bearing lot identity: recommend hold, release, rework, escalation, or CAPA reopening from the reconstructed
+    evidence'
+- id: smart-appliance-data
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to govern smart-appliance data collection, retention, sharing, updates,
+    and loss of functionality, who needs evidence for a well-informed meeting rather than personalized
+    professional advice. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States consumer products, services, markets, and protection policy; target decision:
+    govern smart-appliance data collection, retention, sharing, updates, and loss of functionality'
+  requester_archetype: general_user
+  domain: Shopping/Product Comparison
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'smart appliance data: product or service market structure'
+  - 'smart appliance data: controlling consumer-protection authority'
+  - 'smart appliance data: claims, disclosures, pricing, and contract terms'
+  - 'smart appliance data: safety, quality, reliability, and complaint evidence'
+  - 'smart appliance data: affected populations and distributional impacts'
+  - 'smart appliance data: vendor, platform, and intermediary responsibilities'
+  - 'smart appliance data: remedies, enforcement, and compliance alternatives'
+  - 'smart appliance data: quantitative incidence, cost, and outcome comparisons'
+  - 'smart appliance data: counterevidence, scope limits, and uncertainty'
+  - 'smart appliance data: implementation priorities, monitoring, and escalation'
+- id: school-meal-access
+  idea: Build a live-web deep-research task for a state and local public-service modernization board deciding
+    how to expand school-meal access while controlling administrative burden, nutrition quality, waste,
+    and fiscal exposure. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States government administration and public-service delivery; target decision: expand
+    school-meal access while controlling administrative burden, nutrition quality, waste, and fiscal exposure'
+  requester_archetype: professional
+  domain: General Knowledge
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'school meal access: statutory authority and program eligibility'
+  - 'school meal access: service demand and population need'
+  - 'school meal access: current performance and administrative burden'
+  - 'school meal access: federal, state, local, and tribal role allocation'
+  - 'school meal access: procurement, workforce, and vendor capacity'
+  - 'school meal access: budget authority, obligation, spending, and lifecycle cost'
+  - 'school meal access: accessibility, language access, and distributional equity'
+  - 'school meal access: privacy, due process, and accountability safeguards'
+  - 'school meal access: implementation alternatives and failure modes'
+  - 'school meal access: phasing, performance measures, and corrective triggers'
+- id: public-procurement-modernization
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to modernize public procurement while improving competition, delivery
+    speed, transparency, and small-supplier access, who needs evidence for a well-informed meeting rather
+    than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States government administration and public-service delivery; target decision: modernize
+    public procurement while improving competition, delivery speed, transparency, and small-supplier access'
+  requester_archetype: general_user
+  domain: Personalized Assistant
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'public procurement modernization: statutory authority and program eligibility'
+  - 'public procurement modernization: service demand and population need'
+  - 'public procurement modernization: current performance and administrative burden'
+  - 'public procurement modernization: federal, state, local, and tribal role allocation'
+  - 'public procurement modernization: procurement, workforce, and vendor capacity'
+  - 'public procurement modernization: budget authority, obligation, spending, and lifecycle cost'
+  - 'public procurement modernization: accessibility, language access, and distributional equity'
+  - 'public procurement modernization: privacy, due process, and accountability safeguards'
+  - 'public procurement modernization: implementation alternatives and failure modes'
+  - 'public procurement modernization: phasing, performance measures, and corrective triggers'
+- id: catastrophe-insurance-stability
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to stabilize a catastrophe-exposed property-insurance market without
+    masking risk or abandoning vulnerable households, who needs evidence for a well-informed meeting rather
+    than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States finance, banking, insurance, and investment policy; target decision: stabilize
+    a catastrophe-exposed property-insurance market without masking risk or abandoning vulnerable households'
+  requester_archetype: general_user
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'catastrophe insurance stability: controlling financial authority and institutional scope'
+  - 'catastrophe insurance stability: market size, exposures, and trend measurement'
+  - 'catastrophe insurance stability: capital, liquidity, solvency, and loss transmission'
+  - 'catastrophe insurance stability: consumer and investor protection'
+  - 'catastrophe insurance stability: product structure, fees, incentives, and conflicts'
+  - 'catastrophe insurance stability: macroeconomic and distributional effects'
+  - 'catastrophe insurance stability: scenario calculations, stress assumptions, and denominators'
+  - 'catastrophe insurance stability: implementation capacity and market responses'
+  - 'catastrophe insurance stability: counterevidence, model risk, and unresolved uncertainty'
+  - 'catastrophe insurance stability: phased controls, disclosures, monitoring, and escalation'
+- id: regional-911-consolidation
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to evaluate consolidating local 911 centers while preserving response quality,
+    redundancy, and local accountability. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States government administration and public-service delivery; target decision: evaluate
+    consolidating local 911 centers while preserving response quality, redundancy, and local accountability'
+  requester_archetype: investigative
+  domain: Needle-in-a-Haystack
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'regional 911 consolidation: statutory authority and program eligibility'
+  - 'regional 911 consolidation: service demand and population need'
+  - 'regional 911 consolidation: current performance and administrative burden'
+  - 'regional 911 consolidation: federal, state, local, and tribal role allocation'
+  - 'regional 911 consolidation: procurement, workforce, and vendor capacity'
+  - 'regional 911 consolidation: budget authority, obligation, spending, and lifecycle cost'
+  - 'regional 911 consolidation: accessibility, language access, and distributional equity'
+  - 'regional 911 consolidation: privacy, due process, and accountability safeguards'
+  - 'regional 911 consolidation: implementation alternatives and failure modes'
+  - 'regional 911 consolidation: phasing, performance measures, and corrective triggers'
+- id: stroller-brake-failure
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must prioritize stroller
+    brake-safety action across incident records, model aliases, standards, repairability, recalls, and
+    secondhand sales. Make the hidden solution a dependency-graph, multi-hop research problem rather than
+    a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: prioritize stroller brake-safety action across incident records,
+    model aliases, standards, repairability, recalls, and secondhand sales; focus: incident evidence,
+    exposure, authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: investigative
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'stroller brake failure: consumer hazard and affected-population baseline'
+  - 'stroller brake failure: controlling product, food, health, transport, or housing authority and dates'
+  - 'stroller brake failure: reconstructing the eligible product, incident, market, or location population'
+  - 'stroller brake failure: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'stroller brake failure: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'stroller brake failure: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'stroller brake failure: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'stroller brake failure: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: maternal-care-desert
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to reduce maternal-care access failures across rural and underserved
+    counties, who needs evidence for a well-informed meeting rather than personalized professional advice.
+    Require a cited long-form report that reconstructs controlling authority and chronology, joins distributed
+    evidence across the named workstreams, resolves genuine scope/date/definition conflicts, performs
+    multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions, preserves
+    bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: reduce
+    maternal-care access failures across rural and underserved counties'
+  requester_archetype: general_user
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'maternal care desert response: burden, incidence, and trend measurement'
+  - 'maternal care desert response: population eligibility, disparities, and access'
+  - 'maternal care desert response: clinical or operational effectiveness evidence'
+  - 'maternal care desert response: capacity, workforce, and implementation constraints'
+  - 'maternal care desert response: federal, state, and local authority'
+  - 'maternal care desert response: coverage, reimbursement, and affordability'
+  - 'maternal care desert response: supply continuity and infrastructure resilience'
+  - 'maternal care desert response: scenario calculations and threshold design'
+  - 'maternal care desert response: harms, counterevidence, and uncertainty boundaries'
+  - 'maternal care desert response: phased implementation, monitoring, and reassessment'
+- id: car-seat-counterfeit
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must detect and reduce
+    counterfeit child restraints across marketplace listings, certification records, crash performance,
+    enforcement, and disposal. Make the hidden solution a dependency-graph, multi-hop research problem
+    rather than a checklist. The final report must reconcile independent source families, perform bounded
+    calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: detect and reduce counterfeit child restraints across marketplace
+    listings, certification records, crash performance, enforcement, and disposal; focus: incident evidence,
+    exposure, authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: neutral_exploratory
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'car seat counterfeit: consumer hazard and affected-population baseline'
+  - 'car seat counterfeit: controlling product, food, health, transport, or housing authority and dates'
+  - 'car seat counterfeit: reconstructing the eligible product, incident, market, or location population'
+  - 'car seat counterfeit: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'car seat counterfeit: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'car seat counterfeit: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'car seat counterfeit: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'car seat counterfeit: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: critical-drug-shortage
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to allocate scarce critical medicines across hospitals while reducing future
+    shortage exposure. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: allocate
+    scarce critical medicines across hospitals while reducing future shortage exposure'
+  requester_archetype: investigative
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'critical drug shortage allocation: burden, incidence, and trend measurement'
+  - 'critical drug shortage allocation: population eligibility, disparities, and access'
+  - 'critical drug shortage allocation: clinical or operational effectiveness evidence'
+  - 'critical drug shortage allocation: capacity, workforce, and implementation constraints'
+  - 'critical drug shortage allocation: federal, state, and local authority'
+  - 'critical drug shortage allocation: coverage, reimbursement, and affordability'
+  - 'critical drug shortage allocation: supply continuity and infrastructure resilience'
+  - 'critical drug shortage allocation: scenario calculations and threshold design'
+  - 'critical drug shortage allocation: harms, counterevidence, and uncertainty boundaries'
+  - 'critical drug shortage allocation: phased implementation, monitoring, and reassessment'
+- id: child-bike-helmet
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must improve child
+    bicycle-helmet safety across fit, certification, crash evidence, replacement intervals, counterfeits,
+    and equitable access. Make the hidden solution a dependency-graph, multi-hop research problem rather
+    than a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: improve child bicycle-helmet safety across fit, certification,
+    crash evidence, replacement intervals, counterfeits, and equitable access; focus: incident evidence,
+    exposure, authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: professional
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'child bike helmet: consumer hazard and affected-population baseline'
+  - 'child bike helmet: controlling product, food, health, transport, or housing authority and dates'
+  - 'child bike helmet: reconstructing the eligible product, incident, market, or location population'
+  - 'child bike helmet: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'child bike helmet: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'child bike helmet: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'child bike helmet: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'child bike helmet: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: heat-health-protection
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to coordinate healthcare and public-health protections for recurrent extreme-heat
+    emergencies. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: coordinate
+    healthcare and public-health protections for recurrent extreme-heat emergencies'
+  requester_archetype: neutral_exploratory
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'heat health protection network: burden, incidence, and trend measurement'
+  - 'heat health protection network: population eligibility, disparities, and access'
+  - 'heat health protection network: clinical or operational effectiveness evidence'
+  - 'heat health protection network: capacity, workforce, and implementation constraints'
+  - 'heat health protection network: federal, state, and local authority'
+  - 'heat health protection network: coverage, reimbursement, and affordability'
+  - 'heat health protection network: supply continuity and infrastructure resilience'
+  - 'heat health protection network: scenario calculations and threshold design'
+  - 'heat health protection network: harms, counterevidence, and uncertainty boundaries'
+  - 'heat health protection network: phased implementation, monitoring, and reassessment'
+- id: window-blind-strangulation
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must choose window-covering
+    interventions to reduce child strangulation across cord designs, housing stock, recalls, landlord
+    duties, and installation. Make the hidden solution a dependency-graph, multi-hop research problem
+    rather than a checklist. The final report must reconcile independent source families, perform bounded
+    calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: choose window-covering interventions to reduce child strangulation
+    across cord designs, housing stock, recalls, landlord duties, and installation; focus: incident evidence,
+    exposure, authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: community
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'window blind strangulation: consumer hazard and affected-population baseline'
+  - 'window blind strangulation: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'window blind strangulation: reconstructing the eligible product, incident, market, or location population'
+  - 'window blind strangulation: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'window blind strangulation: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'window blind strangulation: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'window blind strangulation: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'window blind strangulation: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: cancer-screening-equity
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to prioritize interventions that close persistent cancer-screening
+    gaps without increasing downstream access bottlenecks, who needs evidence for a well-informed meeting
+    rather than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: prioritize
+    interventions that close persistent cancer-screening gaps without increasing downstream access bottlenecks'
+  requester_archetype: general_user
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'cancer screening equity program: burden, incidence, and trend measurement'
+  - 'cancer screening equity program: population eligibility, disparities, and access'
+  - 'cancer screening equity program: clinical or operational effectiveness evidence'
+  - 'cancer screening equity program: capacity, workforce, and implementation constraints'
+  - 'cancer screening equity program: federal, state, and local authority'
+  - 'cancer screening equity program: coverage, reimbursement, and affordability'
+  - 'cancer screening equity program: supply continuity and infrastructure resilience'
+  - 'cancer screening equity program: scenario calculations and threshold design'
+  - 'cancer screening equity program: harms, counterevidence, and uncertainty boundaries'
+  - 'cancer screening equity program: phased implementation, monitoring, and reassessment'
+- id: furniture-tipover-prevention
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must prioritize furniture
+    tip-over prevention across incident populations, anchoring evidence, product redesign, rental housing,
+    and enforcement. Make the hidden solution a dependency-graph, multi-hop research problem rather than
+    a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: prioritize furniture tip-over prevention across incident populations,
+    anchoring evidence, product redesign, rental housing, and enforcement; focus: incident evidence, exposure,
+    authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: general_user
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'furniture tipover prevention: consumer hazard and affected-population baseline'
+  - 'furniture tipover prevention: controlling product, food, health, transport, or housing authority
+    and dates'
+  - 'furniture tipover prevention: reconstructing the eligible product, incident, market, or location
+    population'
+  - 'furniture tipover prevention: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'furniture tipover prevention: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'furniture tipover prevention: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'furniture tipover prevention: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'furniture tipover prevention: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: overdose-prevention-portfolio
+  idea: Build a live-web deep-research task for a multi-agency health planning coalition deciding how
+    to choose a statewide overdose-prevention portfolio across treatment access, harm reduction, prescribing,
+    and recovery support. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: choose
+    a statewide overdose-prevention portfolio across treatment access, harm reduction, prescribing, and
+    recovery support'
+  requester_archetype: professional
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'overdose prevention portfolio: burden, incidence, and trend measurement'
+  - 'overdose prevention portfolio: population eligibility, disparities, and access'
+  - 'overdose prevention portfolio: clinical or operational effectiveness evidence'
+  - 'overdose prevention portfolio: capacity, workforce, and implementation constraints'
+  - 'overdose prevention portfolio: federal, state, and local authority'
+  - 'overdose prevention portfolio: coverage, reimbursement, and affordability'
+  - 'overdose prevention portfolio: supply continuity and infrastructure resilience'
+  - 'overdose prevention portfolio: scenario calculations and threshold design'
+  - 'overdose prevention portfolio: harms, counterevidence, and uncertainty boundaries'
+  - 'overdose prevention portfolio: phased implementation, monitoring, and reassessment'
+- id: playground-surface-safety
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must rank playground
+    surface and equipment upgrades across fall injury severity, accessibility, inspection records, climate
+    wear, and maintenance budgets. Make the hidden solution a dependency-graph, multi-hop research problem
+    rather than a checklist. The final report must reconcile independent source families, perform bounded
+    calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: rank playground surface and equipment upgrades across fall
+    injury severity, accessibility, inspection records, climate wear, and maintenance budgets; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: investigative
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'playground surface safety: consumer hazard and affected-population baseline'
+  - 'playground surface safety: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'playground surface safety: reconstructing the eligible product, incident, market, or location population'
+  - 'playground surface safety: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'playground surface safety: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'playground surface safety: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'playground surface safety: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'playground surface safety: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: children-digital-advertising
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to govern digital advertising to children across targeting, influencers,
+    disclosures, privacy, platform design, and enforcement, who needs evidence for a well-informed meeting
+    rather than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States media, journalism, and information-integrity policy; target decision: govern digital
+    advertising to children across targeting, influencers, disclosures, privacy, platform design, and
+    enforcement'
+  requester_archetype: general_user
+  domain: Needle-in-a-Haystack
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'children digital advertising: audience, reach, trust, and information-need baselines'
+  - 'children digital advertising: constitutional, regulatory, platform, and contractual authority'
+  - 'children digital advertising: publisher, platform, advertiser, and creator incentives'
+  - 'children digital advertising: news-production capacity and local-market structure'
+  - 'children digital advertising: provenance, moderation, recommendation, and technical systems'
+  - 'children digital advertising: speech, privacy, civil-rights, and safety implications'
+  - 'children digital advertising: funding, ownership, competition, and sustainability'
+  - 'children digital advertising: measurement design, attribution, and denominator alignment'
+  - 'children digital advertising: counterevidence, uncertainty, and manipulation risk'
+  - 'children digital advertising: implementation safeguards, transparency, monitoring, and appeal'
+- id: critical-minerals-sourcing
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to build a critical-minerals sourcing portfolio across domestic production, allies, recycling,
+    substitution, and stockpiles. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States industrial strategy, business operations, and international supply chains; target
+    decision: build a critical-minerals sourcing portfolio across domestic production, allies, recycling,
+    substitution, and stockpiles'
+  requester_archetype: community
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'critical minerals sourcing: demand, capacity, concentration, and trade baselines'
+  - 'critical minerals sourcing: supplier tiers, dependencies, and substitution limits'
+  - 'critical minerals sourcing: standards, regulation, and public-policy authority'
+  - 'critical minerals sourcing: technology maturity, quality, and production yield'
+  - 'critical minerals sourcing: capital, operating cost, incentives, and financing'
+  - 'critical minerals sourcing: workforce, infrastructure, and regional constraints'
+  - 'critical minerals sourcing: environmental, labor, and community impacts'
+  - 'critical minerals sourcing: scenario calculations and disruption transmission'
+  - 'critical minerals sourcing: alternative sourcing, inventory, and continuity strategies'
+  - 'critical minerals sourcing: sequencing, qualification, monitoring, and exit conditions'
+- id: right-to-repair
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to design right-to-repair requirements across parts, tools, diagnostics, software locks,
+    safety, and warranty practices. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States consumer products, services, markets, and protection policy; target decision:
+    design right-to-repair requirements across parts, tools, diagnostics, software locks, safety, and
+    warranty practices'
+  requester_archetype: community
+  domain: Shopping/Product Comparison
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'right to repair: product or service market structure'
+  - 'right to repair: controlling consumer-protection authority'
+  - 'right to repair: claims, disclosures, pricing, and contract terms'
+  - 'right to repair: safety, quality, reliability, and complaint evidence'
+  - 'right to repair: affected populations and distributional impacts'
+  - 'right to repair: vendor, platform, and intermediary responsibilities'
+  - 'right to repair: remedies, enforcement, and compliance alternatives'
+  - 'right to repair: quantitative incidence, cost, and outcome comparisons'
+  - 'right to repair: counterevidence, scope limits, and uncertainty'
+  - 'right to repair: implementation priorities, monitoring, and escalation'
+- id: valve-lot-identity
+  idea: Build a task-adaptive 200-1,800-word live-web Manufacturing anomaly-detection specification for
+    a valve lot identity case. Require a structured analyst to reconcile lot identifiers, genealogy, and
+    release records, identify lot, supplier, and corrective-action inconsistencies, and distinguish Anomaly
+    confirmed, Reconciled, and Insufficient evidence. Require explicit abstention when the evidence cannot
+    support a finding, exact inline URLs, and a hold, release, rework, escalation, or CAPA-reopening recommendation.
+    Keep the hidden solution a dependency-graph, multi-hop investigation rather than a checklist.
+  scope: Manufacturing; anomaly detection across lot genealogy, supplier identity, inspection and certificate
+    records, nonconformance, corrective and preventive action, release status, chronology, source conflicts,
+    and bounded disposition decisions
+  requester_archetype: supplier_assurance
+  domain: Manufacturing
+  task_mode: anomaly_detection
+  instruction_shape: task_adaptive_200_to_1800_word_specification
+  required_workstreams:
+  - 'valve lot identity: reconstruct lot genealogy and detect identity, quantity, and date inconsistencies'
+  - 'valve lot identity: match supplier legal names, facilities, certificates, and ownership across records'
+  - 'valve lot identity: compare inspection, certificate, process, and disposition records using consistent
+    units'
+  - 'valve lot identity: trace nonconformances to corrective and preventive actions without treating a
+    closure date as proof of effectiveness'
+  - 'valve lot identity: separate clerical discrepancies, source conflicts, and safety-relevant anomalies'
+  - 'valve lot identity: verify the controlling manufacturing, quality, and reporting requirements on
+    current public sources'
+  - 'valve lot identity: test source independence, superseded revisions, scope boundaries, and entity
+    aliases'
+  - 'valve lot identity: preserve missing evidence and bounded uncertainty rather than inventing a lot
+    or supplier conclusion'
+  - 'valve lot identity: classify each material finding as Anomaly confirmed, Reconciled, or Insufficient
+    evidence'
+  - 'valve lot identity: recommend hold, release, rework, escalation, or CAPA reopening from the reconstructed
+    evidence'
+- id: groundwater-depletion-response
+  idea: Build a live-web deep-research task for a state and regional resilience commission deciding how
+    to stabilize an overdrawn groundwater basin while protecting drinking water, ecosystems, and farm
+    viability. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States climate, environmental, and energy policy with relevant regional implementation;
+    target decision: stabilize an overdrawn groundwater basin while protecting drinking water, ecosystems,
+    and farm viability'
+  requester_archetype: professional
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'groundwater depletion response: hazard baselines and projected exposure'
+  - 'groundwater depletion response: federal, state, tribal, and local authority'
+  - 'groundwater depletion response: technology performance and lifecycle evidence'
+  - 'groundwater depletion response: infrastructure capacity and interdependencies'
+  - 'groundwater depletion response: community health, equity, and environmental justice'
+  - 'groundwater depletion response: capital cost, operating cost, and financing'
+  - 'groundwater depletion response: permitting, siting, and implementation timelines'
+  - 'groundwater depletion response: scenario modeling, units, and denominator alignment'
+  - 'groundwater depletion response: counterevidence, leakage, and uncertainty'
+  - 'groundwater depletion response: sequencing, triggers, monitoring, and adaptive management'
+- id: quotation-attribution-chain
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a quotation
+    whose attribution passes through several publications. Require Supported, Contradicted, or Insufficient
+    evidence for each material claim, explicit abstention when support is insufficient, exact inline URLs,
+    and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph, multi-hop
+    verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a quotation whose attribution passes through
+    several publications; focus: provenance, source independence, chronology, quantitative normalization,
+    counterevidence, uncertainty, abstention, and editorial consequence'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'quotation attribution chain: decomposing the submitted assertion into falsifiable material claims'
+  - 'quotation attribution chain: tracing each claim to the earliest stable primary record'
+  - 'quotation attribution chain: testing source independence, syndication, and circular reporting'
+  - 'quotation attribution chain: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'quotation attribution chain: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'quotation attribution chain: checking provenance and context separately from content authenticity'
+  - 'quotation attribution chain: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'quotation attribution chain: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+- id: research-security-compliance
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to implement proportionate research-security disclosure and training without suppressing
+    legitimate international collaboration. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States research policy, scholarly communication, and scientific infrastructure; target
+    decision: implement proportionate research-security disclosure and training without suppressing legitimate
+    international collaboration'
+  requester_archetype: community
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'research security compliance: policy authority and institutional applicability'
+  - 'research security compliance: research-field and infrastructure baselines'
+  - 'research security compliance: evidence quality, reproducibility, and external validity'
+  - 'research security compliance: publishing, data, software, and access practices'
+  - 'research security compliance: researcher incentives, careers, and workforce'
+  - 'research security compliance: participant, community, ethical, and equity safeguards'
+  - 'research security compliance: cost, capacity, governance, and implementation'
+  - 'research security compliance: quantitative metrics and denominator alignment'
+  - 'research security compliance: counterevidence, uncertainty, and unintended effects'
+  - 'research security compliance: phased policy, evaluation, and revision triggers'
+- id: diabetes-prevention-scaleup
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to scale evidence-based diabetes prevention across Medicaid, employers, and
+    community delivery partners. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: scale
+    evidence-based diabetes prevention across Medicaid, employers, and community delivery partners'
+  requester_archetype: investigative
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'diabetes prevention scaleup: burden, incidence, and trend measurement'
+  - 'diabetes prevention scaleup: population eligibility, disparities, and access'
+  - 'diabetes prevention scaleup: clinical or operational effectiveness evidence'
+  - 'diabetes prevention scaleup: capacity, workforce, and implementation constraints'
+  - 'diabetes prevention scaleup: federal, state, and local authority'
+  - 'diabetes prevention scaleup: coverage, reimbursement, and affordability'
+  - 'diabetes prevention scaleup: supply continuity and infrastructure resilience'
+  - 'diabetes prevention scaleup: scenario calculations and threshold design'
+  - 'diabetes prevention scaleup: harms, counterevidence, and uncertainty boundaries'
+  - 'diabetes prevention scaleup: phased implementation, monitoring, and reassessment'
+- id: hair-dryer-shock
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must reduce hair-dryer
+    shock and fire risk across wet-location use, GFCI protection, incident patterns, product generations,
+    and recall remedies. Make the hidden solution a dependency-graph, multi-hop research problem rather
+    than a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: reduce hair-dryer shock and fire risk across wet-location
+    use, GFCI protection, incident patterns, product generations, and recall remedies; focus: incident
+    evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: investigative
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'hair dryer shock: consumer hazard and affected-population baseline'
+  - 'hair dryer shock: controlling product, food, health, transport, or housing authority and dates'
+  - 'hair dryer shock: reconstructing the eligible product, incident, market, or location population'
+  - 'hair dryer shock: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'hair dryer shock: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'hair dryer shock: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'hair dryer shock: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'hair dryer shock: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: synthetic-media-disclosure
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to govern synthetic-media disclosure across creation, distribution, provenance,
+    exceptions, enforcement, and user comprehension. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States media, journalism, and information-integrity policy; target decision: govern synthetic-media
+    disclosure across creation, distribution, provenance, exceptions, enforcement, and user comprehension'
+  requester_archetype: neutral_exploratory
+  domain: Needle-in-a-Haystack
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'synthetic media disclosure: audience, reach, trust, and information-need baselines'
+  - 'synthetic media disclosure: constitutional, regulatory, platform, and contractual authority'
+  - 'synthetic media disclosure: publisher, platform, advertiser, and creator incentives'
+  - 'synthetic media disclosure: news-production capacity and local-market structure'
+  - 'synthetic media disclosure: provenance, moderation, recommendation, and technical systems'
+  - 'synthetic media disclosure: speech, privacy, civil-rights, and safety implications'
+  - 'synthetic media disclosure: funding, ownership, competition, and sustainability'
+  - 'synthetic media disclosure: measurement design, attribution, and denominator alignment'
+  - 'synthetic media disclosure: counterevidence, uncertainty, and manipulation risk'
+  - 'synthetic media disclosure: implementation safeguards, transparency, monitoring, and appeal'
+- id: valve-certificate-scope
+  idea: Build a task-adaptive 200-1,800-word live-web Manufacturing anomaly-detection specification for
+    a valve certificate scope case. Require a structured analyst to reconcile certificate scope, revision,
+    and applicability, identify lot, supplier, and corrective-action inconsistencies, and distinguish
+    Anomaly confirmed, Reconciled, and Insufficient evidence. Require explicit abstention when the evidence
+    cannot support a finding, exact inline URLs, and a hold, release, rework, escalation, or CAPA-reopening
+    recommendation. Keep the hidden solution a dependency-graph, multi-hop investigation rather than a
+    checklist.
+  scope: Manufacturing; anomaly detection across lot genealogy, supplier identity, inspection and certificate
+    records, nonconformance, corrective and preventive action, release status, chronology, source conflicts,
+    and bounded disposition decisions
+  requester_archetype: supplier_assurance
+  domain: Manufacturing
+  task_mode: anomaly_detection
+  instruction_shape: task_adaptive_200_to_1800_word_specification
+  required_workstreams:
+  - 'valve certificate scope: reconstruct lot genealogy and detect identity, quantity, and date inconsistencies'
+  - 'valve certificate scope: match supplier legal names, facilities, certificates, and ownership across
+    records'
+  - 'valve certificate scope: compare inspection, certificate, process, and disposition records using
+    consistent units'
+  - 'valve certificate scope: trace nonconformances to corrective and preventive actions without treating
+    a closure date as proof of effectiveness'
+  - 'valve certificate scope: separate clerical discrepancies, source conflicts, and safety-relevant anomalies'
+  - 'valve certificate scope: verify the controlling manufacturing, quality, and reporting requirements
+    on current public sources'
+  - 'valve certificate scope: test source independence, superseded revisions, scope boundaries, and entity
+    aliases'
+  - 'valve certificate scope: preserve missing evidence and bounded uncertainty rather than inventing
+    a lot or supplier conclusion'
+  - 'valve certificate scope: classify each material finding as Anomaly confirmed, Reconciled, or Insufficient
+    evidence'
+  - 'valve certificate scope: recommend hold, release, rework, escalation, or CAPA reopening from the
+    reconstructed evidence'
+- id: laundry-pod-ingestion
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must reduce laundry-pod
+    ingestion and exposure across packaging, child access, poison-center trends, formulation, warnings,
+    and retailer controls. Make the hidden solution a dependency-graph, multi-hop research problem rather
+    than a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: reduce laundry-pod ingestion and exposure across packaging,
+    child access, poison-center trends, formulation, warnings, and retailer controls; focus: incident
+    evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: professional
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'laundry pod ingestion: consumer hazard and affected-population baseline'
+  - 'laundry pod ingestion: controlling product, food, health, transport, or housing authority and dates'
+  - 'laundry pod ingestion: reconstructing the eligible product, incident, market, or location population'
+  - 'laundry pod ingestion: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'laundry pod ingestion: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'laundry pod ingestion: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'laundry pod ingestion: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'laundry pod ingestion: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: high-speed-rail
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to evaluate high-speed rail phasing across segments, demand, travel-time
+    benefits, costs, interfaces, and delivery risk, who needs evidence for a well-informed meeting rather
+    than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States transportation, mobility, logistics, and travel policy; target decision: evaluate
+    high-speed rail phasing across segments, demand, travel-time benefits, costs, interfaces, and delivery
+    risk'
+  requester_archetype: general_user
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'high speed rail phasing: travel demand, network performance, and safety baselines'
+  - 'high speed rail phasing: federal, state, local, and operator authority'
+  - 'high speed rail phasing: infrastructure condition, capacity, and resilience'
+  - 'high speed rail phasing: technology performance and operational integration'
+  - 'high speed rail phasing: accessibility, equity, land use, and community impacts'
+  - 'high speed rail phasing: capital, operating cost, revenue, and funding eligibility'
+  - 'high speed rail phasing: environmental, health, and economic effects'
+  - 'high speed rail phasing: scenario calculations and appraisal assumptions'
+  - 'high speed rail phasing: delivery risk, counterevidence, and uncertainty'
+  - 'high speed rail phasing: phasing, pilots, monitoring, and decision triggers'
+- id: crime-statistics-comparison
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a cross-city
+    crime trend claim with comparable definitions. Require Supported, Contradicted, or Insufficient evidence
+    for each material claim, explicit abstention when support is insufficient, exact inline URLs, and
+    a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph, multi-hop
+    verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a cross-city crime trend claim with comparable
+    definitions; focus: provenance, source independence, chronology, quantitative normalization, counterevidence,
+    uncertainty, abstention, and editorial consequence'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'crime statistics comparison: decomposing the submitted assertion into falsifiable material claims'
+  - 'crime statistics comparison: tracing each claim to the earliest stable primary record'
+  - 'crime statistics comparison: testing source independence, syndication, and circular reporting'
+  - 'crime statistics comparison: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'crime statistics comparison: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'crime statistics comparison: checking provenance and context separately from content authenticity'
+  - 'crime statistics comparison: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'crime statistics comparison: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+- id: valve-capa-effectiveness
+  idea: Build a task-adaptive 200-1,800-word live-web Manufacturing anomaly-detection specification for
+    a valve capa effectiveness case. Require a structured analyst to reconcile CAPA root cause, action,
+    due date, and effectiveness evidence, identify lot, supplier, and corrective-action inconsistencies,
+    and distinguish Anomaly confirmed, Reconciled, and Insufficient evidence. Require explicit abstention
+    when the evidence cannot support a finding, exact inline URLs, and a hold, release, rework, escalation,
+    or CAPA-reopening recommendation. Keep the hidden solution a dependency-graph, multi-hop investigation
+    rather than a checklist.
+  scope: Manufacturing; anomaly detection across lot genealogy, supplier identity, inspection and certificate
+    records, nonconformance, corrective and preventive action, release status, chronology, source conflicts,
+    and bounded disposition decisions
+  requester_archetype: supplier_assurance
+  domain: Manufacturing
+  task_mode: anomaly_detection
+  instruction_shape: task_adaptive_200_to_1800_word_specification
+  required_workstreams:
+  - 'valve capa effectiveness: reconstruct lot genealogy and detect identity, quantity, and date inconsistencies'
+  - 'valve capa effectiveness: match supplier legal names, facilities, certificates, and ownership across
+    records'
+  - 'valve capa effectiveness: compare inspection, certificate, process, and disposition records using
+    consistent units'
+  - 'valve capa effectiveness: trace nonconformances to corrective and preventive actions without treating
+    a closure date as proof of effectiveness'
+  - 'valve capa effectiveness: separate clerical discrepancies, source conflicts, and safety-relevant
+    anomalies'
+  - 'valve capa effectiveness: verify the controlling manufacturing, quality, and reporting requirements
+    on current public sources'
+  - 'valve capa effectiveness: test source independence, superseded revisions, scope boundaries, and entity
+    aliases'
+  - 'valve capa effectiveness: preserve missing evidence and bounded uncertainty rather than inventing
+    a lot or supplier conclusion'
+  - 'valve capa effectiveness: classify each material finding as Anomaly confirmed, Reconciled, or Insufficient
+    evidence'
+  - 'valve capa effectiveness: recommend hold, release, rework, escalation, or CAPA reopening from the
+    reconstructed evidence'
+- id: vacant-property-reuse
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to convert vacant properties into stable use across title, acquisition, demolition,
+    rehabilitation, affordability, and neighborhood effects. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States housing, real-estate, and community-development policy; target decision: convert
+    vacant properties into stable use across title, acquisition, demolition, rehabilitation, affordability,
+    and neighborhood effects'
+  requester_archetype: investigative
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'vacant property reuse: housing need, supply, vacancy, and cost baselines'
+  - 'vacant property reuse: federal, state, local, and contractual authority'
+  - 'vacant property reuse: eligibility, tenant, borrower, and property scope'
+  - 'vacant property reuse: production, preservation, and rehabilitation capacity'
+  - 'vacant property reuse: finance, subsidy, insurance, and lifecycle cost'
+  - 'vacant property reuse: displacement, segregation, accessibility, and fair-housing effects'
+  - 'vacant property reuse: land use, infrastructure, climate, and neighborhood impacts'
+  - 'vacant property reuse: market response, appraisal, and quantitative assumptions'
+  - 'vacant property reuse: counterevidence, implementation failure, and uncertainty'
+  - 'vacant property reuse: sequencing, tenant safeguards, monitoring, and reassessment'
+- id: carbon-monoxide-detectors
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must target carbon-monoxide
+    detector deployment across appliance risks, testing limits, rental housing, power outages, language
+    access, and response behavior. Make the hidden solution a dependency-graph, multi-hop research problem
+    rather than a checklist. The final report must reconcile independent source families, perform bounded
+    calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: target carbon-monoxide detector deployment across appliance
+    risks, testing limits, rental housing, power outages, language access, and response behavior; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  requester_archetype: neutral_exploratory
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'carbon monoxide detectors: consumer hazard and affected-population baseline'
+  - 'carbon monoxide detectors: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'carbon monoxide detectors: reconstructing the eligible product, incident, market, or location population'
+  - 'carbon monoxide detectors: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'carbon monoxide detectors: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'carbon monoxide detectors: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'carbon monoxide detectors: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'carbon monoxide detectors: ranking a bounded safety intervention portfolio with reversal triggers'
+- id: aquaculture-siting-review
+  idea: Build a live-web deep-research task for a food-system resilience and agricultural policy board
+    deciding how to site and regulate aquaculture across production, water quality, disease, escapes,
+    feed, and coastal communities. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States food, agriculture, fisheries, and animal-system policy; target decision: site
+    and regulate aquaculture across production, water quality, disease, escapes, feed, and coastal communities'
+  requester_archetype: professional
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'aquaculture siting: production, demand, trade, and concentration baselines'
+  - 'aquaculture siting: federal, state, tribal, and local authority'
+  - 'aquaculture siting: farm, processor, distributor, and retailer incentives'
+  - 'aquaculture siting: food safety, animal health, and public-health evidence'
+  - 'aquaculture siting: soil, water, biodiversity, and climate impacts'
+  - 'aquaculture siting: labor, rural communities, and equity'
+  - 'aquaculture siting: technology performance and adoption constraints'
+  - 'aquaculture siting: scenario calculations, units, yields, and denominators'
+  - 'aquaculture siting: counterevidence, leakage, and uncertainty'
+  - 'aquaculture siting: phased implementation, monitoring, and contingency plans'
+- id: government-ai-procurement
+  idea: Build a live-web deep-research task for a technology-policy and infrastructure commission deciding
+    how to govern public-sector AI procurement across need, testing, data, rights, vendor claims, monitoring,
+    and exit. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States technology, telecommunications, digital-infrastructure, and platform policy; target
+    decision: govern public-sector AI procurement across need, testing, data, rights, vendor claims, monitoring,
+    and exit'
+  requester_archetype: professional
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'government ai procurement: controlling authority, standards, and institutional scope'
+  - 'government ai procurement: market structure, adoption, and performance baselines'
+  - 'government ai procurement: technical architecture and interoperability'
+  - 'government ai procurement: reliability, resilience, safety, and incident evidence'
+  - 'government ai procurement: privacy, civil rights, and consumer impacts'
+  - 'government ai procurement: competition, procurement, and vendor concentration'
+  - 'government ai procurement: capital, operating cost, workforce, and deployment constraints'
+  - 'government ai procurement: scenario calculations and metric reconciliation'
+  - 'government ai procurement: counterevidence, obsolescence, and uncertainty'
+  - 'government ai procurement: phased governance, testing, monitoring, and exit conditions'
+- id: ballot-rule-explainer
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a time-sensitive
+    ballot-rule claim in the controlling jurisdiction. Require Supported, Contradicted, or Insufficient
+    evidence for each material claim, explicit abstention when support is insufficient, exact inline URLs,
+    and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph, multi-hop
+    verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a time-sensitive ballot-rule claim in the
+    controlling jurisdiction; focus: provenance, source independence, chronology, quantitative normalization,
+    counterevidence, uncertainty, abstention, and editorial consequence'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'ballot rule explainer: decomposing the submitted assertion into falsifiable material claims'
+  - 'ballot rule explainer: tracing each claim to the earliest stable primary record'
+  - 'ballot rule explainer: testing source independence, syndication, and circular reporting'
+  - 'ballot rule explainer: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'ballot rule explainer: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'ballot rule explainer: checking provenance and context separately from content authenticity'
+  - 'ballot rule explainer: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'ballot rule explainer: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+- id: gearbox-quantity-balance
+  idea: Build a task-adaptive 200-1,800-word live-web Manufacturing anomaly-detection specification for
+    a gearbox quantity balance case. Require a structured analyst to reconcile received, consumed, rejected,
+    and released quantities, identify lot, supplier, and corrective-action inconsistencies, and distinguish
+    Anomaly confirmed, Reconciled, and Insufficient evidence. Require explicit abstention when the evidence
+    cannot support a finding, exact inline URLs, and a hold, release, rework, escalation, or CAPA-reopening
+    recommendation. Keep the hidden solution a dependency-graph, multi-hop investigation rather than a
+    checklist.
+  scope: Manufacturing; anomaly detection across lot genealogy, supplier identity, inspection and certificate
+    records, nonconformance, corrective and preventive action, release status, chronology, source conflicts,
+    and bounded disposition decisions
+  requester_archetype: operations
+  domain: Manufacturing
+  task_mode: anomaly_detection
+  instruction_shape: task_adaptive_200_to_1800_word_specification
+  required_workstreams:
+  - 'gearbox quantity balance: reconstruct lot genealogy and detect identity, quantity, and date inconsistencies'
+  - 'gearbox quantity balance: match supplier legal names, facilities, certificates, and ownership across
+    records'
+  - 'gearbox quantity balance: compare inspection, certificate, process, and disposition records using
+    consistent units'
+  - 'gearbox quantity balance: trace nonconformances to corrective and preventive actions without treating
+    a closure date as proof of effectiveness'
+  - 'gearbox quantity balance: separate clerical discrepancies, source conflicts, and safety-relevant
+    anomalies'
+  - 'gearbox quantity balance: verify the controlling manufacturing, quality, and reporting requirements
+    on current public sources'
+  - 'gearbox quantity balance: test source independence, superseded revisions, scope boundaries, and entity
+    aliases'
+  - 'gearbox quantity balance: preserve missing evidence and bounded uncertainty rather than inventing
+    a lot or supplier conclusion'
+  - 'gearbox quantity balance: classify each material finding as Anomaly confirmed, Reconciled, or Insufficient
+    evidence'
+  - 'gearbox quantity balance: recommend hold, release, rework, escalation, or CAPA reopening from the
+    reconstructed evidence'
+- id: foundation-payout-strategy
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to set a foundation payout strategy across current need, perpetuity, liquidity,
+    mission impact, and market stress. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States nonprofit, philanthropy, and social-impact policy; target decision: set a foundation
+    payout strategy across current need, perpetuity, liquidity, mission impact, and market stress'
+  requester_archetype: neutral_exploratory
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'foundation payout strategy: community need, service coverage, and outcome baselines'
+  - 'foundation payout strategy: tax, charity, grant, contract, and fiduciary authority'
+  - 'foundation payout strategy: beneficiary, organization, and program eligibility'
+  - 'foundation payout strategy: service quality, evidence, and implementation capacity'
+  - 'foundation payout strategy: revenue mix, reserves, overhead, and financial resilience'
+  - 'foundation payout strategy: governance, conflicts, accountability, and public trust'
+  - 'foundation payout strategy: equity, participation, accessibility, and community control'
+  - 'foundation payout strategy: impact measurement, attribution, and cost normalization'
+  - 'foundation payout strategy: counterevidence, displacement, and uncertainty boundaries'
+  - 'foundation payout strategy: portfolio sequencing, learning, monitoring, and exit conditions'
+- id: food-delivery-temperature
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must improve food-delivery
+    temperature safety across transit time, packaging, courier practices, pathogen growth windows, platform
+    responsibility, and consumer remedies. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: improve food-delivery temperature safety across transit time,
+    packaging, courier practices, pathogen growth windows, platform responsibility, and consumer remedies;
+    focus: incident evidence, exposure, authority, market actors, equity, remedies, and implementation
+    risk'
+  requester_archetype: neutral_exploratory
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'food delivery temperature: consumer hazard and affected-population baseline'
+  - 'food delivery temperature: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'food delivery temperature: reconstructing the eligible product, incident, market, or location population'
+  - 'food delivery temperature: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'food delivery temperature: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'food delivery temperature: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'food delivery temperature: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'food delivery temperature: ranking a bounded safety intervention portfolio with reversal triggers'

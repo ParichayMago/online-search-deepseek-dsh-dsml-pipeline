@@ -1,0 +1,1258 @@
+version: 1
+ideas:
+- id: agency-report-revision
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a reported
+    agency finding across draft, final, and corrected releases. Require Supported, Contradicted, or Insufficient
+    evidence for each material claim, explicit abstention when support is insufficient, exact inline URLs,
+    and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph, multi-hop
+    verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a reported agency finding across draft,
+    final, and corrected releases; focus: provenance, source independence, chronology, quantitative normalization,
+    counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'agency report revision: decomposing the submitted assertion into falsifiable material claims'
+  - 'agency report revision: tracing each claim to the earliest stable primary record'
+  - 'agency report revision: testing source independence, syndication, and circular reporting'
+  - 'agency report revision: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'agency report revision: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'agency report revision: checking provenance and context separately from content authenticity'
+  - 'agency report revision: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'agency report revision: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: &id001
+  - apnews.com
+  - reuters.com
+  - govinfo.gov
+  - archives.gov
+  - courtlistener.com
+  - sec.gov
+- id: municipal-audit-finding
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a municipal
+    audit claim across findings, responses, and remediation records. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a municipal audit claim across findings,
+    responses, and remediation records; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'municipal audit finding: decomposing the submitted assertion into falsifiable material claims'
+  - 'municipal audit finding: tracing each claim to the earliest stable primary record'
+  - 'municipal audit finding: testing source independence, syndication, and circular reporting'
+  - 'municipal audit finding: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'municipal audit finding: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'municipal audit finding: checking provenance and context separately from content authenticity'
+  - 'municipal audit finding: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'municipal audit finding: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: court-docket-timeline
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a litigation
+    timeline across filings, orders, service, and docket updates. Require Supported, Contradicted, or
+    Insufficient evidence for each material claim, explicit abstention when support is insufficient, exact
+    inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a litigation timeline across filings, orders,
+    service, and docket updates; focus: provenance, source independence, chronology, quantitative normalization,
+    counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'court docket timeline: decomposing the submitted assertion into falsifiable material claims'
+  - 'court docket timeline: tracing each claim to the earliest stable primary record'
+  - 'court docket timeline: testing source independence, syndication, and circular reporting'
+  - 'court docket timeline: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'court docket timeline: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'court docket timeline: checking provenance and context separately from content authenticity'
+  - 'court docket timeline: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'court docket timeline: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: charity-fund-disbursement
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a charity
+    disbursement claim across pledges, intermediaries, recipients, and dates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a charity disbursement claim across pledges,
+    intermediaries, recipients, and dates; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'charity fund disbursement: decomposing the submitted assertion into falsifiable material claims'
+  - 'charity fund disbursement: tracing each claim to the earliest stable primary record'
+  - 'charity fund disbursement: testing source independence, syndication, and circular reporting'
+  - 'charity fund disbursement: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'charity fund disbursement: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'charity fund disbursement: checking provenance and context separately from content authenticity'
+  - 'charity fund disbursement: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'charity fund disbursement: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: union-contract-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a labor-contract
+    claim across proposals, ratification, side letters, and effective dates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a labor-contract claim across proposals,
+    ratification, side letters, and effective dates; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'union contract claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'union contract claim: tracing each claim to the earliest stable primary record'
+  - 'union contract claim: testing source independence, syndication, and circular reporting'
+  - 'union contract claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'union contract claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'union contract claim: checking provenance and context separately from content authenticity'
+  - 'union contract claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'union contract claim: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: permit-approval-status
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify whether
+    a permit is proposed, issued, appealed, suspended, or operative. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify whether a permit is proposed, issued, appealed,
+    suspended, or operative; focus: provenance, source independence, chronology, quantitative normalization,
+    counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'permit approval status: decomposing the submitted assertion into falsifiable material claims'
+  - 'permit approval status: tracing each claim to the earliest stable primary record'
+  - 'permit approval status: testing source independence, syndication, and circular reporting'
+  - 'permit approval status: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'permit approval status: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'permit approval status: checking provenance and context separately from content authenticity'
+  - 'permit approval status: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'permit approval status: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: inspection-score-comparison
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify an inspection-score
+    comparison across schemes, facilities, dates, and corrections. Require Supported, Contradicted, or
+    Insufficient evidence for each material claim, explicit abstention when support is insufficient, exact
+    inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify an inspection-score comparison across schemes,
+    facilities, dates, and corrections; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'inspection score comparison: decomposing the submitted assertion into falsifiable material claims'
+  - 'inspection score comparison: tracing each claim to the earliest stable primary record'
+  - 'inspection score comparison: testing source independence, syndication, and circular reporting'
+  - 'inspection score comparison: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'inspection score comparison: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'inspection score comparison: checking provenance and context separately from content authenticity'
+  - 'inspection score comparison: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'inspection score comparison: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: hospital-capacity-statistic
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a hospital-capacity
+    claim across licensed, staffed, occupied, and available beds. Require Supported, Contradicted, or
+    Insufficient evidence for each material claim, explicit abstention when support is insufficient, exact
+    inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a hospital-capacity claim across licensed,
+    staffed, occupied, and available beds; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'hospital capacity statistic: decomposing the submitted assertion into falsifiable material claims'
+  - 'hospital capacity statistic: tracing each claim to the earliest stable primary record'
+  - 'hospital capacity statistic: testing source independence, syndication, and circular reporting'
+  - 'hospital capacity statistic: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'hospital capacity statistic: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'hospital capacity statistic: checking provenance and context separately from content authenticity'
+  - 'hospital capacity statistic: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'hospital capacity statistic: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: vaccine-coverage-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a vaccination-coverage
+    claim across populations, doses, geography, and reporting dates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a vaccination-coverage claim across populations,
+    doses, geography, and reporting dates; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'vaccine coverage claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'vaccine coverage claim: tracing each claim to the earliest stable primary record'
+  - 'vaccine coverage claim: testing source independence, syndication, and circular reporting'
+  - 'vaccine coverage claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'vaccine coverage claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'vaccine coverage claim: checking provenance and context separately from content authenticity'
+  - 'vaccine coverage claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'vaccine coverage claim: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: mortality-rate-comparison
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a mortality-rate
+    comparison across causes, age adjustment, populations, and periods. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a mortality-rate comparison across causes,
+    age adjustment, populations, and periods; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'mortality rate comparison: decomposing the submitted assertion into falsifiable material claims'
+  - 'mortality rate comparison: tracing each claim to the earliest stable primary record'
+  - 'mortality rate comparison: testing source independence, syndication, and circular reporting'
+  - 'mortality rate comparison: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'mortality rate comparison: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'mortality rate comparison: checking provenance and context separately from content authenticity'
+  - 'mortality rate comparison: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'mortality rate comparison: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: school-closure-timeline
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a school-closure
+    timeline across announcements, orders, appeals, and reopening records. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a school-closure timeline across announcements,
+    orders, appeals, and reopening records; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'school closure timeline: decomposing the submitted assertion into falsifiable material claims'
+  - 'school closure timeline: tracing each claim to the earliest stable primary record'
+  - 'school closure timeline: testing source independence, syndication, and circular reporting'
+  - 'school closure timeline: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'school closure timeline: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'school closure timeline: checking provenance and context separately from content authenticity'
+  - 'school closure timeline: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'school closure timeline: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: university-funding-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a university-funding
+    claim across awards, obligations, expenditures, and restrictions. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a university-funding claim across awards,
+    obligations, expenditures, and restrictions; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'university funding claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'university funding claim: tracing each claim to the earliest stable primary record'
+  - 'university funding claim: testing source independence, syndication, and circular reporting'
+  - 'university funding claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'university funding claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'university funding claim: checking provenance and context separately from content authenticity'
+  - 'university funding claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'university funding claim: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: library-ban-statistic
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a library-ban
+    statistic across challenges, removals, titles, districts, and periods. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a library-ban statistic across challenges,
+    removals, titles, districts, and periods; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'library ban statistic: decomposing the submitted assertion into falsifiable material claims'
+  - 'library ban statistic: tracing each claim to the earliest stable primary record'
+  - 'library ban statistic: testing source independence, syndication, and circular reporting'
+  - 'library ban statistic: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'library ban statistic: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'library ban statistic: checking provenance and context separately from content authenticity'
+  - 'library ban statistic: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'library ban statistic: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: police-policy-change
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify whether
+    a reported police-policy change is proposed, adopted, trained, and effective. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify whether a reported police-policy change
+    is proposed, adopted, trained, and effective; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'police policy change: decomposing the submitted assertion into falsifiable material claims'
+  - 'police policy change: tracing each claim to the earliest stable primary record'
+  - 'police policy change: testing source independence, syndication, and circular reporting'
+  - 'police policy change: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'police policy change: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'police policy change: checking provenance and context separately from content authenticity'
+  - 'police policy change: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'police policy change: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: fire-incident-timeline
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a fire-incident
+    chronology across dispatch, response, containment, and investigation records. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a fire-incident chronology across dispatch,
+    response, containment, and investigation records; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'fire incident timeline: decomposing the submitted assertion into falsifiable material claims'
+  - 'fire incident timeline: tracing each claim to the earliest stable primary record'
+  - 'fire incident timeline: testing source independence, syndication, and circular reporting'
+  - 'fire incident timeline: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'fire incident timeline: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'fire incident timeline: checking provenance and context separately from content authenticity'
+  - 'fire incident timeline: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'fire incident timeline: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: bridge-closure-cause
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a bridge-closure
+    explanation across inspections, orders, engineering findings, and updates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a bridge-closure explanation across inspections,
+    orders, engineering findings, and updates; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'bridge closure cause: decomposing the submitted assertion into falsifiable material claims'
+  - 'bridge closure cause: tracing each claim to the earliest stable primary record'
+  - 'bridge closure cause: testing source independence, syndication, and circular reporting'
+  - 'bridge closure cause: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'bridge closure cause: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'bridge closure cause: checking provenance and context separately from content authenticity'
+  - 'bridge closure cause: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'bridge closure cause: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: train-delay-statistic
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a train-delay
+    statistic across routes, operators, causes, cancellations, and periods. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a train-delay statistic across routes, operators,
+    causes, cancellations, and periods; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'train delay statistic: decomposing the submitted assertion into falsifiable material claims'
+  - 'train delay statistic: tracing each claim to the earliest stable primary record'
+  - 'train delay statistic: testing source independence, syndication, and circular reporting'
+  - 'train delay statistic: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'train delay statistic: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'train delay statistic: checking provenance and context separately from content authenticity'
+  - 'train delay statistic: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'train delay statistic: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: airport-delay-cause
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify an airport-delay
+    attribution across weather, traffic controls, carriers, and timestamps. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify an airport-delay attribution across weather,
+    traffic controls, carriers, and timestamps; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'airport delay cause: decomposing the submitted assertion into falsifiable material claims'
+  - 'airport delay cause: tracing each claim to the earliest stable primary record'
+  - 'airport delay cause: testing source independence, syndication, and circular reporting'
+  - 'airport delay cause: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'airport delay cause: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'airport delay cause: checking provenance and context separately from content authenticity'
+  - 'airport delay cause: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'airport delay cause: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: shipping-delay-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a shipping-delay
+    claim across vessels, ports, schedules, disruptions, and time zones. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a shipping-delay claim across vessels, ports,
+    schedules, disruptions, and time zones; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'shipping delay claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'shipping delay claim: tracing each claim to the earliest stable primary record'
+  - 'shipping delay claim: testing source independence, syndication, and circular reporting'
+  - 'shipping delay claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'shipping delay claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'shipping delay claim: checking provenance and context separately from content authenticity'
+  - 'shipping delay claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'shipping delay claim: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: utility-outage-timeline
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a utility-outage
+    timeline across incident reports, restoration estimates, and revisions. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a utility-outage timeline across incident
+    reports, restoration estimates, and revisions; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'utility outage timeline: decomposing the submitted assertion into falsifiable material claims'
+  - 'utility outage timeline: tracing each claim to the earliest stable primary record'
+  - 'utility outage timeline: testing source independence, syndication, and circular reporting'
+  - 'utility outage timeline: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'utility outage timeline: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'utility outage timeline: checking provenance and context separately from content authenticity'
+  - 'utility outage timeline: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'utility outage timeline: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: power-plant-closure
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a power-plant
+    closure claim across announcements, regulatory approvals, and operating data. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a power-plant closure claim across announcements,
+    regulatory approvals, and operating data; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'power plant closure: decomposing the submitted assertion into falsifiable material claims'
+  - 'power plant closure: tracing each claim to the earliest stable primary record'
+  - 'power plant closure: testing source independence, syndication, and circular reporting'
+  - 'power plant closure: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'power plant closure: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'power plant closure: checking provenance and context separately from content authenticity'
+  - 'power plant closure: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'power plant closure: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: pipeline-spill-volume
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a pipeline-spill
+    volume across estimates, recovered material, revisions, and units. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a pipeline-spill volume across estimates,
+    recovered material, revisions, and units; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'pipeline spill volume: decomposing the submitted assertion into falsifiable material claims'
+  - 'pipeline spill volume: tracing each claim to the earliest stable primary record'
+  - 'pipeline spill volume: testing source independence, syndication, and circular reporting'
+  - 'pipeline spill volume: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'pipeline spill volume: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'pipeline spill volume: checking provenance and context separately from content authenticity'
+  - 'pipeline spill volume: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'pipeline spill volume: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: mining-permit-status
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a mining-permit
+    status across agencies, stages, conditions, appeals, and expiration dates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a mining-permit status across agencies,
+    stages, conditions, appeals, and expiration dates; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'mining permit status: decomposing the submitted assertion into falsifiable material claims'
+  - 'mining permit status: tracing each claim to the earliest stable primary record'
+  - 'mining permit status: testing source independence, syndication, and circular reporting'
+  - 'mining permit status: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'mining permit status: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'mining permit status: checking provenance and context separately from content authenticity'
+  - 'mining permit status: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'mining permit status: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: forest-loss-statistic
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a forest-loss
+    statistic across datasets, definitions, baselines, and geographic boundaries. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a forest-loss statistic across datasets,
+    definitions, baselines, and geographic boundaries; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'forest loss statistic: decomposing the submitted assertion into falsifiable material claims'
+  - 'forest loss statistic: tracing each claim to the earliest stable primary record'
+  - 'forest loss statistic: testing source independence, syndication, and circular reporting'
+  - 'forest loss statistic: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'forest loss statistic: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'forest loss statistic: checking provenance and context separately from content authenticity'
+  - 'forest loss statistic: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'forest loss statistic: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: glacier-retreat-comparison
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a glacier-retreat
+    comparison across observation methods, endpoints, and time windows. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a glacier-retreat comparison across observation
+    methods, endpoints, and time windows; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'glacier retreat comparison: decomposing the submitted assertion into falsifiable material claims'
+  - 'glacier retreat comparison: tracing each claim to the earliest stable primary record'
+  - 'glacier retreat comparison: testing source independence, syndication, and circular reporting'
+  - 'glacier retreat comparison: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'glacier retreat comparison: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'glacier retreat comparison: checking provenance and context separately from content authenticity'
+  - 'glacier retreat comparison: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'glacier retreat comparison: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: drought-reservoir-level
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a drought
+    reservoir claim across gauges, capacity definitions, dates, and revisions. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a drought reservoir claim across gauges,
+    capacity definitions, dates, and revisions; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'drought reservoir level: decomposing the submitted assertion into falsifiable material claims'
+  - 'drought reservoir level: tracing each claim to the earliest stable primary record'
+  - 'drought reservoir level: testing source independence, syndication, and circular reporting'
+  - 'drought reservoir level: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'drought reservoir level: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'drought reservoir level: checking provenance and context separately from content authenticity'
+  - 'drought reservoir level: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'drought reservoir level: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: storm-damage-estimate
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a storm-damage
+    estimate across preliminary, insured, public, and final assessments. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a storm-damage estimate across preliminary,
+    insured, public, and final assessments; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'storm damage estimate: decomposing the submitted assertion into falsifiable material claims'
+  - 'storm damage estimate: tracing each claim to the earliest stable primary record'
+  - 'storm damage estimate: testing source independence, syndication, and circular reporting'
+  - 'storm damage estimate: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'storm damage estimate: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'storm damage estimate: checking provenance and context separately from content authenticity'
+  - 'storm damage estimate: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'storm damage estimate: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: heat-record-attribution
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a heat-record
+    and attribution claim across stations, corrections, and attribution evidence. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a heat-record and attribution claim across
+    stations, corrections, and attribution evidence; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'heat record attribution: decomposing the submitted assertion into falsifiable material claims'
+  - 'heat record attribution: tracing each claim to the earliest stable primary record'
+  - 'heat record attribution: testing source independence, syndication, and circular reporting'
+  - 'heat record attribution: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'heat record attribution: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'heat record attribution: checking provenance and context separately from content authenticity'
+  - 'heat record attribution: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'heat record attribution: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: air-quality-ranking
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify an air-quality
+    ranking across pollutants, monitors, averaging periods, and missing data. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify an air-quality ranking across pollutants,
+    monitors, averaging periods, and missing data; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'air quality ranking: decomposing the submitted assertion into falsifiable material claims'
+  - 'air quality ranking: tracing each claim to the earliest stable primary record'
+  - 'air quality ranking: testing source independence, syndication, and circular reporting'
+  - 'air quality ranking: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'air quality ranking: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'air quality ranking: checking provenance and context separately from content authenticity'
+  - 'air quality ranking: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'air quality ranking: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: emissions-inventory-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify an emissions-inventory
+    claim across sectors, scopes, years, methods, and revisions. Require Supported, Contradicted, or Insufficient
+    evidence for each material claim, explicit abstention when support is insufficient, exact inline URLs,
+    and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph, multi-hop
+    verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify an emissions-inventory claim across sectors,
+    scopes, years, methods, and revisions; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'emissions inventory claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'emissions inventory claim: tracing each claim to the earliest stable primary record'
+  - 'emissions inventory claim: testing source independence, syndication, and circular reporting'
+  - 'emissions inventory claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'emissions inventory claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'emissions inventory claim: checking provenance and context separately from content authenticity'
+  - 'emissions inventory claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'emissions inventory claim: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: food-price-comparison
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a food-price
+    comparison across baskets, outlets, geography, inflation, and periods. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a food-price comparison across baskets,
+    outlets, geography, inflation, and periods; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'food price comparison: decomposing the submitted assertion into falsifiable material claims'
+  - 'food price comparison: tracing each claim to the earliest stable primary record'
+  - 'food price comparison: testing source independence, syndication, and circular reporting'
+  - 'food price comparison: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'food price comparison: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'food price comparison: checking provenance and context separately from content authenticity'
+  - 'food price comparison: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'food price comparison: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: rent-growth-statistic
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a rent-growth
+    statistic across asking and paid rents, units, geographies, and dates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a rent-growth statistic across asking and
+    paid rents, units, geographies, and dates; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'rent growth statistic: decomposing the submitted assertion into falsifiable material claims'
+  - 'rent growth statistic: tracing each claim to the earliest stable primary record'
+  - 'rent growth statistic: testing source independence, syndication, and circular reporting'
+  - 'rent growth statistic: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'rent growth statistic: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'rent growth statistic: checking provenance and context separately from content authenticity'
+  - 'rent growth statistic: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'rent growth statistic: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: wage-growth-headline
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a wage-growth
+    headline across worker populations, inflation, composition, and revisions. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a wage-growth headline across worker populations,
+    inflation, composition, and revisions; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'wage growth headline: decomposing the submitted assertion into falsifiable material claims'
+  - 'wage growth headline: tracing each claim to the earliest stable primary record'
+  - 'wage growth headline: testing source independence, syndication, and circular reporting'
+  - 'wage growth headline: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'wage growth headline: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'wage growth headline: checking provenance and context separately from content authenticity'
+  - 'wage growth headline: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'wage growth headline: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: tax-revenue-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a tax-revenue
+    claim across collections, accruals, forecasts, refunds, and fiscal periods. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a tax-revenue claim across collections,
+    accruals, forecasts, refunds, and fiscal periods; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'tax revenue claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'tax revenue claim: tracing each claim to the earliest stable primary record'
+  - 'tax revenue claim: testing source independence, syndication, and circular reporting'
+  - 'tax revenue claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'tax revenue claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'tax revenue claim: checking provenance and context separately from content authenticity'
+  - 'tax revenue claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'tax revenue claim: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: public-debt-comparison
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a public-debt
+    comparison across gross and net measures, currencies, and dates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a public-debt comparison across gross and
+    net measures, currencies, and dates; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'public debt comparison: decomposing the submitted assertion into falsifiable material claims'
+  - 'public debt comparison: tracing each claim to the earliest stable primary record'
+  - 'public debt comparison: testing source independence, syndication, and circular reporting'
+  - 'public debt comparison: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'public debt comparison: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'public debt comparison: checking provenance and context separately from content authenticity'
+  - 'public debt comparison: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'public debt comparison: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: grant-award-status
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify whether
+    a grant was announced, awarded, obligated, disbursed, or terminated. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify whether a grant was announced, awarded,
+    obligated, disbursed, or terminated; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'grant award status: decomposing the submitted assertion into falsifiable material claims'
+  - 'grant award status: tracing each claim to the earliest stable primary record'
+  - 'grant award status: testing source independence, syndication, and circular reporting'
+  - 'grant award status: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'grant award status: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'grant award status: checking provenance and context separately from content authenticity'
+  - 'grant award status: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'grant award status: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: procurement-bid-protest
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a procurement
+    outcome across solicitation, award, protest, decision, and performance. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a procurement outcome across solicitation,
+    award, protest, decision, and performance; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'procurement bid protest: decomposing the submitted assertion into falsifiable material claims'
+  - 'procurement bid protest: tracing each claim to the earliest stable primary record'
+  - 'procurement bid protest: testing source independence, syndication, and circular reporting'
+  - 'procurement bid protest: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'procurement bid protest: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'procurement bid protest: checking provenance and context separately from content authenticity'
+  - 'procurement bid protest: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'procurement bid protest: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: infrastructure-cost-overrun
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify an infrastructure
+    overrun across approved baselines, scope changes, and forecasts. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify an infrastructure overrun across approved
+    baselines, scope changes, and forecasts; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'infrastructure cost overrun: decomposing the submitted assertion into falsifiable material claims'
+  - 'infrastructure cost overrun: tracing each claim to the earliest stable primary record'
+  - 'infrastructure cost overrun: testing source independence, syndication, and circular reporting'
+  - 'infrastructure cost overrun: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'infrastructure cost overrun: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'infrastructure cost overrun: checking provenance and context separately from content authenticity'
+  - 'infrastructure cost overrun: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'infrastructure cost overrun: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: project-completion-timeline
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a project-completion
+    claim across milestones, contractual dates, and operational status. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a project-completion claim across milestones,
+    contractual dates, and operational status; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'project completion timeline: decomposing the submitted assertion into falsifiable material claims'
+  - 'project completion timeline: tracing each claim to the earliest stable primary record'
+  - 'project completion timeline: testing source independence, syndication, and circular reporting'
+  - 'project completion timeline: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'project completion timeline: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'project completion timeline: checking provenance and context separately from content authenticity'
+  - 'project completion timeline: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'project completion timeline: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: zoning-change-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a zoning-change
+    claim across proposals, hearings, votes, maps, and effective dates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a zoning-change claim across proposals,
+    hearings, votes, maps, and effective dates; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'zoning change claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'zoning change claim: tracing each claim to the earliest stable primary record'
+  - 'zoning change claim: testing source independence, syndication, and circular reporting'
+  - 'zoning change claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'zoning change claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'zoning change claim: checking provenance and context separately from content authenticity'
+  - 'zoning change claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'zoning change claim: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: eviction-rate-comparison
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify an eviction-rate
+    comparison across filings, judgments, households, and periods. Require Supported, Contradicted, or
+    Insufficient evidence for each material claim, explicit abstention when support is insufficient, exact
+    inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify an eviction-rate comparison across filings,
+    judgments, households, and periods; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'eviction rate comparison: decomposing the submitted assertion into falsifiable material claims'
+  - 'eviction rate comparison: tracing each claim to the earliest stable primary record'
+  - 'eviction rate comparison: testing source independence, syndication, and circular reporting'
+  - 'eviction rate comparison: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'eviction rate comparison: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'eviction rate comparison: checking provenance and context separately from content authenticity'
+  - 'eviction rate comparison: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'eviction rate comparison: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: homelessness-count-revision
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a homelessness-count
+    headline across methods, populations, geography, and revisions. Require Supported, Contradicted, or
+    Insufficient evidence for each material claim, explicit abstention when support is insufficient, exact
+    inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a homelessness-count headline across methods,
+    populations, geography, and revisions; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'homelessness count revision: decomposing the submitted assertion into falsifiable material claims'
+  - 'homelessness count revision: tracing each claim to the earliest stable primary record'
+  - 'homelessness count revision: testing source independence, syndication, and circular reporting'
+  - 'homelessness count revision: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'homelessness count revision: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'homelessness count revision: checking provenance and context separately from content authenticity'
+  - 'homelessness count revision: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'homelessness count revision: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: prison-population-statistic
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a prison-population
+    statistic across custody types, facilities, dates, and revisions. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a prison-population statistic across custody
+    types, facilities, dates, and revisions; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'prison population statistic: decomposing the submitted assertion into falsifiable material claims'
+  - 'prison population statistic: tracing each claim to the earliest stable primary record'
+  - 'prison population statistic: testing source independence, syndication, and circular reporting'
+  - 'prison population statistic: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'prison population statistic: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'prison population statistic: checking provenance and context separately from content authenticity'
+  - 'prison population statistic: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'prison population statistic: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: parole-policy-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a parole-policy
+    claim across rule text, eligibility, implementation, and court limits. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a parole-policy claim across rule text,
+    eligibility, implementation, and court limits; focus: provenance, source independence, chronology,
+    quantitative normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'parole policy claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'parole policy claim: tracing each claim to the earliest stable primary record'
+  - 'parole policy claim: testing source independence, syndication, and circular reporting'
+  - 'parole policy claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'parole policy claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'parole policy claim: checking provenance and context separately from content authenticity'
+  - 'parole policy claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'parole policy claim: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: border-encounter-statistic
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a border-encounter
+    statistic across events, people, sectors, and reporting periods. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a border-encounter statistic across events,
+    people, sectors, and reporting periods; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'border encounter statistic: decomposing the submitted assertion into falsifiable material claims'
+  - 'border encounter statistic: tracing each claim to the earliest stable primary record'
+  - 'border encounter statistic: testing source independence, syndication, and circular reporting'
+  - 'border encounter statistic: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'border encounter statistic: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'border encounter statistic: checking provenance and context separately from content authenticity'
+  - 'border encounter statistic: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'border encounter statistic: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: asylum-backlog-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify an asylum-backlog
+    claim across agencies, case stages, applications, and dates. Require Supported, Contradicted, or Insufficient
+    evidence for each material claim, explicit abstention when support is insufficient, exact inline URLs,
+    and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph, multi-hop
+    verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify an asylum-backlog claim across agencies,
+    case stages, applications, and dates; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'asylum backlog claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'asylum backlog claim: tracing each claim to the earliest stable primary record'
+  - 'asylum backlog claim: testing source independence, syndication, and circular reporting'
+  - 'asylum backlog claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'asylum backlog claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'asylum backlog claim: checking provenance and context separately from content authenticity'
+  - 'asylum backlog claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'asylum backlog claim: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: visa-processing-delay
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a visa-processing
+    delay across posts, categories, measurement methods, and dates. Require Supported, Contradicted, or
+    Insufficient evidence for each material claim, explicit abstention when support is insufficient, exact
+    inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a visa-processing delay across posts, categories,
+    measurement methods, and dates; focus: provenance, source independence, chronology, quantitative normalization,
+    counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'visa processing delay: decomposing the submitted assertion into falsifiable material claims'
+  - 'visa processing delay: tracing each claim to the earliest stable primary record'
+  - 'visa processing delay: testing source independence, syndication, and circular reporting'
+  - 'visa processing delay: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'visa processing delay: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'visa processing delay: checking provenance and context separately from content authenticity'
+  - 'visa processing delay: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'visa processing delay: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: passport-wait-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a passport
+    wait-time claim across service levels, processing boundaries, and updates. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a passport wait-time claim across service
+    levels, processing boundaries, and updates; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'passport wait claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'passport wait claim: tracing each claim to the earliest stable primary record'
+  - 'passport wait claim: testing source independence, syndication, and circular reporting'
+  - 'passport wait claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'passport wait claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'passport wait claim: checking provenance and context separately from content authenticity'
+  - 'passport wait claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'passport wait claim: assigning Supported, Contradicted, or Insufficient evidence and deciding publish,
+    hold, correct, or retract'
+  authoritative_domains: *id001
+- id: mail-delivery-statistic
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a mail-delivery
+    statistic across products, standards, measurement periods, and regions. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a mail-delivery statistic across products,
+    standards, measurement periods, and regions; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'mail delivery statistic: decomposing the submitted assertion into falsifiable material claims'
+  - 'mail delivery statistic: tracing each claim to the earliest stable primary record'
+  - 'mail delivery statistic: testing source independence, syndication, and circular reporting'
+  - 'mail delivery statistic: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'mail delivery statistic: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'mail delivery statistic: checking provenance and context separately from content authenticity'
+  - 'mail delivery statistic: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'mail delivery statistic: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001
+- id: broadband-coverage-claim
+  idea: Build an exact 120-word live-web newsroom micro-contract requiring a verifier to verify a broadband-coverage
+    claim across availability, adoption, speed tiers, and map vintages. Require Supported, Contradicted,
+    or Insufficient evidence for each material claim, explicit abstention when support is insufficient,
+    exact inline URLs, and a publish/hold/correct/retract recommendation. Keep the hidden solution a dependency-graph,
+    multi-hop verification problem rather than a checklist.
+  scope: 'Media and journalism; verification decision: verify a broadband-coverage claim across availability,
+    adoption, speed tiers, and map vintages; focus: provenance, source independence, chronology, quantitative
+    normalization, counterevidence, uncertainty, abstention, and editorial consequence'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Media and journalism
+  task_mode: verification_and_abstention
+  instruction_shape: exact_120_word_micro_contract
+  required_workstreams:
+  - 'broadband coverage claim: decomposing the submitted assertion into falsifiable material claims'
+  - 'broadband coverage claim: tracing each claim to the earliest stable primary record'
+  - 'broadband coverage claim: testing source independence, syndication, and circular reporting'
+  - 'broadband coverage claim: resolving entity, location, timestamp, jurisdiction, and version identity'
+  - 'broadband coverage claim: normalizing quoted numbers, populations, denominators, and time windows'
+  - 'broadband coverage claim: checking provenance and context separately from content authenticity'
+  - 'broadband coverage claim: seeking credible counterevidence and preserving unresolved boundaries'
+  - 'broadband coverage claim: assigning Supported, Contradicted, or Insufficient evidence and deciding
+    publish, hold, correct, or retract'
+  authoritative_domains: *id001

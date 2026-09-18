@@ -1,0 +1,6 @@
+{
+  "schema_version": "online-search-rubrics",
+  "task_id": "example-task",
+  "scoring": "binary",
+  "criteria": []
+}

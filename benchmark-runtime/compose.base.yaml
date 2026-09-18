@@ -1,0 +1,20 @@
+services:
+  main:
+    image: online-search-benchmark-agent:20260821
+    build:
+      context: .
+      dockerfile: Dockerfile.agent
+    command: ["sleep", "infinity"]
+    init: true
+    user: ${BENCH_UID:-1000}:${BENCH_GID:-1000}
+    working_dir: ${ONLINE_SEARCH_ROOT}
+    environment:
+      HOME: /home/kerosene
+      PATH: /home/kerosene/.local/bin:/home/kerosene/.local/npm-global/bin:/usr/local/bin:/usr/bin:/bin
+      ONLINE_SEARCH_DSH_SOURCE_ROOT: ${ONLINE_SEARCH_DSH_SOURCE_ROOT}
+      ONLINE_SEARCH_DSH_SOURCE_COMMIT: ${ONLINE_SEARCH_DSH_SOURCE_COMMIT}
+    volumes:
+      - ${ONLINE_SEARCH_ROOT}:${ONLINE_SEARCH_ROOT}:rw
+      - ${ONLINE_SEARCH_DSH_SOURCE_ROOT}:${ONLINE_SEARCH_DSH_SOURCE_ROOT}:ro
+    mem_limit: 12g
+    cpus: 3

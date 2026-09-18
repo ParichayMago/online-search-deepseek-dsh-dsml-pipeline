@@ -1,0 +1,648 @@
+version: 1
+ideas:
+- id: semiconductor-reshoring
+  idea: Build a live-web deep-research task for an industrial resilience and investment council deciding
+    how to prioritize semiconductor manufacturing and supplier investments across technology nodes, demand,
+    incentives, and workforce. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States industrial strategy, business operations, and international supply chains; target
+    decision: prioritize semiconductor manufacturing and supplier investments across technology nodes,
+    demand, incentives, and workforce'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'semiconductor reshoring: demand, capacity, concentration, and trade baselines'
+  - 'semiconductor reshoring: supplier tiers, dependencies, and substitution limits'
+  - 'semiconductor reshoring: standards, regulation, and public-policy authority'
+  - 'semiconductor reshoring: technology maturity, quality, and production yield'
+  - 'semiconductor reshoring: capital, operating cost, incentives, and financing'
+  - 'semiconductor reshoring: workforce, infrastructure, and regional constraints'
+  - 'semiconductor reshoring: environmental, labor, and community impacts'
+  - 'semiconductor reshoring: scenario calculations and disruption transmission'
+  - 'semiconductor reshoring: alternative sourcing, inventory, and continuity strategies'
+  - 'semiconductor reshoring: sequencing, qualification, monitoring, and exit conditions'
+  authoritative_domains: &id001
+  - commerce.gov
+  - trade.gov
+  - usitc.gov
+  - nist.gov
+  - bls.gov
+  - census.gov
+  - ustr.gov
+- id: state-antimicrobial-resistance-portfolio
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to allocate a five-year state antimicrobial-resistance budget across surveillance, laboratories,
+    stewardship, and outbreak response. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: allocate
+    a five-year state antimicrobial-resistance budget across surveillance, laboratories, stewardship,
+    and outbreak response'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'state antimicrobial resistance portfolio: burden, incidence, and trend measurement'
+  - 'state antimicrobial resistance portfolio: population eligibility, disparities, and access'
+  - 'state antimicrobial resistance portfolio: clinical or operational effectiveness evidence'
+  - 'state antimicrobial resistance portfolio: capacity, workforce, and implementation constraints'
+  - 'state antimicrobial resistance portfolio: federal, state, and local authority'
+  - 'state antimicrobial resistance portfolio: coverage, reimbursement, and affordability'
+  - 'state antimicrobial resistance portfolio: supply continuity and infrastructure resilience'
+  - 'state antimicrobial resistance portfolio: scenario calculations and threshold design'
+  - 'state antimicrobial resistance portfolio: harms, counterevidence, and uncertainty boundaries'
+  - 'state antimicrobial resistance portfolio: phased implementation, monitoring, and reassessment'
+  authoritative_domains: &id002
+  - cdc.gov
+  - hhs.gov
+  - cms.gov
+  - nih.gov
+  - ahrq.gov
+  - fda.gov
+  - who.int
+- id: early-literacy-intervention-portfolio
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to choose an early-literacy portfolio across curriculum, tutoring,
+    screening, teacher support, and family engagement, who needs evidence for a well-informed meeting
+    rather than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States education, learning, and training policy; target decision: choose an early-literacy
+    portfolio across curriculum, tutoring, screening, teacher support, and family engagement'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'early literacy intervention portfolio: student population, participation, and outcome baselines'
+  - 'early literacy intervention portfolio: federal, state, local, and institutional authority'
+  - 'early literacy intervention portfolio: eligibility, admissions, placement, and completion rules'
+  - 'early literacy intervention portfolio: instructional effectiveness and evidence quality'
+  - 'early literacy intervention portfolio: educator workforce, facilities, and delivery capacity'
+  - 'early literacy intervention portfolio: funding formulas, student cost, and fiscal sustainability'
+  - 'early literacy intervention portfolio: disability access, language access, and distributional equity'
+  - 'early literacy intervention portfolio: credential value, transferability, and labor-market alignment'
+  - 'early literacy intervention portfolio: counterevidence, measurement limits, and unintended effects'
+  - 'early literacy intervention portfolio: phasing, evaluation, safeguards, and revision triggers'
+  authoritative_domains: &id003
+  - ed.gov
+  - nces.ed.gov
+  - ies.ed.gov
+  - bls.gov
+  - dol.gov
+  - gao.gov
+  - census.gov
+- id: airline-refund-protection
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to improve airline refund and disruption protections across cancellations, delays,
+    ancillary services, and intermediaries. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States consumer products, services, markets, and protection policy; target decision:
+    improve airline refund and disruption protections across cancellations, delays, ancillary services,
+    and intermediaries'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Shopping/Product Comparison
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'airline refund protection: product or service market structure'
+  - 'airline refund protection: controlling consumer-protection authority'
+  - 'airline refund protection: claims, disclosures, pricing, and contract terms'
+  - 'airline refund protection: safety, quality, reliability, and complaint evidence'
+  - 'airline refund protection: affected populations and distributional impacts'
+  - 'airline refund protection: vendor, platform, and intermediary responsibilities'
+  - 'airline refund protection: remedies, enforcement, and compliance alternatives'
+  - 'airline refund protection: quantitative incidence, cost, and outcome comparisons'
+  - 'airline refund protection: counterevidence, scope limits, and uncertainty'
+  - 'airline refund protection: implementation priorities, monitoring, and escalation'
+  authoritative_domains: &id004
+  - ftc.gov
+  - cpsc.gov
+  - consumerfinance.gov
+  - fda.gov
+  - dot.gov
+  - fcc.gov
+  - usa.gov
+- id: methane-reduction-portfolio
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to design a methane-reduction portfolio across oil and gas, landfills, agriculture,
+    and abandoned infrastructure. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States climate, environmental, and energy policy with relevant regional implementation;
+    target decision: design a methane-reduction portfolio across oil and gas, landfills, agriculture,
+    and abandoned infrastructure'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'methane reduction portfolio: hazard baselines and projected exposure'
+  - 'methane reduction portfolio: federal, state, tribal, and local authority'
+  - 'methane reduction portfolio: technology performance and lifecycle evidence'
+  - 'methane reduction portfolio: infrastructure capacity and interdependencies'
+  - 'methane reduction portfolio: community health, equity, and environmental justice'
+  - 'methane reduction portfolio: capital cost, operating cost, and financing'
+  - 'methane reduction portfolio: permitting, siting, and implementation timelines'
+  - 'methane reduction portfolio: scenario modeling, units, and denominator alignment'
+  - 'methane reduction portfolio: counterevidence, leakage, and uncertainty'
+  - 'methane reduction portfolio: sequencing, triggers, monitoring, and adaptive management'
+  authoritative_domains:
+  - epa.gov
+  - energy.gov
+  - noaa.gov
+  - usgs.gov
+  - fema.gov
+  - blm.gov
+  - nrel.gov
+- id: manufactured-housing-stability
+  idea: Build a live-web deep-research task for a regional housing and community-development board deciding
+    how to protect manufactured-housing residents across land tenure, finance, infrastructure, ownership
+    transitions, and relocation. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States housing, real-estate, and community-development policy; target decision: protect
+    manufactured-housing residents across land tenure, finance, infrastructure, ownership transitions,
+    and relocation'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'manufactured housing stability: housing need, supply, vacancy, and cost baselines'
+  - 'manufactured housing stability: federal, state, local, and contractual authority'
+  - 'manufactured housing stability: eligibility, tenant, borrower, and property scope'
+  - 'manufactured housing stability: production, preservation, and rehabilitation capacity'
+  - 'manufactured housing stability: finance, subsidy, insurance, and lifecycle cost'
+  - 'manufactured housing stability: displacement, segregation, accessibility, and fair-housing effects'
+  - 'manufactured housing stability: land use, infrastructure, climate, and neighborhood impacts'
+  - 'manufactured housing stability: market response, appraisal, and quantitative assumptions'
+  - 'manufactured housing stability: counterevidence, implementation failure, and uncertainty'
+  - 'manufactured housing stability: sequencing, tenant safeguards, monitoring, and reassessment'
+  authoritative_domains:
+  - hud.gov
+  - fhfa.gov
+  - census.gov
+  - consumerfinance.gov
+  - gao.gov
+  - fema.gov
+  - usda.gov
+- id: farmworker-heat-protection
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to implement farmworker heat protections across thresholds, acclimatization, housing, enforcement,
+    and farm operations. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States food, agriculture, fisheries, and animal-system policy; target decision: implement
+    farmworker heat protections across thresholds, acclimatization, housing, enforcement, and farm operations'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'farmworker heat protection: production, demand, trade, and concentration baselines'
+  - 'farmworker heat protection: federal, state, tribal, and local authority'
+  - 'farmworker heat protection: farm, processor, distributor, and retailer incentives'
+  - 'farmworker heat protection: food safety, animal health, and public-health evidence'
+  - 'farmworker heat protection: soil, water, biodiversity, and climate impacts'
+  - 'farmworker heat protection: labor, rural communities, and equity'
+  - 'farmworker heat protection: technology performance and adoption constraints'
+  - 'farmworker heat protection: scenario calculations, units, yields, and denominators'
+  - 'farmworker heat protection: counterevidence, leakage, and uncertainty'
+  - 'farmworker heat protection: phased implementation, monitoring, and contingency plans'
+  authoritative_domains:
+  - usda.gov
+  - fda.gov
+  - epa.gov
+  - noaa.gov
+  - usgs.gov
+  - cdc.gov
+  - ers.usda.gov
+- id: public-procurement-modernization
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to modernize public procurement while improving competition, delivery
+    speed, transparency, and small-supplier access, who needs evidence for a well-informed meeting rather
+    than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States government administration and public-service delivery; target decision: modernize
+    public procurement while improving competition, delivery speed, transparency, and small-supplier access'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Personalized Assistant
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'public procurement modernization: statutory authority and program eligibility'
+  - 'public procurement modernization: service demand and population need'
+  - 'public procurement modernization: current performance and administrative burden'
+  - 'public procurement modernization: federal, state, local, and tribal role allocation'
+  - 'public procurement modernization: procurement, workforce, and vendor capacity'
+  - 'public procurement modernization: budget authority, obligation, spending, and lifecycle cost'
+  - 'public procurement modernization: accessibility, language access, and distributional equity'
+  - 'public procurement modernization: privacy, due process, and accountability safeguards'
+  - 'public procurement modernization: implementation alternatives and failure modes'
+  - 'public procurement modernization: phasing, performance measures, and corrective triggers'
+  authoritative_domains:
+  - gao.gov
+  - usa.gov
+  - census.gov
+  - omb.gov
+  - gsa.gov
+  - fema.gov
+  - congress.gov
+- id: health-misinformation-response
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to design a health-misinformation response across authoritative communication,
+    community trust, platforms, and uncertainty. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States media, journalism, and information-integrity policy; target decision: design a
+    health-misinformation response across authoritative communication, community trust, platforms, and
+    uncertainty'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Needle-in-a-Haystack
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'health misinformation response: audience, reach, trust, and information-need baselines'
+  - 'health misinformation response: constitutional, regulatory, platform, and contractual authority'
+  - 'health misinformation response: publisher, platform, advertiser, and creator incentives'
+  - 'health misinformation response: news-production capacity and local-market structure'
+  - 'health misinformation response: provenance, moderation, recommendation, and technical systems'
+  - 'health misinformation response: speech, privacy, civil-rights, and safety implications'
+  - 'health misinformation response: funding, ownership, competition, and sustainability'
+  - 'health misinformation response: measurement design, attribution, and denominator alignment'
+  - 'health misinformation response: counterevidence, uncertainty, and manipulation risk'
+  - 'health misinformation response: implementation safeguards, transparency, monitoring, and appeal'
+  authoritative_domains:
+  - fcc.gov
+  - ftc.gov
+  - loc.gov
+  - gao.gov
+  - census.gov
+  - nist.gov
+  - congress.gov
+- id: citizen-science-program
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to build a citizen-science program with credible data quality, participant value,
+    governance, and decision use. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States research policy, scholarly communication, and scientific infrastructure; target
+    decision: build a citizen-science program with credible data quality, participant value, governance,
+    and decision use'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'citizen science program: policy authority and institutional applicability'
+  - 'citizen science program: research-field and infrastructure baselines'
+  - 'citizen science program: evidence quality, reproducibility, and external validity'
+  - 'citizen science program: publishing, data, software, and access practices'
+  - 'citizen science program: researcher incentives, careers, and workforce'
+  - 'citizen science program: participant, community, ethical, and equity safeguards'
+  - 'citizen science program: cost, capacity, governance, and implementation'
+  - 'citizen science program: quantitative metrics and denominator alignment'
+  - 'citizen science program: counterevidence, uncertainty, and unintended effects'
+  - 'citizen science program: phased policy, evaluation, and revision triggers'
+  authoritative_domains:
+  - nsf.gov
+  - nih.gov
+  - nasa.gov
+  - energy.gov
+  - nist.gov
+  - ostp.gov
+  - nationalacademies.org
+- id: digital-accessibility-compliance
+  idea: Build a live-web deep-research task for a legal-policy and compliance working group deciding how
+    to prioritize digital-accessibility remediation across government and public-facing services. Require
+    a cited long-form report that reconstructs controlling authority and chronology, joins distributed
+    evidence across the named workstreams, resolves genuine scope/date/definition conflicts, performs
+    multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions, preserves
+    bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States legal, regulatory, civil-rights, and enforcement policy; target decision: prioritize
+    digital-accessibility remediation across government and public-facing services'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'digital accessibility compliance: controlling statutes, regulations, and case law'
+  - 'digital accessibility compliance: jurisdiction, standing, preemption, and applicability'
+  - 'digital accessibility compliance: effective dates, transitions, and superseded authority'
+  - 'digital accessibility compliance: regulated-entity duties and available exceptions'
+  - 'digital accessibility compliance: individual rights, remedies, and procedural protections'
+  - 'digital accessibility compliance: agency guidance, enforcement posture, and judicial review'
+  - 'digital accessibility compliance: empirical impacts and affected populations'
+  - 'digital accessibility compliance: compliance alternatives, cost, and operational feasibility'
+  - 'digital accessibility compliance: unresolved conflicts and litigation risk'
+  - 'digital accessibility compliance: decision conditions, safeguards, documentation, and monitoring'
+  authoritative_domains:
+  - congress.gov
+  - justice.gov
+  - ftc.gov
+  - dol.gov
+  - eeoc.gov
+  - consumerfinance.gov
+  - law.cornell.edu
+- id: volunteer-program-safeguards
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to scale volunteer programs across screening, training, labor boundaries, accessibility,
+    retention, and beneficiary safety. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States nonprofit, philanthropy, and social-impact policy; target decision: scale volunteer
+    programs across screening, training, labor boundaries, accessibility, retention, and beneficiary safety'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'volunteer program safeguards: community need, service coverage, and outcome baselines'
+  - 'volunteer program safeguards: tax, charity, grant, contract, and fiduciary authority'
+  - 'volunteer program safeguards: beneficiary, organization, and program eligibility'
+  - 'volunteer program safeguards: service quality, evidence, and implementation capacity'
+  - 'volunteer program safeguards: revenue mix, reserves, overhead, and financial resilience'
+  - 'volunteer program safeguards: governance, conflicts, accountability, and public trust'
+  - 'volunteer program safeguards: equity, participation, accessibility, and community control'
+  - 'volunteer program safeguards: impact measurement, attribution, and cost normalization'
+  - 'volunteer program safeguards: counterevidence, displacement, and uncertainty boundaries'
+  - 'volunteer program safeguards: portfolio sequencing, learning, monitoring, and exit conditions'
+  authoritative_domains:
+  - irs.gov
+  - census.gov
+  - gao.gov
+  - grants.gov
+  - sba.gov
+  - dol.gov
+  - councilofnonprofits.org
+- id: post-quantum-migration
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to sequence post-quantum cryptography migration across inventories,
+    standards, dependencies, performance, and long-lived data, who needs evidence for a well-informed
+    meeting rather than personalized professional advice. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States technology, telecommunications, digital-infrastructure, and platform policy; target
+    decision: sequence post-quantum cryptography migration across inventories, standards, dependencies,
+    performance, and long-lived data'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'post quantum migration: controlling authority, standards, and institutional scope'
+  - 'post quantum migration: market structure, adoption, and performance baselines'
+  - 'post quantum migration: technical architecture and interoperability'
+  - 'post quantum migration: reliability, resilience, safety, and incident evidence'
+  - 'post quantum migration: privacy, civil rights, and consumer impacts'
+  - 'post quantum migration: competition, procurement, and vendor concentration'
+  - 'post quantum migration: capital, operating cost, workforce, and deployment constraints'
+  - 'post quantum migration: scenario calculations and metric reconciliation'
+  - 'post quantum migration: counterevidence, obsolescence, and uncertainty'
+  - 'post quantum migration: phased governance, testing, monitoring, and exit conditions'
+  authoritative_domains:
+  - fcc.gov
+  - ftc.gov
+  - nist.gov
+  - ntia.gov
+  - commerce.gov
+  - gao.gov
+  - cisa.gov
+- id: public-pension-allocation
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to revise public-pension asset allocation under return, liquidity, contribution,
+    and downside-risk constraints. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States finance, banking, insurance, and investment policy; target decision: revise public-pension
+    asset allocation under return, liquidity, contribution, and downside-risk constraints'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'public pension allocation: controlling financial authority and institutional scope'
+  - 'public pension allocation: market size, exposures, and trend measurement'
+  - 'public pension allocation: capital, liquidity, solvency, and loss transmission'
+  - 'public pension allocation: consumer and investor protection'
+  - 'public pension allocation: product structure, fees, incentives, and conflicts'
+  - 'public pension allocation: macroeconomic and distributional effects'
+  - 'public pension allocation: scenario calculations, stress assumptions, and denominators'
+  - 'public pension allocation: implementation capacity and market responses'
+  - 'public pension allocation: counterevidence, model risk, and unresolved uncertainty'
+  - 'public pension allocation: phased controls, disclosures, monitoring, and escalation'
+  authoritative_domains:
+  - federalreserve.gov
+  - fdic.gov
+  - sec.gov
+  - consumerfinance.gov
+  - treasury.gov
+  - cftc.gov
+  - naic.org
+- id: youth-summer-employment
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to design a youth summer-employment program across recruitment, work quality, supervision,
+    pay, learning, safety, and long-term outcomes. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States work, employment, labor-market, and workforce policy; target decision: design
+    a youth summer-employment program across recruitment, work quality, supervision, pay, learning, safety,
+    and long-term outcomes'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'youth summer employment: employment, wage, vacancy, and participation baselines'
+  - 'youth summer employment: federal, state, local, and contractual authority'
+  - 'youth summer employment: worker, employer, occupation, and program scope'
+  - 'youth summer employment: job quality, safety, scheduling, and benefit evidence'
+  - 'youth summer employment: skills, training, hiring, and advancement pathways'
+  - 'youth summer employment: business capacity, compliance cost, and labor demand'
+  - 'youth summer employment: disparities, accessibility, caregiving, and geographic effects'
+  - 'youth summer employment: earnings, productivity, cost, and denominator calculations'
+  - 'youth summer employment: counterevidence, substitution, displacement, and uncertainty'
+  - 'youth summer employment: phasing, enforcement, monitoring, and adjustment triggers'
+  authoritative_domains:
+  - dol.gov
+  - bls.gov
+  - eeoc.gov
+  - osha.gov
+  - census.gov
+  - gao.gov
+  - nces.ed.gov
+- id: ev-charging-corridor-equity
+  idea: Build a live-web deep-research task for a regional transportation and mobility authority deciding
+    how to build an equitable highway and community EV-charging network across utilization, reliability,
+    access, and grid needs. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States transportation, mobility, logistics, and travel policy; target decision: build
+    an equitable highway and community EV-charging network across utilization, reliability, access, and
+    grid needs'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'ev charging corridor equity: travel demand, network performance, and safety baselines'
+  - 'ev charging corridor equity: federal, state, local, and operator authority'
+  - 'ev charging corridor equity: infrastructure condition, capacity, and resilience'
+  - 'ev charging corridor equity: technology performance and operational integration'
+  - 'ev charging corridor equity: accessibility, equity, land use, and community impacts'
+  - 'ev charging corridor equity: capital, operating cost, revenue, and funding eligibility'
+  - 'ev charging corridor equity: environmental, health, and economic effects'
+  - 'ev charging corridor equity: scenario calculations and appraisal assumptions'
+  - 'ev charging corridor equity: delivery risk, counterevidence, and uncertainty'
+  - 'ev charging corridor equity: phasing, pilots, monitoring, and decision triggers'
+  authoritative_domains:
+  - transportation.gov
+  - fhwa.dot.gov
+  - fta.dot.gov
+  - fra.dot.gov
+  - faa.gov
+  - ntsb.gov
+  - bts.gov
+- id: medical-device-quality-resilience
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to reduce medical-device supply and quality failures across suppliers, validation, recalls,
+    and substitution. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States industrial strategy, business operations, and international supply chains; target
+    decision: reduce medical-device supply and quality failures across suppliers, validation, recalls,
+    and substitution'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'medical device quality resilience: demand, capacity, concentration, and trade baselines'
+  - 'medical device quality resilience: supplier tiers, dependencies, and substitution limits'
+  - 'medical device quality resilience: standards, regulation, and public-policy authority'
+  - 'medical device quality resilience: technology maturity, quality, and production yield'
+  - 'medical device quality resilience: capital, operating cost, incentives, and financing'
+  - 'medical device quality resilience: workforce, infrastructure, and regional constraints'
+  - 'medical device quality resilience: environmental, labor, and community impacts'
+  - 'medical device quality resilience: scenario calculations and disruption transmission'
+  - 'medical device quality resilience: alternative sourcing, inventory, and continuity strategies'
+  - 'medical device quality resilience: sequencing, qualification, monitoring, and exit conditions'
+  authoritative_domains: *id001
+- id: telehealth-access-rebalance
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to retain useful telehealth access while correcting geographic, disability,
+    language, and broadband inequities, who needs evidence for a well-informed meeting rather than personalized
+    professional advice. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: retain
+    useful telehealth access while correcting geographic, disability, language, and broadband inequities'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'telehealth access rebalance: burden, incidence, and trend measurement'
+  - 'telehealth access rebalance: population eligibility, disparities, and access'
+  - 'telehealth access rebalance: clinical or operational effectiveness evidence'
+  - 'telehealth access rebalance: capacity, workforce, and implementation constraints'
+  - 'telehealth access rebalance: federal, state, and local authority'
+  - 'telehealth access rebalance: coverage, reimbursement, and affordability'
+  - 'telehealth access rebalance: supply continuity and infrastructure resilience'
+  - 'telehealth access rebalance: scenario calculations and threshold design'
+  - 'telehealth access rebalance: harms, counterevidence, and uncertainty boundaries'
+  - 'telehealth access rebalance: phased implementation, monitoring, and reassessment'
+  authoritative_domains: *id002
+- id: school-connectivity-learning-value
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to target school connectivity and device investments according to instructional
+    use, reliability, support, and equity. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States education, learning, and training policy; target decision: target school connectivity
+    and device investments according to instructional use, reliability, support, and equity'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'school connectivity learning value: student population, participation, and outcome baselines'
+  - 'school connectivity learning value: federal, state, local, and institutional authority'
+  - 'school connectivity learning value: eligibility, admissions, placement, and completion rules'
+  - 'school connectivity learning value: instructional effectiveness and evidence quality'
+  - 'school connectivity learning value: educator workforce, facilities, and delivery capacity'
+  - 'school connectivity learning value: funding formulas, student cost, and fiscal sustainability'
+  - 'school connectivity learning value: disability access, language access, and distributional equity'
+  - 'school connectivity learning value: credential value, transferability, and labor-market alignment'
+  - 'school connectivity learning value: counterevidence, measurement limits, and unintended effects'
+  - 'school connectivity learning value: phasing, evaluation, safeguards, and revision triggers'
+  authoritative_domains: *id003
+- id: home-insurance-disclosures
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to improve homeowner understanding of exclusions, deductibles, valuation, nonrenewal,
+    and mitigation conditions. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States consumer products, services, markets, and protection policy; target decision:
+    improve homeowner understanding of exclusions, deductibles, valuation, nonrenewal, and mitigation
+    conditions'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Shopping/Product Comparison
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'home insurance disclosures: product or service market structure'
+  - 'home insurance disclosures: controlling consumer-protection authority'
+  - 'home insurance disclosures: claims, disclosures, pricing, and contract terms'
+  - 'home insurance disclosures: safety, quality, reliability, and complaint evidence'
+  - 'home insurance disclosures: affected populations and distributional impacts'
+  - 'home insurance disclosures: vendor, platform, and intermediary responsibilities'
+  - 'home insurance disclosures: remedies, enforcement, and compliance alternatives'
+  - 'home insurance disclosures: quantitative incidence, cost, and outcome comparisons'
+  - 'home insurance disclosures: counterevidence, scope limits, and uncertainty'
+  - 'home insurance disclosures: implementation priorities, monitoring, and escalation'
+  authoritative_domains: *id004

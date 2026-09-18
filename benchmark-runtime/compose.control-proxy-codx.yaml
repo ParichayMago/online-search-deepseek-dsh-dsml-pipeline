@@ -1,0 +1,12 @@
+services:
+  main:
+    network_mode: host
+    volumes:
+      - ${HOME}/.local/bin:${HOME}/.local/bin:ro
+      - ${HOME}/.local/npm-global:${HOME}/.local/npm-global:ro
+      - ${HOME}/.local/share/parsewave-launchpad:${HOME}/.local/share/parsewave-launchpad:rw
+      - ${HOME}/.local/share/parsewave:${HOME}/.local/share/parsewave:rw
+      - ${HOME}/.config/parsewave:${HOME}/.config/parsewave:rw
+      - ${HOME}/.codex-codx-pool-b:${HOME}/.codex-codx-pool-b:rw
+      - ${HOME}/.codex-codx-pool-b:${HOME}/.codex:rw
+      - ${HOME}/.claude-custom:${HOME}/.claude-custom:ro

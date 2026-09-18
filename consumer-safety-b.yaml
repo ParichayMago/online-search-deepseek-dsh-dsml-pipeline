@@ -1,0 +1,494 @@
+version: 1
+ideas:
+- id: space-heater-fire
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must reduce space-heater
+    fire risk across product design, room conditions, incident patterns, recalls, winter energy burden,
+    and safer alternatives. Make the hidden solution a dependency-graph, multi-hop research problem rather
+    than a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: reduce space-heater fire risk across product design, room
+    conditions, incident patterns, recalls, winter energy burden, and safer alternatives; focus: incident
+    evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'space heater fire: consumer hazard and affected-population baseline'
+  - 'space heater fire: controlling product, food, health, transport, or housing authority and dates'
+  - 'space heater fire: reconstructing the eligible product, incident, market, or location population'
+  - 'space heater fire: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'space heater fire: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'space heater fire: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'space heater fire: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'space heater fire: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: &id001
+  - cpsc.gov
+  - fda.gov
+  - ftc.gov
+  - cdc.gov
+  - epa.gov
+  - nih.gov
+  - usa.gov
+- id: gas-grill-leak
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must address gas-grill
+    leak hazards across connector failures, cylinder handling, recalls, weather exposure, retailer responsibility,
+    and consumer repairs. Make the hidden solution a dependency-graph, multi-hop research problem rather
+    than a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: address gas-grill leak hazards across connector failures,
+    cylinder handling, recalls, weather exposure, retailer responsibility, and consumer repairs; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'gas grill leak: consumer hazard and affected-population baseline'
+  - 'gas grill leak: controlling product, food, health, transport, or housing authority and dates'
+  - 'gas grill leak: reconstructing the eligible product, incident, market, or location population'
+  - 'gas grill leak: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'gas grill leak: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'gas grill leak: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'gas grill leak: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'gas grill leak: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: water-heater-scald
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must prioritize water-heater
+    scald prevention across temperature settings, plumbing variation, vulnerable residents, code exceptions,
+    and retrofit affordability. Make the hidden solution a dependency-graph, multi-hop research problem
+    rather than a checklist. The final report must reconcile independent source families, perform bounded
+    calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: prioritize water-heater scald prevention across temperature
+    settings, plumbing variation, vulnerable residents, code exceptions, and retrofit affordability; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: general_user
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'water heater scald: consumer hazard and affected-population baseline'
+  - 'water heater scald: controlling product, food, health, transport, or housing authority and dates'
+  - 'water heater scald: reconstructing the eligible product, incident, market, or location population'
+  - 'water heater scald: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'water heater scald: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'water heater scald: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'water heater scald: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'water heater scald: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: rental-housing-mold
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must compare rental-housing
+    mold interventions across moisture sources, health evidence, inspection thresholds, landlord duties,
+    remediation quality, and displacement risk. Make the hidden solution a dependency-graph, multi-hop
+    research problem rather than a checklist. The final report must reconcile independent source families,
+    perform bounded calculations, test a compound-failure scenario, and reach a conditional portfolio
+    recommendation.
+  scope: 'Consumer Safety; target decision: compare rental-housing mold interventions across moisture
+    sources, health evidence, inspection thresholds, landlord duties, remediation quality, and displacement
+    risk; focus: incident evidence, exposure, authority, market actors, equity, remedies, and implementation
+    risk'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'rental housing mold: consumer hazard and affected-population baseline'
+  - 'rental housing mold: controlling product, food, health, transport, or housing authority and dates'
+  - 'rental housing mold: reconstructing the eligible product, incident, market, or location population'
+  - 'rental housing mold: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'rental housing mold: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'rental housing mold: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'rental housing mold: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'rental housing mold: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: food-delivery-temperature
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must improve food-delivery
+    temperature safety across transit time, packaging, courier practices, pathogen growth windows, platform
+    responsibility, and consumer remedies. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: improve food-delivery temperature safety across transit time,
+    packaging, courier practices, pathogen growth windows, platform responsibility, and consumer remedies;
+    focus: incident evidence, exposure, authority, market actors, equity, remedies, and implementation
+    risk'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'food delivery temperature: consumer hazard and affected-population baseline'
+  - 'food delivery temperature: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'food delivery temperature: reconstructing the eligible product, incident, market, or location population'
+  - 'food delivery temperature: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'food delivery temperature: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'food delivery temperature: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'food delivery temperature: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'food delivery temperature: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: restaurant-allergen-control
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must reduce restaurant
+    allergen incidents across menu disclosure, kitchen controls, cross-contact evidence, staff training,
+    inspection data, and reporting. Make the hidden solution a dependency-graph, multi-hop research problem
+    rather than a checklist. The final report must reconcile independent source families, perform bounded
+    calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: reduce restaurant allergen incidents across menu disclosure,
+    kitchen controls, cross-contact evidence, staff training, inspection data, and reporting; focus: incident
+    evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'restaurant allergen control: consumer hazard and affected-population baseline'
+  - 'restaurant allergen control: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'restaurant allergen control: reconstructing the eligible product, incident, market, or location population'
+  - 'restaurant allergen control: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'restaurant allergen control: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'restaurant allergen control: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'restaurant allergen control: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'restaurant allergen control: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: seafood-mercury-advisory
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must design a seafood-mercury
+    communication and market response across species identity, consumption guidance, exposure populations,
+    substitutions, and fishing communities. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: design a seafood-mercury communication and market response
+    across species identity, consumption guidance, exposure populations, substitutions, and fishing communities;
+    focus: incident evidence, exposure, authority, market actors, equity, remedies, and implementation
+    risk'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'seafood mercury advisory: consumer hazard and affected-population baseline'
+  - 'seafood mercury advisory: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'seafood mercury advisory: reconstructing the eligible product, incident, market, or location population'
+  - 'seafood mercury advisory: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'seafood mercury advisory: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'seafood mercury advisory: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'seafood mercury advisory: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'seafood mercury advisory: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: bottled-water-contamination
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must prioritize bottled-water
+    contamination controls across source approval, testing, lot traceability, recall speed, vulnerable
+    consumers, and replacement supply. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: prioritize bottled-water contamination controls across source
+    approval, testing, lot traceability, recall speed, vulnerable consumers, and replacement supply; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: general_user
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'bottled water contamination: consumer hazard and affected-population baseline'
+  - 'bottled water contamination: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'bottled water contamination: reconstructing the eligible product, incident, market, or location population'
+  - 'bottled water contamination: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'bottled water contamination: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'bottled water contamination: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'bottled water contamination: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'bottled water contamination: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: supplement-adulteration-risk
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must target dietary-supplement
+    adulteration across ingredient claims, adverse events, import pathways, testing limits, advertising,
+    and enforcement. Make the hidden solution a dependency-graph, multi-hop research problem rather than
+    a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: target dietary-supplement adulteration across ingredient claims,
+    adverse events, import pathways, testing limits, advertising, and enforcement; focus: incident evidence,
+    exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'supplement adulteration risk: consumer hazard and affected-population baseline'
+  - 'supplement adulteration risk: controlling product, food, health, transport, or housing authority
+    and dates'
+  - 'supplement adulteration risk: reconstructing the eligible product, incident, market, or location
+    population'
+  - 'supplement adulteration risk: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'supplement adulteration risk: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'supplement adulteration risk: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'supplement adulteration risk: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'supplement adulteration risk: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: herbal-remedy-interactions
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must improve herbal-remedy
+    interaction safety across ingredient identity, evidence quality, medication populations, labeling,
+    clinician communication, and retail claims. Make the hidden solution a dependency-graph, multi-hop
+    research problem rather than a checklist. The final report must reconcile independent source families,
+    perform bounded calculations, test a compound-failure scenario, and reach a conditional portfolio
+    recommendation.
+  scope: 'Consumer Safety; target decision: improve herbal-remedy interaction safety across ingredient
+    identity, evidence quality, medication populations, labeling, clinician communication, and retail
+    claims; focus: incident evidence, exposure, authority, market actors, equity, remedies, and implementation
+    risk'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'herbal remedy interactions: consumer hazard and affected-population baseline'
+  - 'herbal remedy interactions: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'herbal remedy interactions: reconstructing the eligible product, incident, market, or location population'
+  - 'herbal remedy interactions: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'herbal remedy interactions: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'herbal remedy interactions: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'herbal remedy interactions: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'herbal remedy interactions: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: overcounter-drug-recall
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must manage over-the-counter
+    drug recalls across manufacturing deviations, lot scope, pharmacy inventory, patient substitution,
+    notification, and access continuity. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: manage over-the-counter drug recalls across manufacturing
+    deviations, lot scope, pharmacy inventory, patient substitution, notification, and access continuity;
+    focus: incident evidence, exposure, authority, market actors, equity, remedies, and implementation
+    risk'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'overcounter drug recall: consumer hazard and affected-population baseline'
+  - 'overcounter drug recall: controlling product, food, health, transport, or housing authority and dates'
+  - 'overcounter drug recall: reconstructing the eligible product, incident, market, or location population'
+  - 'overcounter drug recall: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'overcounter drug recall: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'overcounter drug recall: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'overcounter drug recall: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'overcounter drug recall: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: contact-lens-hygiene
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must reduce contact-lens
+    infection risk across solution claims, wear schedules, water exposure, user behavior, surveillance,
+    and retailer education. Make the hidden solution a dependency-graph, multi-hop research problem rather
+    than a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: reduce contact-lens infection risk across solution claims,
+    wear schedules, water exposure, user behavior, surveillance, and retailer education; focus: incident
+    evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'contact lens hygiene: consumer hazard and affected-population baseline'
+  - 'contact lens hygiene: controlling product, food, health, transport, or housing authority and dates'
+  - 'contact lens hygiene: reconstructing the eligible product, incident, market, or location population'
+  - 'contact lens hygiene: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'contact lens hygiene: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'contact lens hygiene: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'contact lens hygiene: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'contact lens hygiene: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: hearing-aid-battery
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must prevent hearing-aid
+    battery injuries across button-cell access, device generations, labeling, child exposure, disposal,
+    and accessible design. Make the hidden solution a dependency-graph, multi-hop research problem rather
+    than a checklist. The final report must reconcile independent source families, perform bounded calculations,
+    test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: prevent hearing-aid battery injuries across button-cell access,
+    device generations, labeling, child exposure, disposal, and accessible design; focus: incident evidence,
+    exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: general_user
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'hearing aid battery: consumer hazard and affected-population baseline'
+  - 'hearing aid battery: controlling product, food, health, transport, or housing authority and dates'
+  - 'hearing aid battery: reconstructing the eligible product, incident, market, or location population'
+  - 'hearing aid battery: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'hearing aid battery: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'hearing aid battery: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'hearing aid battery: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'hearing aid battery: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: pet-food-recall
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must respond to pet-food
+    contamination recalls across pathogen evidence, lot distribution, animal vulnerability, retailer withdrawal,
+    veterinary advice, and household exposure. Make the hidden solution a dependency-graph, multi-hop
+    research problem rather than a checklist. The final report must reconcile independent source families,
+    perform bounded calculations, test a compound-failure scenario, and reach a conditional portfolio
+    recommendation.
+  scope: 'Consumer Safety; target decision: respond to pet-food contamination recalls across pathogen
+    evidence, lot distribution, animal vulnerability, retailer withdrawal, veterinary advice, and household
+    exposure; focus: incident evidence, exposure, authority, market actors, equity, remedies, and implementation
+    risk'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'pet food recall: consumer hazard and affected-population baseline'
+  - 'pet food recall: controlling product, food, health, transport, or housing authority and dates'
+  - 'pet food recall: reconstructing the eligible product, incident, market, or location population'
+  - 'pet food recall: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'pet food recall: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'pet food recall: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'pet food recall: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'pet food recall: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: pesticide-residue-shopping
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must help consumers
+    manage pesticide-residue risk across commodity evidence, washing limits, organic claims, exposure
+    groups, price, and supply substitutions. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: help consumers manage pesticide-residue risk across commodity
+    evidence, washing limits, organic claims, exposure groups, price, and supply substitutions; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'pesticide residue shopping: consumer hazard and affected-population baseline'
+  - 'pesticide residue shopping: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'pesticide residue shopping: reconstructing the eligible product, incident, market, or location population'
+  - 'pesticide residue shopping: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'pesticide residue shopping: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'pesticide residue shopping: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'pesticide residue shopping: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'pesticide residue shopping: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: lithium-battery-disposal
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must reduce lithium-battery
+    fire risk across damaged cells, collection systems, shipping rules, retailer take-back, consumer labeling,
+    and waste-facility exposure. Make the hidden solution a dependency-graph, multi-hop research problem
+    rather than a checklist. The final report must reconcile independent source families, perform bounded
+    calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: reduce lithium-battery fire risk across damaged cells, collection
+    systems, shipping rules, retailer take-back, consumer labeling, and waste-facility exposure; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: professional
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'lithium battery disposal: consumer hazard and affected-population baseline'
+  - 'lithium battery disposal: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'lithium battery disposal: reconstructing the eligible product, incident, market, or location population'
+  - 'lithium battery disposal: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'lithium battery disposal: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'lithium battery disposal: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'lithium battery disposal: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'lithium battery disposal: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: resale-marketplace-trust
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must govern resale-marketplace
+    consumer safety across product authenticity, recalled goods, seller identity, returns, payment protection,
+    and platform accountability. Make the hidden solution a dependency-graph, multi-hop research problem
+    rather than a checklist. The final report must reconcile independent source families, perform bounded
+    calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: govern resale-marketplace consumer safety across product authenticity,
+    recalled goods, seller identity, returns, payment protection, and platform accountability; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: community
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'resale marketplace trust: consumer hazard and affected-population baseline'
+  - 'resale marketplace trust: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'resale marketplace trust: reconstructing the eligible product, incident, market, or location population'
+  - 'resale marketplace trust: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'resale marketplace trust: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'resale marketplace trust: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'resale marketplace trust: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'resale marketplace trust: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: subscription-cancellation-abuse
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must protect consumers
+    in recurring subscriptions across enrollment evidence, renewal notice, cancellation friction, dark
+    patterns, refunds, and vulnerable users. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: protect consumers in recurring subscriptions across enrollment
+    evidence, renewal notice, cancellation friction, dark patterns, refunds, and vulnerable users; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: general_user
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'subscription cancellation abuse: consumer hazard and affected-population baseline'
+  - 'subscription cancellation abuse: controlling product, food, health, transport, or housing authority
+    and dates'
+  - 'subscription cancellation abuse: reconstructing the eligible product, incident, market, or location
+    population'
+  - 'subscription cancellation abuse: normalizing units, denominators, exposure windows, and scenario
+    assumptions'
+  - 'subscription cancellation abuse: joining injury, exposure, reliability, cost, and distributional
+    evidence'
+  - 'subscription cancellation abuse: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'subscription cancellation abuse: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'subscription cancellation abuse: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: airline-refund-protection
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must improve airline
+    refund and disruption safety across cancellation records, ticket intermediaries, ancillary fees, accessibility,
+    deadlines, and consumer recovery. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: improve airline refund and disruption safety across cancellation
+    records, ticket intermediaries, ancillary fees, accessibility, deadlines, and consumer recovery; focus:
+    incident evidence, exposure, authority, market actors, equity, remedies, and implementation risk'
+  as_of: '2026-08-01'
+  requester_archetype: investigative
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'airline refund protection: consumer hazard and affected-population baseline'
+  - 'airline refund protection: controlling product, food, health, transport, or housing authority and
+    dates'
+  - 'airline refund protection: reconstructing the eligible product, incident, market, or location population'
+  - 'airline refund protection: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'airline refund protection: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'airline refund protection: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'airline refund protection: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'airline refund protection: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001
+- id: used-ev-protection
+  idea: Build a compact 200-400 word live-web request for a real decision-maker who must improve used-EV
+    consumer protection across battery-health disclosure, crash history, warranty scope, financing, repair
+    access, resale claims, and fire risk. Make the hidden solution a dependency-graph, multi-hop research
+    problem rather than a checklist. The final report must reconcile independent source families, perform
+    bounded calculations, test a compound-failure scenario, and reach a conditional portfolio recommendation.
+  scope: 'Consumer Safety; target decision: improve used-EV consumer protection across battery-health
+    disclosure, crash history, warranty scope, financing, repair access, resale claims, and fire risk;
+    focus: incident evidence, exposure, authority, market actors, equity, remedies, and implementation
+    risk'
+  as_of: '2026-08-01'
+  requester_archetype: neutral_exploratory
+  domain: Consumer Safety
+  task_mode: dependency_graph_multihop
+  required_workstreams:
+  - 'used ev protection: consumer hazard and affected-population baseline'
+  - 'used ev protection: controlling product, food, health, transport, or housing authority and dates'
+  - 'used ev protection: reconstructing the eligible product, incident, market, or location population'
+  - 'used ev protection: normalizing units, denominators, exposure windows, and scenario assumptions'
+  - 'used ev protection: joining injury, exposure, reliability, cost, and distributional evidence'
+  - 'used ev protection: testing manufacturer, retailer, platform, and regulator responsibilities'
+  - 'used ev protection: modeling missing data, recalls, counterevidence, and compound failures'
+  - 'used ev protection: ranking a bounded safety intervention portfolio with reversal triggers'
+  authoritative_domains: *id001

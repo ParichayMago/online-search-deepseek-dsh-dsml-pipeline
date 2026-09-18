@@ -1,0 +1,644 @@
+version: 1
+ideas:
+- id: ai-hiring-compliance
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to design compliant use and oversight rules for automated hiring and employment
+    screening systems. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States legal, regulatory, civil-rights, and enforcement policy; target decision: design
+    compliant use and oversight rules for automated hiring and employment screening systems'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'ai hiring compliance: controlling statutes, regulations, and case law'
+  - 'ai hiring compliance: jurisdiction, standing, preemption, and applicability'
+  - 'ai hiring compliance: effective dates, transitions, and superseded authority'
+  - 'ai hiring compliance: regulated-entity duties and available exceptions'
+  - 'ai hiring compliance: individual rights, remedies, and procedural protections'
+  - 'ai hiring compliance: agency guidance, enforcement posture, and judicial review'
+  - 'ai hiring compliance: empirical impacts and affected populations'
+  - 'ai hiring compliance: compliance alternatives, cost, and operational feasibility'
+  - 'ai hiring compliance: unresolved conflicts and litigation risk'
+  - 'ai hiring compliance: decision conditions, safeguards, documentation, and monitoring'
+  authoritative_domains: &id001
+  - congress.gov
+  - justice.gov
+  - ftc.gov
+  - dol.gov
+  - eeoc.gov
+  - consumerfinance.gov
+  - law.cornell.edu
+- id: foundation-payout-strategy
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to set a foundation payout strategy across current need, perpetuity, liquidity,
+    mission impact, and market stress. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States nonprofit, philanthropy, and social-impact policy; target decision: set a foundation
+    payout strategy across current need, perpetuity, liquidity, mission impact, and market stress'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'foundation payout strategy: community need, service coverage, and outcome baselines'
+  - 'foundation payout strategy: tax, charity, grant, contract, and fiduciary authority'
+  - 'foundation payout strategy: beneficiary, organization, and program eligibility'
+  - 'foundation payout strategy: service quality, evidence, and implementation capacity'
+  - 'foundation payout strategy: revenue mix, reserves, overhead, and financial resilience'
+  - 'foundation payout strategy: governance, conflicts, accountability, and public trust'
+  - 'foundation payout strategy: equity, participation, accessibility, and community control'
+  - 'foundation payout strategy: impact measurement, attribution, and cost normalization'
+  - 'foundation payout strategy: counterevidence, displacement, and uncertainty boundaries'
+  - 'foundation payout strategy: portfolio sequencing, learning, monitoring, and exit conditions'
+  authoritative_domains: &id002
+  - irs.gov
+  - census.gov
+  - gao.gov
+  - grants.gov
+  - sba.gov
+  - dol.gov
+  - councilofnonprofits.org
+- id: government-ai-procurement
+  idea: Build a live-web deep-research task for a technology-policy and infrastructure commission deciding
+    how to govern public-sector AI procurement across need, testing, data, rights, vendor claims, monitoring,
+    and exit. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States technology, telecommunications, digital-infrastructure, and platform policy; target
+    decision: govern public-sector AI procurement across need, testing, data, rights, vendor claims, monitoring,
+    and exit'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'government ai procurement: controlling authority, standards, and institutional scope'
+  - 'government ai procurement: market structure, adoption, and performance baselines'
+  - 'government ai procurement: technical architecture and interoperability'
+  - 'government ai procurement: reliability, resilience, safety, and incident evidence'
+  - 'government ai procurement: privacy, civil rights, and consumer impacts'
+  - 'government ai procurement: competition, procurement, and vendor concentration'
+  - 'government ai procurement: capital, operating cost, workforce, and deployment constraints'
+  - 'government ai procurement: scenario calculations and metric reconciliation'
+  - 'government ai procurement: counterevidence, obsolescence, and uncertainty'
+  - 'government ai procurement: phased governance, testing, monitoring, and exit conditions'
+  authoritative_domains: &id003
+  - fcc.gov
+  - ftc.gov
+  - nist.gov
+  - ntia.gov
+  - commerce.gov
+  - gao.gov
+  - cisa.gov
+- id: municipal-bond-resilience
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to evaluate a municipal capital plan under revenue, climate, pension, and refinancing stress.
+    Require a cited long-form report that reconstructs controlling authority and chronology, joins distributed
+    evidence across the named workstreams, resolves genuine scope/date/definition conflicts, performs
+    multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions, preserves
+    bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States finance, banking, insurance, and investment policy; target decision: evaluate
+    a municipal capital plan under revenue, climate, pension, and refinancing stress'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'municipal bond resilience: controlling financial authority and institutional scope'
+  - 'municipal bond resilience: market size, exposures, and trend measurement'
+  - 'municipal bond resilience: capital, liquidity, solvency, and loss transmission'
+  - 'municipal bond resilience: consumer and investor protection'
+  - 'municipal bond resilience: product structure, fees, incentives, and conflicts'
+  - 'municipal bond resilience: macroeconomic and distributional effects'
+  - 'municipal bond resilience: scenario calculations, stress assumptions, and denominators'
+  - 'municipal bond resilience: implementation capacity and market responses'
+  - 'municipal bond resilience: counterevidence, model risk, and unresolved uncertainty'
+  - 'municipal bond resilience: phased controls, disclosures, monitoring, and escalation'
+  authoritative_domains: &id004
+  - federalreserve.gov
+  - fdic.gov
+  - sec.gov
+  - consumerfinance.gov
+  - treasury.gov
+  - cftc.gov
+  - naic.org
+- id: warehouse-safety-productivity
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to govern warehouse productivity and safety across quotas, injury
+    evidence, monitoring, ergonomics, discipline, and enforcement, who needs evidence for a well-informed
+    meeting rather than personalized professional advice. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States work, employment, labor-market, and workforce policy; target decision: govern
+    warehouse productivity and safety across quotas, injury evidence, monitoring, ergonomics, discipline,
+    and enforcement'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'warehouse safety productivity: employment, wage, vacancy, and participation baselines'
+  - 'warehouse safety productivity: federal, state, local, and contractual authority'
+  - 'warehouse safety productivity: worker, employer, occupation, and program scope'
+  - 'warehouse safety productivity: job quality, safety, scheduling, and benefit evidence'
+  - 'warehouse safety productivity: skills, training, hiring, and advancement pathways'
+  - 'warehouse safety productivity: business capacity, compliance cost, and labor demand'
+  - 'warehouse safety productivity: disparities, accessibility, caregiving, and geographic effects'
+  - 'warehouse safety productivity: earnings, productivity, cost, and denominator calculations'
+  - 'warehouse safety productivity: counterevidence, substitution, displacement, and uncertainty'
+  - 'warehouse safety productivity: phasing, enforcement, monitoring, and adjustment triggers'
+  authoritative_domains:
+  - dol.gov
+  - bls.gov
+  - eeoc.gov
+  - osha.gov
+  - census.gov
+  - gao.gov
+  - nces.ed.gov
+- id: autonomous-shuttle-pilot
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to decide whether and how to pilot autonomous shuttles across safety, accessibility,
+    operations, liability, and public value. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States transportation, mobility, logistics, and travel policy; target decision: decide
+    whether and how to pilot autonomous shuttles across safety, accessibility, operations, liability,
+    and public value'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'autonomous shuttle pilot: travel demand, network performance, and safety baselines'
+  - 'autonomous shuttle pilot: federal, state, local, and operator authority'
+  - 'autonomous shuttle pilot: infrastructure condition, capacity, and resilience'
+  - 'autonomous shuttle pilot: technology performance and operational integration'
+  - 'autonomous shuttle pilot: accessibility, equity, land use, and community impacts'
+  - 'autonomous shuttle pilot: capital, operating cost, revenue, and funding eligibility'
+  - 'autonomous shuttle pilot: environmental, health, and economic effects'
+  - 'autonomous shuttle pilot: scenario calculations and appraisal assumptions'
+  - 'autonomous shuttle pilot: delivery risk, counterevidence, and uncertainty'
+  - 'autonomous shuttle pilot: phasing, pilots, monitoring, and decision triggers'
+  authoritative_domains:
+  - transportation.gov
+  - fhwa.dot.gov
+  - fta.dot.gov
+  - fra.dot.gov
+  - faa.gov
+  - ntsb.gov
+  - bts.gov
+- id: port-disruption-continuity
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to prepare importers and regional agencies for a prolonged major-port disruption.
+    Require a cited long-form report that reconstructs controlling authority and chronology, joins distributed
+    evidence across the named workstreams, resolves genuine scope/date/definition conflicts, performs
+    multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions, preserves
+    bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States industrial strategy, business operations, and international supply chains; target
+    decision: prepare importers and regional agencies for a prolonged major-port disruption'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'port disruption continuity: demand, capacity, concentration, and trade baselines'
+  - 'port disruption continuity: supplier tiers, dependencies, and substitution limits'
+  - 'port disruption continuity: standards, regulation, and public-policy authority'
+  - 'port disruption continuity: technology maturity, quality, and production yield'
+  - 'port disruption continuity: capital, operating cost, incentives, and financing'
+  - 'port disruption continuity: workforce, infrastructure, and regional constraints'
+  - 'port disruption continuity: environmental, labor, and community impacts'
+  - 'port disruption continuity: scenario calculations and disruption transmission'
+  - 'port disruption continuity: alternative sourcing, inventory, and continuity strategies'
+  - 'port disruption continuity: sequencing, qualification, monitoring, and exit conditions'
+  authoritative_domains:
+  - commerce.gov
+  - trade.gov
+  - usitc.gov
+  - nist.gov
+  - bls.gov
+  - census.gov
+  - ustr.gov
+- id: overdose-prevention-portfolio
+  idea: Build a live-web deep-research task for a multi-agency health planning coalition deciding how
+    to choose a statewide overdose-prevention portfolio across treatment access, harm reduction, prescribing,
+    and recovery support. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: choose
+    a statewide overdose-prevention portfolio across treatment access, harm reduction, prescribing, and
+    recovery support'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'overdose prevention portfolio: burden, incidence, and trend measurement'
+  - 'overdose prevention portfolio: population eligibility, disparities, and access'
+  - 'overdose prevention portfolio: clinical or operational effectiveness evidence'
+  - 'overdose prevention portfolio: capacity, workforce, and implementation constraints'
+  - 'overdose prevention portfolio: federal, state, and local authority'
+  - 'overdose prevention portfolio: coverage, reimbursement, and affordability'
+  - 'overdose prevention portfolio: supply continuity and infrastructure resilience'
+  - 'overdose prevention portfolio: scenario calculations and threshold design'
+  - 'overdose prevention portfolio: harms, counterevidence, and uncertainty boundaries'
+  - 'overdose prevention portfolio: phased implementation, monitoring, and reassessment'
+  authoritative_domains:
+  - cdc.gov
+  - hhs.gov
+  - cms.gov
+  - nih.gov
+  - ahrq.gov
+  - fda.gov
+  - who.int
+- id: college-affordability-aid-redesign
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to redesign state student aid across need, merit, completion incentives, part-time study,
+    and institutional response. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States education, learning, and training policy; target decision: redesign state student
+    aid across need, merit, completion incentives, part-time study, and institutional response'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'college affordability aid redesign: student population, participation, and outcome baselines'
+  - 'college affordability aid redesign: federal, state, local, and institutional authority'
+  - 'college affordability aid redesign: eligibility, admissions, placement, and completion rules'
+  - 'college affordability aid redesign: instructional effectiveness and evidence quality'
+  - 'college affordability aid redesign: educator workforce, facilities, and delivery capacity'
+  - 'college affordability aid redesign: funding formulas, student cost, and fiscal sustainability'
+  - 'college affordability aid redesign: disability access, language access, and distributional equity'
+  - 'college affordability aid redesign: credential value, transferability, and labor-market alignment'
+  - 'college affordability aid redesign: counterevidence, measurement limits, and unintended effects'
+  - 'college affordability aid redesign: phasing, evaluation, safeguards, and revision triggers'
+  authoritative_domains:
+  - ed.gov
+  - nces.ed.gov
+  - ies.ed.gov
+  - bls.gov
+  - dol.gov
+  - gao.gov
+  - census.gov
+- id: hearing-aid-market
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to evaluate consumer outcomes in over-the-counter and prescription
+    hearing-aid markets, who needs evidence for a well-informed meeting rather than personalized professional
+    advice. Require a cited long-form report that reconstructs controlling authority and chronology, joins
+    distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States consumer products, services, markets, and protection policy; target decision:
+    evaluate consumer outcomes in over-the-counter and prescription hearing-aid markets'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Shopping/Product Comparison
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'hearing aid market: product or service market structure'
+  - 'hearing aid market: controlling consumer-protection authority'
+  - 'hearing aid market: claims, disclosures, pricing, and contract terms'
+  - 'hearing aid market: safety, quality, reliability, and complaint evidence'
+  - 'hearing aid market: affected populations and distributional impacts'
+  - 'hearing aid market: vendor, platform, and intermediary responsibilities'
+  - 'hearing aid market: remedies, enforcement, and compliance alternatives'
+  - 'hearing aid market: quantitative incidence, cost, and outcome comparisons'
+  - 'hearing aid market: counterevidence, scope limits, and uncertainty'
+  - 'hearing aid market: implementation priorities, monitoring, and escalation'
+  authoritative_domains:
+  - ftc.gov
+  - cpsc.gov
+  - consumerfinance.gov
+  - fda.gov
+  - dot.gov
+  - fcc.gov
+  - usa.gov
+- id: building-electrification-transition
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to sequence building electrification while managing grid peaks, housing affordability,
+    and workforce capacity. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States climate, environmental, and energy policy with relevant regional implementation;
+    target decision: sequence building electrification while managing grid peaks, housing affordability,
+    and workforce capacity'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'building electrification transition: hazard baselines and projected exposure'
+  - 'building electrification transition: federal, state, tribal, and local authority'
+  - 'building electrification transition: technology performance and lifecycle evidence'
+  - 'building electrification transition: infrastructure capacity and interdependencies'
+  - 'building electrification transition: community health, equity, and environmental justice'
+  - 'building electrification transition: capital cost, operating cost, and financing'
+  - 'building electrification transition: permitting, siting, and implementation timelines'
+  - 'building electrification transition: scenario modeling, units, and denominator alignment'
+  - 'building electrification transition: counterevidence, leakage, and uncertainty'
+  - 'building electrification transition: sequencing, triggers, monitoring, and adaptive management'
+  authoritative_domains:
+  - epa.gov
+  - energy.gov
+  - noaa.gov
+  - usgs.gov
+  - fema.gov
+  - blm.gov
+  - nrel.gov
+- id: homelessness-permanent-housing
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to allocate homelessness resources across prevention, shelter, supportive housing,
+    rapid rehousing, and service capacity. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States housing, real-estate, and community-development policy; target decision: allocate
+    homelessness resources across prevention, shelter, supportive housing, rapid rehousing, and service
+    capacity'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'homelessness permanent housing: housing need, supply, vacancy, and cost baselines'
+  - 'homelessness permanent housing: federal, state, local, and contractual authority'
+  - 'homelessness permanent housing: eligibility, tenant, borrower, and property scope'
+  - 'homelessness permanent housing: production, preservation, and rehabilitation capacity'
+  - 'homelessness permanent housing: finance, subsidy, insurance, and lifecycle cost'
+  - 'homelessness permanent housing: displacement, segregation, accessibility, and fair-housing effects'
+  - 'homelessness permanent housing: land use, infrastructure, climate, and neighborhood impacts'
+  - 'homelessness permanent housing: market response, appraisal, and quantitative assumptions'
+  - 'homelessness permanent housing: counterevidence, implementation failure, and uncertainty'
+  - 'homelessness permanent housing: sequencing, tenant safeguards, monitoring, and reassessment'
+  authoritative_domains:
+  - hud.gov
+  - fhfa.gov
+  - census.gov
+  - consumerfinance.gov
+  - gao.gov
+  - fema.gov
+  - usda.gov
+- id: aquaculture-siting
+  idea: Build a live-web deep-research task for a food-system resilience and agricultural policy board
+    deciding how to site and regulate aquaculture across production, water quality, disease, escapes,
+    feed, and coastal communities. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States food, agriculture, fisheries, and animal-system policy; target decision: site
+    and regulate aquaculture across production, water quality, disease, escapes, feed, and coastal communities'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'aquaculture siting: production, demand, trade, and concentration baselines'
+  - 'aquaculture siting: federal, state, tribal, and local authority'
+  - 'aquaculture siting: farm, processor, distributor, and retailer incentives'
+  - 'aquaculture siting: food safety, animal health, and public-health evidence'
+  - 'aquaculture siting: soil, water, biodiversity, and climate impacts'
+  - 'aquaculture siting: labor, rural communities, and equity'
+  - 'aquaculture siting: technology performance and adoption constraints'
+  - 'aquaculture siting: scenario calculations, units, yields, and denominators'
+  - 'aquaculture siting: counterevidence, leakage, and uncertainty'
+  - 'aquaculture siting: phased implementation, monitoring, and contingency plans'
+  authoritative_domains:
+  - usda.gov
+  - fda.gov
+  - epa.gov
+  - noaa.gov
+  - usgs.gov
+  - cdc.gov
+  - ers.usda.gov
+- id: workforce-training-allocation
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to allocate workforce-training funds across displaced workers, employers, community colleges,
+    and high-growth occupations. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States government administration and public-service delivery; target decision: allocate
+    workforce-training funds across displaced workers, employers, community colleges, and high-growth
+    occupations'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: General Knowledge
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'workforce training allocation: statutory authority and program eligibility'
+  - 'workforce training allocation: service demand and population need'
+  - 'workforce training allocation: current performance and administrative burden'
+  - 'workforce training allocation: federal, state, local, and tribal role allocation'
+  - 'workforce training allocation: procurement, workforce, and vendor capacity'
+  - 'workforce training allocation: budget authority, obligation, spending, and lifecycle cost'
+  - 'workforce training allocation: accessibility, language access, and distributional equity'
+  - 'workforce training allocation: privacy, due process, and accountability safeguards'
+  - 'workforce training allocation: implementation alternatives and failure modes'
+  - 'workforce training allocation: phasing, performance measures, and corrective triggers'
+  authoritative_domains:
+  - gao.gov
+  - usa.gov
+  - census.gov
+  - omb.gov
+  - gsa.gov
+  - fema.gov
+  - congress.gov
+- id: children-digital-advertising
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to govern digital advertising to children across targeting, influencers,
+    disclosures, privacy, platform design, and enforcement, who needs evidence for a well-informed meeting
+    rather than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States media, journalism, and information-integrity policy; target decision: govern digital
+    advertising to children across targeting, influencers, disclosures, privacy, platform design, and
+    enforcement'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Needle-in-a-Haystack
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'children digital advertising: audience, reach, trust, and information-need baselines'
+  - 'children digital advertising: constitutional, regulatory, platform, and contractual authority'
+  - 'children digital advertising: publisher, platform, advertiser, and creator incentives'
+  - 'children digital advertising: news-production capacity and local-market structure'
+  - 'children digital advertising: provenance, moderation, recommendation, and technical systems'
+  - 'children digital advertising: speech, privacy, civil-rights, and safety implications'
+  - 'children digital advertising: funding, ownership, competition, and sustainability'
+  - 'children digital advertising: measurement design, attribution, and denominator alignment'
+  - 'children digital advertising: counterevidence, uncertainty, and manipulation risk'
+  - 'children digital advertising: implementation safeguards, transparency, monitoring, and appeal'
+  authoritative_domains:
+  - fcc.gov
+  - ftc.gov
+  - loc.gov
+  - gao.gov
+  - census.gov
+  - nist.gov
+  - congress.gov
+- id: research-misconduct-system
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to improve research-misconduct prevention and investigation across institutions,
+    funders, journals, and whistleblowers. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States research policy, scholarly communication, and scientific infrastructure; target
+    decision: improve research-misconduct prevention and investigation across institutions, funders, journals,
+    and whistleblowers'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'research misconduct system: policy authority and institutional applicability'
+  - 'research misconduct system: research-field and infrastructure baselines'
+  - 'research misconduct system: evidence quality, reproducibility, and external validity'
+  - 'research misconduct system: publishing, data, software, and access practices'
+  - 'research misconduct system: researcher incentives, careers, and workforce'
+  - 'research misconduct system: participant, community, ethical, and equity safeguards'
+  - 'research misconduct system: cost, capacity, governance, and implementation'
+  - 'research misconduct system: quantitative metrics and denominator alignment'
+  - 'research misconduct system: counterevidence, uncertainty, and unintended effects'
+  - 'research misconduct system: phased policy, evaluation, and revision triggers'
+  authoritative_domains:
+  - nsf.gov
+  - nih.gov
+  - nasa.gov
+  - energy.gov
+  - nist.gov
+  - ostp.gov
+  - nationalacademies.org
+- id: automated-benefit-due-process
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to govern automated public-benefit decisions with notice, explanation, appeal,
+    and error-correction safeguards. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States legal, regulatory, civil-rights, and enforcement policy; target decision: govern
+    automated public-benefit decisions with notice, explanation, appeal, and error-correction safeguards'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'automated benefit due process: controlling statutes, regulations, and case law'
+  - 'automated benefit due process: jurisdiction, standing, preemption, and applicability'
+  - 'automated benefit due process: effective dates, transitions, and superseded authority'
+  - 'automated benefit due process: regulated-entity duties and available exceptions'
+  - 'automated benefit due process: individual rights, remedies, and procedural protections'
+  - 'automated benefit due process: agency guidance, enforcement posture, and judicial review'
+  - 'automated benefit due process: empirical impacts and affected populations'
+  - 'automated benefit due process: compliance alternatives, cost, and operational feasibility'
+  - 'automated benefit due process: unresolved conflicts and litigation risk'
+  - 'automated benefit due process: decision conditions, safeguards, documentation, and monitoring'
+  authoritative_domains: *id001
+- id: nonprofit-data-sharing
+  idea: Build a live-web deep-research task for a nonprofit and philanthropic governance coalition deciding
+    how to govern nonprofit data sharing across service coordination, consent, privacy, interoperability,
+    burden, and community benefit. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States nonprofit, philanthropy, and social-impact policy; target decision: govern nonprofit
+    data sharing across service coordination, consent, privacy, interoperability, burden, and community
+    benefit'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'nonprofit data sharing: community need, service coverage, and outcome baselines'
+  - 'nonprofit data sharing: tax, charity, grant, contract, and fiduciary authority'
+  - 'nonprofit data sharing: beneficiary, organization, and program eligibility'
+  - 'nonprofit data sharing: service quality, evidence, and implementation capacity'
+  - 'nonprofit data sharing: revenue mix, reserves, overhead, and financial resilience'
+  - 'nonprofit data sharing: governance, conflicts, accountability, and public trust'
+  - 'nonprofit data sharing: equity, participation, accessibility, and community control'
+  - 'nonprofit data sharing: impact measurement, attribution, and cost normalization'
+  - 'nonprofit data sharing: counterevidence, displacement, and uncertainty boundaries'
+  - 'nonprofit data sharing: portfolio sequencing, learning, monitoring, and exit conditions'
+  authoritative_domains: *id002
+- id: app-store-competition
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to govern app-store competition across distribution, payments, security review, ranking,
+    developer access, and consumers. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States technology, telecommunications, digital-infrastructure, and platform policy; target
+    decision: govern app-store competition across distribution, payments, security review, ranking, developer
+    access, and consumers'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'app store competition: controlling authority, standards, and institutional scope'
+  - 'app store competition: market structure, adoption, and performance baselines'
+  - 'app store competition: technical architecture and interoperability'
+  - 'app store competition: reliability, resilience, safety, and incident evidence'
+  - 'app store competition: privacy, civil rights, and consumer impacts'
+  - 'app store competition: competition, procurement, and vendor concentration'
+  - 'app store competition: capital, operating cost, workforce, and deployment constraints'
+  - 'app store competition: scenario calculations and metric reconciliation'
+  - 'app store competition: counterevidence, obsolescence, and uncertainty'
+  - 'app store competition: phased governance, testing, monitoring, and exit conditions'
+  authoritative_domains: *id003
+- id: hospital-capital-finance
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to choose a capital-financing strategy for safety-net hospital modernization
+    under reimbursement and demand uncertainty, who needs evidence for a well-informed meeting rather
+    than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States finance, banking, insurance, and investment policy; target decision: choose a
+    capital-financing strategy for safety-net hospital modernization under reimbursement and demand uncertainty'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'hospital capital finance: controlling financial authority and institutional scope'
+  - 'hospital capital finance: market size, exposures, and trend measurement'
+  - 'hospital capital finance: capital, liquidity, solvency, and loss transmission'
+  - 'hospital capital finance: consumer and investor protection'
+  - 'hospital capital finance: product structure, fees, incentives, and conflicts'
+  - 'hospital capital finance: macroeconomic and distributional effects'
+  - 'hospital capital finance: scenario calculations, stress assumptions, and denominators'
+  - 'hospital capital finance: implementation capacity and market responses'
+  - 'hospital capital finance: counterevidence, model risk, and unresolved uncertainty'
+  - 'hospital capital finance: phased controls, disclosures, monitoring, and escalation'
+  authoritative_domains: *id004

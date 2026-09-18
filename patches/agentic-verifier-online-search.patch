@@ -1,0 +1,172 @@
+diff --git a/src/agentic_verifier/backend.py b/src/agentic_verifier/backend.py
+index 6e26101..784203c 100644
+--- a/src/agentic_verifier/backend.py
++++ b/src/agentic_verifier/backend.py
+@@ -3,6 +3,7 @@
+ from __future__ import annotations
+ 
+ import json
++import os
+ import time
+ from collections.abc import Callable, Iterable, Mapping
+ from pathlib import Path
+@@ -87,7 +88,12 @@ class OpenAICompatibleBackend:
+         }
++        if os.environ.get("VERIFIER_REASONING_EFFORT"):
++            payload["reasoning_effort"] = os.environ["VERIFIER_REASONING_EFFORT"]
+         if request.tools:
+             payload["tools"] = list(request.tools)
+-        if request.response_schema and self.response_format:
++        # DeepSeek's OpenRouter route currently rejects json_schema response
++        # formats with HTTP 400. The loop already validates/parses JSON, so
++        # use the explicit JSON prompt without transport-level schema there.
++        if request.response_schema and self.response_format and not self.model.startswith('deepseek/'):
+             payload["response_format"] = {
+                 "type": "json_schema",
+                 "json_schema": {
+diff --git a/src/agentic_verifier/loop.py b/src/agentic_verifier/loop.py
+index 398507d..25282f2 100644
+--- a/src/agentic_verifier/loop.py
++++ b/src/agentic_verifier/loop.py
+@@ -590,18 +590,24 @@ def _claim_ids(value: Any) -> set[str]:
+ 
+ 
+ def _source_ids(value: Any) -> set[str]:
+-    """Collect exact source IDs from trusted online manifests."""
++    """Collect exact source IDs from the package graph or manifest."""
+ 
+     manifest = value.get("source_manifest") if isinstance(value, Mapping) else None
+-    return {
++    ids = {
+         row.source_id.strip()
+         for row in validated_source_manifest_rows(manifest)
+         if row.source_id and row.source_id.strip()
+     }
++    graph = value.get("evidence_graph") if isinstance(value, Mapping) else None
++    if isinstance(graph, Mapping):
++        for node in graph.get("nodes") or []:
++            if isinstance(node, Mapping) and node.get("id") and node.get("type") == "source":
++                ids.add(str(node["id"]).strip())
++    return ids
+ 
+ 
+ def _source_urls(value: Any) -> list[str]:
+-    """Return stable exact URLs from a trusted online source manifest."""
++    """Return stable exact URLs from the package graph or manifest."""
+ 
+     manifest = value.get("source_manifest") if isinstance(value, Mapping) else None
+     urls = {
+@@ -609,6 +615,14 @@ def _source_urls(value: Any) -> list[str]:
+         for row in validated_source_manifest_rows(manifest)
+         if row.url and row.url.strip()
+     }
++    graph = value.get("evidence_graph") if isinstance(value, Mapping) else None
++    if isinstance(graph, Mapping):
++        for node in graph.get("nodes") or []:
++            if isinstance(node, Mapping) and node.get("url"):
++                urls.add(str(node["url"]).strip())
++        for claim in graph.get("rubric_claims") or []:
++            if isinstance(claim, Mapping):
++                urls.update(str(url).strip() for url in claim.get("source_urls") or [] if str(url).strip())
+     return sorted(urls)
+ 
+ 
+diff --git a/src/agentic_verifier/runner.py b/src/agentic_verifier/runner.py
+index 07b32db..0536e41 100644
+--- a/src/agentic_verifier/runner.py
++++ b/src/agentic_verifier/runner.py
+@@ -428,29 +428,33 @@ def _load_references(root: Path, policy: VerifierPolicy) -> dict[str, Any]:
+ 
+     result: dict[str, Any] = {}
+     # Online packages keep their authoritative claim registry in
+-    # ``ground_truth.json`` and their exact URL catalog in
+-    # ``source_manifest.json``.  The older evidence-graph-only loader made
+-    # every online rubric claim appear unavailable to the verifier.
+-    for key, relative in (
+-        ("evidence_graph", "tests/reference/evidence_graph.json"),
+-        ("ground_truth", "tests/reference/ground_truth.json"),
+-        ("source_manifest", "tests/reference/source_manifest.json"),
+-    ):
+-        try:
+-            raw = _read_required_bytes(
+-                root,
+-                relative,
+-                limit=policy.max_reference_bytes,
+-                label=relative,
+-            )
+-        except ConfigurationError:
+-            continue
+-        try:
+-            value = json.loads(raw)
+-        except json.JSONDecodeError:
+-            result[key] = {"error": "malformed reference"}
+-        else:
+-            result[key] = value
++    # ``ground_truth.json`` and their evidence graph in the solver's
++    # ``solution/evidence_graph.json``.  Do not require a duplicate
++    # tests/reference graph or a source_manifest.json: those are not part of
++    # the Online Search task contract.
++    references = (
++        ("evidence_graph", ("tests/reference/evidence_graph.json", "solution/evidence_graph.json")),
++        ("ground_truth", ("tests/reference/ground_truth.json",)),
++        ("source_manifest", ("tests/reference/source_manifest.json",)),
++    )
++    for key, relatives in references:
++        for relative in relatives:
++            try:
++                raw = _read_required_bytes(
++                    root,
++                    relative,
++                    limit=policy.max_reference_bytes,
++                    label=relative,
++                )
++            except ConfigurationError:
++                continue
++            try:
++                value = json.loads(raw)
++            except json.JSONDecodeError:
++                result[key] = {"error": "malformed reference"}
++            else:
++                result[key] = value
++            break
+     for relative in ("tests/source_tiers.txt", "tests/reference/source_tiers.txt"):
+         try:
+             raw = _read_required_bytes(
+diff --git a/src/agentic_verifier/scoring.py b/src/agentic_verifier/scoring.py
+index 5d430b8..04cd1d1 100644
+--- a/src/agentic_verifier/scoring.py
++++ b/src/agentic_verifier/scoring.py
+@@ -327,17 +327,28 @@ def _citation_validator(
+                 source_urls.add(normalize_url(record.url))
+         except (AttributeError, OSError, ValueError):
+             pass
+-    # Online task packages bind exact source URLs in
+-    # ``tests/reference/source_manifest.json``.  Those URLs are trusted
+-    # package references even when the model does not need to rediscover the
+-    # source through the search tool.  Include them in citation validation,
+-    # while keeping the catalog limited to the manifest's explicit sources.
++    # Online task packages bind exact source URLs in the task's evidence graph.
++    # A source_manifest.json is optional and is not part of the task contract.
+     manifest = (reference_context or {}).get("source_manifest")
+     for row in validated_source_manifest_rows(manifest):
+         if row.source_id and row.source_id.strip():
+             source_ids.add(row.source_id.strip())
+         if row.url and row.url.strip():
+             source_urls.add(normalize_url(row.url))
++    graph = (reference_context or {}).get("evidence_graph")
++    if isinstance(graph, Mapping):
++        for node in graph.get("nodes") or []:
++            if not isinstance(node, Mapping):
++                continue
++            if node.get("type") == "source" and node.get("id"):
++                source_ids.add(str(node["id"]).strip())
++            if node.get("url"):
++                source_urls.add(normalize_url(str(node["url"])))
++        for claim in graph.get("rubric_claims") or []:
++            if isinstance(claim, Mapping):
++                for url in claim.get("source_urls") or []:
++                    if url:
++                        source_urls.add(normalize_url(str(url)))
+     return CitationValidator(
+         source_ids=frozenset(source_ids),
+         source_urls=frozenset(source_urls),

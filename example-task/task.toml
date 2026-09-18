@@ -1,0 +1,42 @@
+version = "1.0"
+
+artifacts = ["/app/output/report.md"]
+
+[task]
+name = "parsewave/example-task"
+
+[verifier]
+timeout_sec = 1600.0
+user = "root"
+environment_mode = "separate"
+
+[verifier.environment]
+build_timeout_sec = 600.0
+cpus = 2
+memory_mb = 6144
+storage_mb = 8192
+gpus = 0
+allow_internet = true
+network_mode = "host"
+
+[verifier.env]
+LLM_JUDGE_REASONING_EFFORT = "xhigh"
+LLM_JUDGE_BASE_URL = "${LLM_JUDGE_BASE_URL:-http://127.0.0.1:18099/v1}"
+LLM_JUDGE_API_KEY = "${LLM_JUDGE_API_KEY}"
+LLM_JUDGE_MODEL = "deepseek/deepseek-v4.1-flash"
+LLM_JUDGE_BATCH_SIZE = "${LLM_JUDGE_BATCH_SIZE}"
+LLM_JUDGE_USAGE_CONTEXT = "${LLM_JUDGE_USAGE_CONTEXT}"
+ONLINE_SEARCH_AGENTIC_VERIFIER_BIN = "${ONLINE_SEARCH_AGENTIC_VERIFIER_BIN}"
+VERIFIER_SEARCH_URL = "${VERIFIER_SEARCH_URL:-http://127.0.0.1:18120}"
+
+[agent]
+timeout_sec = 10800.0
+user = "agent"
+
+[environment]
+build_timeout_sec = 1200.0
+cpus = 4
+memory_mb = 8192
+storage_mb = 30720
+gpus = 0
+allow_internet = true

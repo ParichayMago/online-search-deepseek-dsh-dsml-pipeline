@@ -1,0 +1,8 @@
+services:
+  main:
+    env_file:
+      - ${OPENROUTER_ENV_FILE}
+    volumes:
+      - ${CODEX_VENDOR_ROOT}:/opt/codex-vendor:ro
+      - ${HOME}/.codex-openrouter-dsml-e9ce61d:${HOME}/.codex-openrouter-dsml-e9ce61d:rw
+

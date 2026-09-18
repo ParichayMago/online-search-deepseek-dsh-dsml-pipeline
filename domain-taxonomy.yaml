@@ -1,0 +1,42 @@
+schema_version: online-search-domain-taxonomy-v1
+
+# Canonical task domains currently permitted for new Online Search production.
+allowed_domains:
+  - Academic
+  - Consumer Safety
+  - Finance
+  - General Knowledge
+  - Manufacturing
+  - Media and journalism
+  - Medicine
+  - Needle-in-a-Haystack
+  - Personalized Assistant
+  - Shopping/Product Comparison
+  - Technology
+
+# Matching is case-insensitive and punctuation-insensitive. A seed using one
+# of these labels, or containing one as a domain component, is rejected before
+# template instantiation or any model call.
+forbidden_domains:
+  - Law
+  - Legal
+  - Public Policy
+  - Public-policy
+  - Environment
+  - Environmental
+  - Climate
+  - Environment and Climate
+  - Energy and Environment
+  - Energy/Environment
+
+default_catalog:
+  source_globs:
+    - "idea[0-9]*.yaml"
+    - "consumer-safety-[ab].yaml"
+    - "manufacturing-anomaly-[ab].yaml"
+    - "media-journalism-[ab].yaml"
+  output: ideas.yaml
+  reserve_output: ideas-reserve.yaml
+  reserve_every: 5
+  max_tasks_per_domain: 25
+  ordering: round_robin_by_domain

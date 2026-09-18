@@ -1,0 +1,646 @@
+version: 1
+ideas:
+- id: bank-climate-risk
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to design proportionate climate-risk supervision for banks with different portfolios
+    and sizes. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States finance, banking, insurance, and investment policy; target decision: design proportionate
+    climate-risk supervision for banks with different portfolios and sizes'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'bank climate risk: controlling financial authority and institutional scope'
+  - 'bank climate risk: market size, exposures, and trend measurement'
+  - 'bank climate risk: capital, liquidity, solvency, and loss transmission'
+  - 'bank climate risk: consumer and investor protection'
+  - 'bank climate risk: product structure, fees, incentives, and conflicts'
+  - 'bank climate risk: macroeconomic and distributional effects'
+  - 'bank climate risk: scenario calculations, stress assumptions, and denominators'
+  - 'bank climate risk: implementation capacity and market responses'
+  - 'bank climate risk: counterevidence, model risk, and unresolved uncertainty'
+  - 'bank climate risk: phased controls, disclosures, monitoring, and escalation'
+  authoritative_domains: &id001
+  - federalreserve.gov
+  - fdic.gov
+  - sec.gov
+  - consumerfinance.gov
+  - treasury.gov
+  - cftc.gov
+  - naic.org
+- id: predictive-scheduling-policy
+  idea: Build a live-web deep-research task for a labor-market and workforce strategy commission deciding
+    how to design predictive-scheduling rules across notice, changes, worker income, employer flexibility,
+    enforcement, and coverage. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States work, employment, labor-market, and workforce policy; target decision: design
+    predictive-scheduling rules across notice, changes, worker income, employer flexibility, enforcement,
+    and coverage'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'predictive scheduling policy: employment, wage, vacancy, and participation baselines'
+  - 'predictive scheduling policy: federal, state, local, and contractual authority'
+  - 'predictive scheduling policy: worker, employer, occupation, and program scope'
+  - 'predictive scheduling policy: job quality, safety, scheduling, and benefit evidence'
+  - 'predictive scheduling policy: skills, training, hiring, and advancement pathways'
+  - 'predictive scheduling policy: business capacity, compliance cost, and labor demand'
+  - 'predictive scheduling policy: disparities, accessibility, caregiving, and geographic effects'
+  - 'predictive scheduling policy: earnings, productivity, cost, and denominator calculations'
+  - 'predictive scheduling policy: counterevidence, substitution, displacement, and uncertainty'
+  - 'predictive scheduling policy: phasing, enforcement, monitoring, and adjustment triggers'
+  authoritative_domains: &id002
+  - dol.gov
+  - bls.gov
+  - eeoc.gov
+  - osha.gov
+  - census.gov
+  - gao.gov
+  - nces.ed.gov
+- id: bus-fleet-electrification
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to sequence bus-fleet electrification across routes, charging, depots, grid upgrades, workforce,
+    and service reliability. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States transportation, mobility, logistics, and travel policy; target decision: sequence
+    bus-fleet electrification across routes, charging, depots, grid upgrades, workforce, and service reliability'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'bus fleet electrification: travel demand, network performance, and safety baselines'
+  - 'bus fleet electrification: federal, state, local, and operator authority'
+  - 'bus fleet electrification: infrastructure condition, capacity, and resilience'
+  - 'bus fleet electrification: technology performance and operational integration'
+  - 'bus fleet electrification: accessibility, equity, land use, and community impacts'
+  - 'bus fleet electrification: capital, operating cost, revenue, and funding eligibility'
+  - 'bus fleet electrification: environmental, health, and economic effects'
+  - 'bus fleet electrification: scenario calculations and appraisal assumptions'
+  - 'bus fleet electrification: delivery risk, counterevidence, and uncertainty'
+  - 'bus fleet electrification: phasing, pilots, monitoring, and decision triggers'
+  authoritative_domains: &id003
+  - transportation.gov
+  - fhwa.dot.gov
+  - fta.dot.gov
+  - fra.dot.gov
+  - faa.gov
+  - ntsb.gov
+  - bts.gov
+- id: pharmaceutical-shortage-resilience
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to reduce pharmaceutical shortages across manufacturing quality,
+    concentration, purchasing incentives, inventory, and transparency, who needs evidence for a well-informed
+    meeting rather than personalized professional advice. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States industrial strategy, business operations, and international supply chains; target
+    decision: reduce pharmaceutical shortages across manufacturing quality, concentration, purchasing
+    incentives, inventory, and transparency'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'pharmaceutical shortage resilience: demand, capacity, concentration, and trade baselines'
+  - 'pharmaceutical shortage resilience: supplier tiers, dependencies, and substitution limits'
+  - 'pharmaceutical shortage resilience: standards, regulation, and public-policy authority'
+  - 'pharmaceutical shortage resilience: technology maturity, quality, and production yield'
+  - 'pharmaceutical shortage resilience: capital, operating cost, incentives, and financing'
+  - 'pharmaceutical shortage resilience: workforce, infrastructure, and regional constraints'
+  - 'pharmaceutical shortage resilience: environmental, labor, and community impacts'
+  - 'pharmaceutical shortage resilience: scenario calculations and disruption transmission'
+  - 'pharmaceutical shortage resilience: alternative sourcing, inventory, and continuity strategies'
+  - 'pharmaceutical shortage resilience: sequencing, qualification, monitoring, and exit conditions'
+  authoritative_domains: &id004
+  - commerce.gov
+  - trade.gov
+  - usitc.gov
+  - nist.gov
+  - bls.gov
+  - census.gov
+  - ustr.gov
+- id: rural-emergency-access-redesign
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to redesign rural emergency and trauma access without destabilizing essential
+    hospitals. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: redesign
+    rural emergency and trauma access without destabilizing essential hospitals'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'rural emergency access redesign: burden, incidence, and trend measurement'
+  - 'rural emergency access redesign: population eligibility, disparities, and access'
+  - 'rural emergency access redesign: clinical or operational effectiveness evidence'
+  - 'rural emergency access redesign: capacity, workforce, and implementation constraints'
+  - 'rural emergency access redesign: federal, state, and local authority'
+  - 'rural emergency access redesign: coverage, reimbursement, and affordability'
+  - 'rural emergency access redesign: supply continuity and infrastructure resilience'
+  - 'rural emergency access redesign: scenario calculations and threshold design'
+  - 'rural emergency access redesign: harms, counterevidence, and uncertainty boundaries'
+  - 'rural emergency access redesign: phased implementation, monitoring, and reassessment'
+  authoritative_domains:
+  - cdc.gov
+  - hhs.gov
+  - cms.gov
+  - nih.gov
+  - ahrq.gov
+  - fda.gov
+  - who.int
+- id: teacher-shortage-retention-plan
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to address teacher shortages across preparation, compensation, working conditions,
+    licensure, and rural recruitment. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States education, learning, and training policy; target decision: address teacher shortages
+    across preparation, compensation, working conditions, licensure, and rural recruitment'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'teacher shortage retention plan: student population, participation, and outcome baselines'
+  - 'teacher shortage retention plan: federal, state, local, and institutional authority'
+  - 'teacher shortage retention plan: eligibility, admissions, placement, and completion rules'
+  - 'teacher shortage retention plan: instructional effectiveness and evidence quality'
+  - 'teacher shortage retention plan: educator workforce, facilities, and delivery capacity'
+  - 'teacher shortage retention plan: funding formulas, student cost, and fiscal sustainability'
+  - 'teacher shortage retention plan: disability access, language access, and distributional equity'
+  - 'teacher shortage retention plan: credential value, transferability, and labor-market alignment'
+  - 'teacher shortage retention plan: counterevidence, measurement limits, and unintended effects'
+  - 'teacher shortage retention plan: phasing, evaluation, safeguards, and revision triggers'
+  authoritative_domains:
+  - ed.gov
+  - nces.ed.gov
+  - ies.ed.gov
+  - bls.gov
+  - dol.gov
+  - gao.gov
+  - census.gov
+- id: childrens-online-services
+  idea: Build a live-web deep-research task for a consumer-market policy and enforcement group deciding
+    how to set consumer safeguards for children's online services across design, advertising, purchases,
+    privacy, and parental controls. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States consumer products, services, markets, and protection policy; target decision:
+    set consumer safeguards for children''s online services across design, advertising, purchases, privacy,
+    and parental controls'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Shopping/Product Comparison
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'childrens online services: product or service market structure'
+  - 'childrens online services: controlling consumer-protection authority'
+  - 'childrens online services: claims, disclosures, pricing, and contract terms'
+  - 'childrens online services: safety, quality, reliability, and complaint evidence'
+  - 'childrens online services: affected populations and distributional impacts'
+  - 'childrens online services: vendor, platform, and intermediary responsibilities'
+  - 'childrens online services: remedies, enforcement, and compliance alternatives'
+  - 'childrens online services: quantitative incidence, cost, and outcome comparisons'
+  - 'childrens online services: counterevidence, scope limits, and uncertainty'
+  - 'childrens online services: implementation priorities, monitoring, and escalation'
+  authoritative_domains:
+  - ftc.gov
+  - cpsc.gov
+  - consumerfinance.gov
+  - fda.gov
+  - dot.gov
+  - fcc.gov
+  - usa.gov
+- id: pfas-cleanup-prioritization
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to prioritize PFAS drinking-water treatment and source-control investments under evolving
+    standards. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States climate, environmental, and energy policy with relevant regional implementation;
+    target decision: prioritize PFAS drinking-water treatment and source-control investments under evolving
+    standards'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'pfas cleanup prioritization: hazard baselines and projected exposure'
+  - 'pfas cleanup prioritization: federal, state, tribal, and local authority'
+  - 'pfas cleanup prioritization: technology performance and lifecycle evidence'
+  - 'pfas cleanup prioritization: infrastructure capacity and interdependencies'
+  - 'pfas cleanup prioritization: community health, equity, and environmental justice'
+  - 'pfas cleanup prioritization: capital cost, operating cost, and financing'
+  - 'pfas cleanup prioritization: permitting, siting, and implementation timelines'
+  - 'pfas cleanup prioritization: scenario modeling, units, and denominator alignment'
+  - 'pfas cleanup prioritization: counterevidence, leakage, and uncertainty'
+  - 'pfas cleanup prioritization: sequencing, triggers, monitoring, and adaptive management'
+  authoritative_domains:
+  - epa.gov
+  - energy.gov
+  - noaa.gov
+  - usgs.gov
+  - fema.gov
+  - blm.gov
+  - nrel.gov
+- id: first-generation-homeownership
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to support first-generation homeownership across down payments, underwriting,
+    counseling, supply, and wealth risk, who needs evidence for a well-informed meeting rather than personalized
+    professional advice. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States housing, real-estate, and community-development policy; target decision: support
+    first-generation homeownership across down payments, underwriting, counseling, supply, and wealth
+    risk'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'first generation homeownership: housing need, supply, vacancy, and cost baselines'
+  - 'first generation homeownership: federal, state, local, and contractual authority'
+  - 'first generation homeownership: eligibility, tenant, borrower, and property scope'
+  - 'first generation homeownership: production, preservation, and rehabilitation capacity'
+  - 'first generation homeownership: finance, subsidy, insurance, and lifecycle cost'
+  - 'first generation homeownership: displacement, segregation, accessibility, and fair-housing effects'
+  - 'first generation homeownership: land use, infrastructure, climate, and neighborhood impacts'
+  - 'first generation homeownership: market response, appraisal, and quantitative assumptions'
+  - 'first generation homeownership: counterevidence, implementation failure, and uncertainty'
+  - 'first generation homeownership: sequencing, tenant safeguards, monitoring, and reassessment'
+  authoritative_domains:
+  - hud.gov
+  - fhfa.gov
+  - census.gov
+  - consumerfinance.gov
+  - gao.gov
+  - fema.gov
+  - usda.gov
+- id: livestock-antibiotic-stewardship
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to reduce medically important antibiotic use in livestock while protecting animal
+    health and producer viability. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States food, agriculture, fisheries, and animal-system policy; target decision: reduce
+    medically important antibiotic use in livestock while protecting animal health and producer viability'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'livestock antibiotic stewardship: production, demand, trade, and concentration baselines'
+  - 'livestock antibiotic stewardship: federal, state, tribal, and local authority'
+  - 'livestock antibiotic stewardship: farm, processor, distributor, and retailer incentives'
+  - 'livestock antibiotic stewardship: food safety, animal health, and public-health evidence'
+  - 'livestock antibiotic stewardship: soil, water, biodiversity, and climate impacts'
+  - 'livestock antibiotic stewardship: labor, rural communities, and equity'
+  - 'livestock antibiotic stewardship: technology performance and adoption constraints'
+  - 'livestock antibiotic stewardship: scenario calculations, units, yields, and denominators'
+  - 'livestock antibiotic stewardship: counterevidence, leakage, and uncertainty'
+  - 'livestock antibiotic stewardship: phased implementation, monitoring, and contingency plans'
+  authoritative_domains:
+  - usda.gov
+  - fda.gov
+  - epa.gov
+  - noaa.gov
+  - usgs.gov
+  - cdc.gov
+  - ers.usda.gov
+- id: small-water-system-support
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to build a support and consolidation strategy for financially and operationally
+    distressed small water systems. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States government administration and public-service delivery; target decision: build
+    a support and consolidation strategy for financially and operationally distressed small water systems'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: General Knowledge
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'small water system support: statutory authority and program eligibility'
+  - 'small water system support: service demand and population need'
+  - 'small water system support: current performance and administrative burden'
+  - 'small water system support: federal, state, local, and tribal role allocation'
+  - 'small water system support: procurement, workforce, and vendor capacity'
+  - 'small water system support: budget authority, obligation, spending, and lifecycle cost'
+  - 'small water system support: accessibility, language access, and distributional equity'
+  - 'small water system support: privacy, due process, and accountability safeguards'
+  - 'small water system support: implementation alternatives and failure modes'
+  - 'small water system support: phasing, performance measures, and corrective triggers'
+  authoritative_domains:
+  - gao.gov
+  - usa.gov
+  - census.gov
+  - omb.gov
+  - gsa.gov
+  - fema.gov
+  - congress.gov
+- id: newsroom-ai-governance
+  idea: Build a live-web deep-research task for a public-interest media and information-integrity consortium
+    deciding how to govern newsroom use of AI across sourcing, verification, disclosure, copyright, labor,
+    corrections, and accountability. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States media, journalism, and information-integrity policy; target decision: govern newsroom
+    use of AI across sourcing, verification, disclosure, copyright, labor, corrections, and accountability'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Needle-in-a-Haystack
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'newsroom ai governance: audience, reach, trust, and information-need baselines'
+  - 'newsroom ai governance: constitutional, regulatory, platform, and contractual authority'
+  - 'newsroom ai governance: publisher, platform, advertiser, and creator incentives'
+  - 'newsroom ai governance: news-production capacity and local-market structure'
+  - 'newsroom ai governance: provenance, moderation, recommendation, and technical systems'
+  - 'newsroom ai governance: speech, privacy, civil-rights, and safety implications'
+  - 'newsroom ai governance: funding, ownership, competition, and sustainability'
+  - 'newsroom ai governance: measurement design, attribution, and denominator alignment'
+  - 'newsroom ai governance: counterevidence, uncertainty, and manipulation risk'
+  - 'newsroom ai governance: implementation safeguards, transparency, monitoring, and appeal'
+  authoritative_domains:
+  - fcc.gov
+  - ftc.gov
+  - loc.gov
+  - gao.gov
+  - census.gov
+  - nist.gov
+  - congress.gov
+- id: telescope-time-allocation
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to redesign telescope-time allocation across scientific merit, oversubscription, early-career
+    access, risk, and legacy value. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States research policy, scholarly communication, and scientific infrastructure; target
+    decision: redesign telescope-time allocation across scientific merit, oversubscription, early-career
+    access, risk, and legacy value'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'telescope time allocation: policy authority and institutional applicability'
+  - 'telescope time allocation: research-field and infrastructure baselines'
+  - 'telescope time allocation: evidence quality, reproducibility, and external validity'
+  - 'telescope time allocation: publishing, data, software, and access practices'
+  - 'telescope time allocation: researcher incentives, careers, and workforce'
+  - 'telescope time allocation: participant, community, ethical, and equity safeguards'
+  - 'telescope time allocation: cost, capacity, governance, and implementation'
+  - 'telescope time allocation: quantitative metrics and denominator alignment'
+  - 'telescope time allocation: counterevidence, uncertainty, and unintended effects'
+  - 'telescope time allocation: phased policy, evaluation, and revision triggers'
+  authoritative_domains:
+  - nsf.gov
+  - nih.gov
+  - nasa.gov
+  - energy.gov
+  - nist.gov
+  - ostp.gov
+  - nationalacademies.org
+- id: medical-debt-reporting
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to evaluate medical-debt reporting and collection reforms across
+    federal and state authority, who needs evidence for a well-informed meeting rather than personalized
+    professional advice. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States legal, regulatory, civil-rights, and enforcement policy; target decision: evaluate
+    medical-debt reporting and collection reforms across federal and state authority'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'medical debt reporting: controlling statutes, regulations, and case law'
+  - 'medical debt reporting: jurisdiction, standing, preemption, and applicability'
+  - 'medical debt reporting: effective dates, transitions, and superseded authority'
+  - 'medical debt reporting: regulated-entity duties and available exceptions'
+  - 'medical debt reporting: individual rights, remedies, and procedural protections'
+  - 'medical debt reporting: agency guidance, enforcement posture, and judicial review'
+  - 'medical debt reporting: empirical impacts and affected populations'
+  - 'medical debt reporting: compliance alternatives, cost, and operational feasibility'
+  - 'medical debt reporting: unresolved conflicts and litigation risk'
+  - 'medical debt reporting: decision conditions, safeguards, documentation, and monitoring'
+  authoritative_domains:
+  - congress.gov
+  - justice.gov
+  - ftc.gov
+  - dol.gov
+  - eeoc.gov
+  - consumerfinance.gov
+  - law.cornell.edu
+- id: disaster-philanthropy-coordination
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to coordinate disaster philanthropy across immediate relief, recovery, local
+    organizations, duplication, equity, and accountability. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States nonprofit, philanthropy, and social-impact policy; target decision: coordinate
+    disaster philanthropy across immediate relief, recovery, local organizations, duplication, equity,
+    and accountability'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'disaster philanthropy coordination: community need, service coverage, and outcome baselines'
+  - 'disaster philanthropy coordination: tax, charity, grant, contract, and fiduciary authority'
+  - 'disaster philanthropy coordination: beneficiary, organization, and program eligibility'
+  - 'disaster philanthropy coordination: service quality, evidence, and implementation capacity'
+  - 'disaster philanthropy coordination: revenue mix, reserves, overhead, and financial resilience'
+  - 'disaster philanthropy coordination: governance, conflicts, accountability, and public trust'
+  - 'disaster philanthropy coordination: equity, participation, accessibility, and community control'
+  - 'disaster philanthropy coordination: impact measurement, attribution, and cost normalization'
+  - 'disaster philanthropy coordination: counterevidence, displacement, and uncertainty boundaries'
+  - 'disaster philanthropy coordination: portfolio sequencing, learning, monitoring, and exit conditions'
+  authoritative_domains:
+  - irs.gov
+  - census.gov
+  - gao.gov
+  - grants.gov
+  - sba.gov
+  - dol.gov
+  - councilofnonprofits.org
+- id: satellite-broadband-policy
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to evaluate satellite broadband across coverage, capacity, affordability, spectrum,
+    orbital impacts, and public subsidy. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States technology, telecommunications, digital-infrastructure, and platform policy; target
+    decision: evaluate satellite broadband across coverage, capacity, affordability, spectrum, orbital
+    impacts, and public subsidy'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'satellite broadband policy: controlling authority, standards, and institutional scope'
+  - 'satellite broadband policy: market structure, adoption, and performance baselines'
+  - 'satellite broadband policy: technical architecture and interoperability'
+  - 'satellite broadband policy: reliability, resilience, safety, and incident evidence'
+  - 'satellite broadband policy: privacy, civil rights, and consumer impacts'
+  - 'satellite broadband policy: competition, procurement, and vendor concentration'
+  - 'satellite broadband policy: capital, operating cost, workforce, and deployment constraints'
+  - 'satellite broadband policy: scenario calculations and metric reconciliation'
+  - 'satellite broadband policy: counterevidence, obsolescence, and uncertainty'
+  - 'satellite broadband policy: phased governance, testing, monitoring, and exit conditions'
+  authoritative_domains:
+  - fcc.gov
+  - ftc.gov
+  - nist.gov
+  - ntia.gov
+  - commerce.gov
+  - gao.gov
+  - cisa.gov
+- id: buy-now-pay-later
+  idea: Build a live-web deep-research task for a financial-policy and risk committee deciding how to
+    design consumer protections for buy-now-pay-later products across underwriting, disputes, fees, reporting,
+    and repeat use. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States finance, banking, insurance, and investment policy; target decision: design consumer
+    protections for buy-now-pay-later products across underwriting, disputes, fees, reporting, and repeat
+    use'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'buy now pay later: controlling financial authority and institutional scope'
+  - 'buy now pay later: market size, exposures, and trend measurement'
+  - 'buy now pay later: capital, liquidity, solvency, and loss transmission'
+  - 'buy now pay later: consumer and investor protection'
+  - 'buy now pay later: product structure, fees, incentives, and conflicts'
+  - 'buy now pay later: macroeconomic and distributional effects'
+  - 'buy now pay later: scenario calculations, stress assumptions, and denominators'
+  - 'buy now pay later: implementation capacity and market responses'
+  - 'buy now pay later: counterevidence, model risk, and unresolved uncertainty'
+  - 'buy now pay later: phased controls, disclosures, monitoring, and escalation'
+  authoritative_domains: *id001
+- id: minimum-wage-phasein
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to design a minimum-wage phase-in across workers, employers, prices, employment, tipped work,
+    regional variation, and enforcement. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States work, employment, labor-market, and workforce policy; target decision: design
+    a minimum-wage phase-in across workers, employers, prices, employment, tipped work, regional variation,
+    and enforcement'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'minimum wage phasein: employment, wage, vacancy, and participation baselines'
+  - 'minimum wage phasein: federal, state, local, and contractual authority'
+  - 'minimum wage phasein: worker, employer, occupation, and program scope'
+  - 'minimum wage phasein: job quality, safety, scheduling, and benefit evidence'
+  - 'minimum wage phasein: skills, training, hiring, and advancement pathways'
+  - 'minimum wage phasein: business capacity, compliance cost, and labor demand'
+  - 'minimum wage phasein: disparities, accessibility, caregiving, and geographic effects'
+  - 'minimum wage phasein: earnings, productivity, cost, and denominator calculations'
+  - 'minimum wage phasein: counterevidence, substitution, displacement, and uncertainty'
+  - 'minimum wage phasein: phasing, enforcement, monitoring, and adjustment triggers'
+  authoritative_domains: *id002
+- id: protected-bike-network
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to prioritize a protected bicycle network across safety, connectivity,
+    demand, parking, transit, and neighborhood impacts, who needs evidence for a well-informed meeting
+    rather than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States transportation, mobility, logistics, and travel policy; target decision: prioritize
+    a protected bicycle network across safety, connectivity, demand, parking, transit, and neighborhood
+    impacts'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'protected bike network: travel demand, network performance, and safety baselines'
+  - 'protected bike network: federal, state, local, and operator authority'
+  - 'protected bike network: infrastructure condition, capacity, and resilience'
+  - 'protected bike network: technology performance and operational integration'
+  - 'protected bike network: accessibility, equity, land use, and community impacts'
+  - 'protected bike network: capital, operating cost, revenue, and funding eligibility'
+  - 'protected bike network: environmental, health, and economic effects'
+  - 'protected bike network: scenario calculations and appraisal assumptions'
+  - 'protected bike network: delivery risk, counterevidence, and uncertainty'
+  - 'protected bike network: phasing, pilots, monitoring, and decision triggers'
+  authoritative_domains: *id003
+- id: rail-freight-capacity
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to improve rail-freight capacity and service reliability across labor, terminals,
+    equipment, competition, and shipper needs. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States industrial strategy, business operations, and international supply chains; target
+    decision: improve rail-freight capacity and service reliability across labor, terminals, equipment,
+    competition, and shipper needs'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'rail freight capacity: demand, capacity, concentration, and trade baselines'
+  - 'rail freight capacity: supplier tiers, dependencies, and substitution limits'
+  - 'rail freight capacity: standards, regulation, and public-policy authority'
+  - 'rail freight capacity: technology maturity, quality, and production yield'
+  - 'rail freight capacity: capital, operating cost, incentives, and financing'
+  - 'rail freight capacity: workforce, infrastructure, and regional constraints'
+  - 'rail freight capacity: environmental, labor, and community impacts'
+  - 'rail freight capacity: scenario calculations and disruption transmission'
+  - 'rail freight capacity: alternative sourcing, inventory, and continuity strategies'
+  - 'rail freight capacity: sequencing, qualification, monitoring, and exit conditions'
+  authoritative_domains: *id004

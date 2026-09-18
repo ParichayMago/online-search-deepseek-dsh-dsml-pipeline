@@ -1,0 +1,27 @@
+services:
+  main:
+    depends_on:
+      vision:
+        condition: service_healthy
+    environment:
+      VISION_SIDECAR_URL: http://vision:18080
+    volumes:
+      - ${VISION_RUNTIME_ROOT}/vision_inspect.py:/opt/vision_inspect.py:ro
+  vision:
+    image: online-search-benchmark-agent:20260821
+    command: ["python3", "/opt/vision_sidecar.py"]
+    env_file:
+      - ${OPENROUTER_ENV_FILE}
+    volumes:
+      - ${VISION_RUNTIME_ROOT}/vision_sidecar.py:/opt/vision_sidecar.py:ro
+    read_only: true
+    tmpfs:
+      - /tmp
+    mem_limit: 1g
+    cpus: 1
+    healthcheck:
+      test: ["CMD", "python3", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:18080/health',timeout=2).read()"]
+      interval: 2s
+      timeout: 2s
+      retries: 20
+

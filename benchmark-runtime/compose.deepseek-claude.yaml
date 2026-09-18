@@ -1,0 +1,7 @@
+services:
+  main:
+    env_file:
+      - ${OPENROUTER_ENV_FILE}
+    volumes:
+      - ${HOME}/.local/npm-global:${HOME}/.local/npm-global:ro
+      - ${HOME}/.claude-openrouter:${HOME}/.claude-openrouter:rw

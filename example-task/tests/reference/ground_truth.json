@@ -1,0 +1,11 @@
+{
+  "schema_version": "online-search-ground-truth",
+  "task_id": "example-task",
+  "rubric_artifact_id": "",
+  "collection_method": "",
+  "source_selection_method": "",
+  "conflict_adjudication_method": "",
+  "known_limitations": [],
+  "claims": [],
+  "rubric_mappings": []
+}

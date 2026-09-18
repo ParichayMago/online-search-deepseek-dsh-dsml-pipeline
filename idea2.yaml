@@ -1,0 +1,645 @@
+version: 1
+ideas:
+- id: grid-extreme-heat-resilience
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to prioritize grid investments for extreme-heat load, generation, and transmission stress.
+    Require a cited long-form report that reconstructs controlling authority and chronology, joins distributed
+    evidence across the named workstreams, resolves genuine scope/date/definition conflicts, performs
+    multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions, preserves
+    bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States climate, environmental, and energy policy with relevant regional implementation;
+    target decision: prioritize grid investments for extreme-heat load, generation, and transmission stress'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'grid extreme heat resilience: hazard baselines and projected exposure'
+  - 'grid extreme heat resilience: federal, state, tribal, and local authority'
+  - 'grid extreme heat resilience: technology performance and lifecycle evidence'
+  - 'grid extreme heat resilience: infrastructure capacity and interdependencies'
+  - 'grid extreme heat resilience: community health, equity, and environmental justice'
+  - 'grid extreme heat resilience: capital cost, operating cost, and financing'
+  - 'grid extreme heat resilience: permitting, siting, and implementation timelines'
+  - 'grid extreme heat resilience: scenario modeling, units, and denominator alignment'
+  - 'grid extreme heat resilience: counterevidence, leakage, and uncertainty'
+  - 'grid extreme heat resilience: sequencing, triggers, monitoring, and adaptive management'
+  authoritative_domains: &id001
+  - epa.gov
+  - energy.gov
+  - noaa.gov
+  - usgs.gov
+  - fema.gov
+  - blm.gov
+  - nrel.gov
+- id: affordable-housing-preservation
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to preserve expiring affordable housing across acquisition, rehabilitation,
+    subsidy renewal, and tenant protection, who needs evidence for a well-informed meeting rather than
+    personalized professional advice. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States housing, real-estate, and community-development policy; target decision: preserve
+    expiring affordable housing across acquisition, rehabilitation, subsidy renewal, and tenant protection'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'affordable housing preservation: housing need, supply, vacancy, and cost baselines'
+  - 'affordable housing preservation: federal, state, local, and contractual authority'
+  - 'affordable housing preservation: eligibility, tenant, borrower, and property scope'
+  - 'affordable housing preservation: production, preservation, and rehabilitation capacity'
+  - 'affordable housing preservation: finance, subsidy, insurance, and lifecycle cost'
+  - 'affordable housing preservation: displacement, segregation, accessibility, and fair-housing effects'
+  - 'affordable housing preservation: land use, infrastructure, climate, and neighborhood impacts'
+  - 'affordable housing preservation: market response, appraisal, and quantitative assumptions'
+  - 'affordable housing preservation: counterevidence, implementation failure, and uncertainty'
+  - 'affordable housing preservation: sequencing, tenant safeguards, monitoring, and reassessment'
+  authoritative_domains: &id002
+  - hud.gov
+  - fhfa.gov
+  - census.gov
+  - consumerfinance.gov
+  - gao.gov
+  - fema.gov
+  - usda.gov
+- id: drought-crop-insurance
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to redesign drought resilience and crop-insurance incentives across practices,
+    regions, yields, and fiscal exposure. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States food, agriculture, fisheries, and animal-system policy; target decision: redesign
+    drought resilience and crop-insurance incentives across practices, regions, yields, and fiscal exposure'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'drought crop insurance: production, demand, trade, and concentration baselines'
+  - 'drought crop insurance: federal, state, tribal, and local authority'
+  - 'drought crop insurance: farm, processor, distributor, and retailer incentives'
+  - 'drought crop insurance: food safety, animal health, and public-health evidence'
+  - 'drought crop insurance: soil, water, biodiversity, and climate impacts'
+  - 'drought crop insurance: labor, rural communities, and equity'
+  - 'drought crop insurance: technology performance and adoption constraints'
+  - 'drought crop insurance: scenario calculations, units, yields, and denominators'
+  - 'drought crop insurance: counterevidence, leakage, and uncertainty'
+  - 'drought crop insurance: phased implementation, monitoring, and contingency plans'
+  authoritative_domains: &id003
+  - usda.gov
+  - fda.gov
+  - epa.gov
+  - noaa.gov
+  - usgs.gov
+  - cdc.gov
+  - ers.usda.gov
+- id: transit-service-equity
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to rebalance metropolitan transit service across ridership recovery, essential
+    trips, disability access, and operating constraints. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States government administration and public-service delivery; target decision: rebalance
+    metropolitan transit service across ridership recovery, essential trips, disability access, and operating
+    constraints'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: General Knowledge
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'transit service equity: statutory authority and program eligibility'
+  - 'transit service equity: service demand and population need'
+  - 'transit service equity: current performance and administrative burden'
+  - 'transit service equity: federal, state, local, and tribal role allocation'
+  - 'transit service equity: procurement, workforce, and vendor capacity'
+  - 'transit service equity: budget authority, obligation, spending, and lifecycle cost'
+  - 'transit service equity: accessibility, language access, and distributional equity'
+  - 'transit service equity: privacy, due process, and accountability safeguards'
+  - 'transit service equity: implementation alternatives and failure modes'
+  - 'transit service equity: phasing, performance measures, and corrective triggers'
+  authoritative_domains: &id004
+  - gao.gov
+  - usa.gov
+  - census.gov
+  - omb.gov
+  - gsa.gov
+  - fema.gov
+  - congress.gov
+- id: election-information-resilience
+  idea: Build a live-web deep-research task for a public-interest media and information-integrity consortium
+    deciding how to protect election information across official communication, platforms, local media,
+    rumor response, and civil liberties. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States media, journalism, and information-integrity policy; target decision: protect
+    election information across official communication, platforms, local media, rumor response, and civil
+    liberties'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Needle-in-a-Haystack
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'election information resilience: audience, reach, trust, and information-need baselines'
+  - 'election information resilience: constitutional, regulatory, platform, and contractual authority'
+  - 'election information resilience: publisher, platform, advertiser, and creator incentives'
+  - 'election information resilience: news-production capacity and local-market structure'
+  - 'election information resilience: provenance, moderation, recommendation, and technical systems'
+  - 'election information resilience: speech, privacy, civil-rights, and safety implications'
+  - 'election information resilience: funding, ownership, competition, and sustainability'
+  - 'election information resilience: measurement design, attribution, and denominator alignment'
+  - 'election information resilience: counterevidence, uncertainty, and manipulation risk'
+  - 'election information resilience: implementation safeguards, transparency, monitoring, and appeal'
+  authoritative_domains:
+  - fcc.gov
+  - ftc.gov
+  - loc.gov
+  - gao.gov
+  - census.gov
+  - nist.gov
+  - congress.gov
+- id: research-security-compliance
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to implement proportionate research-security disclosure and training without suppressing
+    legitimate international collaboration. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States research policy, scholarly communication, and scientific infrastructure; target
+    decision: implement proportionate research-security disclosure and training without suppressing legitimate
+    international collaboration'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'research security compliance: policy authority and institutional applicability'
+  - 'research security compliance: research-field and infrastructure baselines'
+  - 'research security compliance: evidence quality, reproducibility, and external validity'
+  - 'research security compliance: publishing, data, software, and access practices'
+  - 'research security compliance: researcher incentives, careers, and workforce'
+  - 'research security compliance: participant, community, ethical, and equity safeguards'
+  - 'research security compliance: cost, capacity, governance, and implementation'
+  - 'research security compliance: quantitative metrics and denominator alignment'
+  - 'research security compliance: counterevidence, uncertainty, and unintended effects'
+  - 'research security compliance: phased policy, evaluation, and revision triggers'
+  authoritative_domains:
+  - nsf.gov
+  - nih.gov
+  - nasa.gov
+  - energy.gov
+  - nist.gov
+  - ostp.gov
+  - nationalacademies.org
+- id: data-broker-regulation
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to design a state data-broker framework covering registration, sensitive
+    data, deletion, sale, and enforcement, who needs evidence for a well-informed meeting rather than
+    personalized professional advice. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States legal, regulatory, civil-rights, and enforcement policy; target decision: design
+    a state data-broker framework covering registration, sensitive data, deletion, sale, and enforcement'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'data broker regulation: controlling statutes, regulations, and case law'
+  - 'data broker regulation: jurisdiction, standing, preemption, and applicability'
+  - 'data broker regulation: effective dates, transitions, and superseded authority'
+  - 'data broker regulation: regulated-entity duties and available exceptions'
+  - 'data broker regulation: individual rights, remedies, and procedural protections'
+  - 'data broker regulation: agency guidance, enforcement posture, and judicial review'
+  - 'data broker regulation: empirical impacts and affected populations'
+  - 'data broker regulation: compliance alternatives, cost, and operational feasibility'
+  - 'data broker regulation: unresolved conflicts and litigation risk'
+  - 'data broker regulation: decision conditions, safeguards, documentation, and monitoring'
+  authoritative_domains:
+  - congress.gov
+  - justice.gov
+  - ftc.gov
+  - dol.gov
+  - eeoc.gov
+  - consumerfinance.gov
+  - law.cornell.edu
+- id: fiscal-sponsorship-governance
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to govern fiscal sponsorship across control, restricted funds, fees, liability,
+    transition, and sponsored-project autonomy. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States nonprofit, philanthropy, and social-impact policy; target decision: govern fiscal
+    sponsorship across control, restricted funds, fees, liability, transition, and sponsored-project autonomy'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'fiscal sponsorship governance: community need, service coverage, and outcome baselines'
+  - 'fiscal sponsorship governance: tax, charity, grant, contract, and fiduciary authority'
+  - 'fiscal sponsorship governance: beneficiary, organization, and program eligibility'
+  - 'fiscal sponsorship governance: service quality, evidence, and implementation capacity'
+  - 'fiscal sponsorship governance: revenue mix, reserves, overhead, and financial resilience'
+  - 'fiscal sponsorship governance: governance, conflicts, accountability, and public trust'
+  - 'fiscal sponsorship governance: equity, participation, accessibility, and community control'
+  - 'fiscal sponsorship governance: impact measurement, attribution, and cost normalization'
+  - 'fiscal sponsorship governance: counterevidence, displacement, and uncertainty boundaries'
+  - 'fiscal sponsorship governance: portfolio sequencing, learning, monitoring, and exit conditions'
+  authoritative_domains:
+  - irs.gov
+  - census.gov
+  - gao.gov
+  - grants.gov
+  - sba.gov
+  - dol.gov
+  - councilofnonprofits.org
+- id: spectrum-sharing-plan
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to choose a spectrum-sharing framework across incumbent protection, commercial
+    use, federal missions, and measurement. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States technology, telecommunications, digital-infrastructure, and platform policy; target
+    decision: choose a spectrum-sharing framework across incumbent protection, commercial use, federal
+    missions, and measurement'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'spectrum sharing plan: controlling authority, standards, and institutional scope'
+  - 'spectrum sharing plan: market structure, adoption, and performance baselines'
+  - 'spectrum sharing plan: technical architecture and interoperability'
+  - 'spectrum sharing plan: reliability, resilience, safety, and incident evidence'
+  - 'spectrum sharing plan: privacy, civil rights, and consumer impacts'
+  - 'spectrum sharing plan: competition, procurement, and vendor concentration'
+  - 'spectrum sharing plan: capital, operating cost, workforce, and deployment constraints'
+  - 'spectrum sharing plan: scenario calculations and metric reconciliation'
+  - 'spectrum sharing plan: counterevidence, obsolescence, and uncertainty'
+  - 'spectrum sharing plan: phased governance, testing, monitoring, and exit conditions'
+  authoritative_domains:
+  - fcc.gov
+  - ftc.gov
+  - nist.gov
+  - ntia.gov
+  - commerce.gov
+  - gao.gov
+  - cisa.gov
+- id: small-business-credit-access
+  idea: Build a live-web deep-research task for a financial-policy and risk committee deciding how to
+    expand small-business credit while distinguishing approval, pricing, performance, and distributional
+    outcomes. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States finance, banking, insurance, and investment policy; target decision: expand small-business
+    credit while distinguishing approval, pricing, performance, and distributional outcomes'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'small business credit access: controlling financial authority and institutional scope'
+  - 'small business credit access: market size, exposures, and trend measurement'
+  - 'small business credit access: capital, liquidity, solvency, and loss transmission'
+  - 'small business credit access: consumer and investor protection'
+  - 'small business credit access: product structure, fees, incentives, and conflicts'
+  - 'small business credit access: macroeconomic and distributional effects'
+  - 'small business credit access: scenario calculations, stress assumptions, and denominators'
+  - 'small business credit access: implementation capacity and market responses'
+  - 'small business credit access: counterevidence, model risk, and unresolved uncertainty'
+  - 'small business credit access: phased controls, disclosures, monitoring, and escalation'
+  authoritative_domains:
+  - federalreserve.gov
+  - fdic.gov
+  - sec.gov
+  - consumerfinance.gov
+  - treasury.gov
+  - cftc.gov
+  - naic.org
+- id: seasonal-worker-protection
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to protect seasonal workers across recruitment, housing, transportation, wages, safety, retaliation,
+    and employer continuity. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States work, employment, labor-market, and workforce policy; target decision: protect
+    seasonal workers across recruitment, housing, transportation, wages, safety, retaliation, and employer
+    continuity'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Law
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'seasonal worker protection: employment, wage, vacancy, and participation baselines'
+  - 'seasonal worker protection: federal, state, local, and contractual authority'
+  - 'seasonal worker protection: worker, employer, occupation, and program scope'
+  - 'seasonal worker protection: job quality, safety, scheduling, and benefit evidence'
+  - 'seasonal worker protection: skills, training, hiring, and advancement pathways'
+  - 'seasonal worker protection: business capacity, compliance cost, and labor demand'
+  - 'seasonal worker protection: disparities, accessibility, caregiving, and geographic effects'
+  - 'seasonal worker protection: earnings, productivity, cost, and denominator calculations'
+  - 'seasonal worker protection: counterevidence, substitution, displacement, and uncertainty'
+  - 'seasonal worker protection: phasing, enforcement, monitoring, and adjustment triggers'
+  authoritative_domains:
+  - dol.gov
+  - bls.gov
+  - eeoc.gov
+  - osha.gov
+  - census.gov
+  - gao.gov
+  - nces.ed.gov
+- id: high-speed-rail-phasing
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to evaluate high-speed rail phasing across segments, demand, travel-time
+    benefits, costs, interfaces, and delivery risk, who needs evidence for a well-informed meeting rather
+    than personalized professional advice. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States transportation, mobility, logistics, and travel policy; target decision: evaluate
+    high-speed rail phasing across segments, demand, travel-time benefits, costs, interfaces, and delivery
+    risk'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'high speed rail phasing: travel demand, network performance, and safety baselines'
+  - 'high speed rail phasing: federal, state, local, and operator authority'
+  - 'high speed rail phasing: infrastructure condition, capacity, and resilience'
+  - 'high speed rail phasing: technology performance and operational integration'
+  - 'high speed rail phasing: accessibility, equity, land use, and community impacts'
+  - 'high speed rail phasing: capital, operating cost, revenue, and funding eligibility'
+  - 'high speed rail phasing: environmental, health, and economic effects'
+  - 'high speed rail phasing: scenario calculations and appraisal assumptions'
+  - 'high speed rail phasing: delivery risk, counterevidence, and uncertainty'
+  - 'high speed rail phasing: phasing, pilots, monitoring, and decision triggers'
+  authoritative_domains:
+  - transportation.gov
+  - fhwa.dot.gov
+  - fta.dot.gov
+  - fra.dot.gov
+  - faa.gov
+  - ntsb.gov
+  - bts.gov
+- id: food-processing-automation
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to prioritize automation investments in food processing across productivity,
+    safety, workforce, quality, and resilience. Require a cited long-form report that reconstructs controlling
+    authority and chronology, joins distributed evidence across the named workstreams, resolves genuine
+    scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects evidence-visible
+    near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional bottom line
+    with practical decision triggers.
+  scope: 'United States industrial strategy, business operations, and international supply chains; target
+    decision: prioritize automation investments in food processing across productivity, safety, workforce,
+    quality, and resilience'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'food processing automation: demand, capacity, concentration, and trade baselines'
+  - 'food processing automation: supplier tiers, dependencies, and substitution limits'
+  - 'food processing automation: standards, regulation, and public-policy authority'
+  - 'food processing automation: technology maturity, quality, and production yield'
+  - 'food processing automation: capital, operating cost, incentives, and financing'
+  - 'food processing automation: workforce, infrastructure, and regional constraints'
+  - 'food processing automation: environmental, labor, and community impacts'
+  - 'food processing automation: scenario calculations and disruption transmission'
+  - 'food processing automation: alternative sourcing, inventory, and continuity strategies'
+  - 'food processing automation: sequencing, qualification, monitoring, and exit conditions'
+  authoritative_domains:
+  - commerce.gov
+  - trade.gov
+  - usitc.gov
+  - nist.gov
+  - bls.gov
+  - census.gov
+  - ustr.gov
+- id: heat-health-protection-network
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to coordinate healthcare and public-health protections for recurrent extreme-heat
+    emergencies. Require a cited long-form report that reconstructs controlling authority and chronology,
+    joins distributed evidence across the named workstreams, resolves genuine scope/date/definition conflicts,
+    performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions,
+    preserves bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States health policy, public-health, and healthcare operations; target decision: coordinate
+    healthcare and public-health protections for recurrent extreme-heat emergencies'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Medicine
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'heat health protection network: burden, incidence, and trend measurement'
+  - 'heat health protection network: population eligibility, disparities, and access'
+  - 'heat health protection network: clinical or operational effectiveness evidence'
+  - 'heat health protection network: capacity, workforce, and implementation constraints'
+  - 'heat health protection network: federal, state, and local authority'
+  - 'heat health protection network: coverage, reimbursement, and affordability'
+  - 'heat health protection network: supply continuity and infrastructure resilience'
+  - 'heat health protection network: scenario calculations and threshold design'
+  - 'heat health protection network: harms, counterevidence, and uncertainty boundaries'
+  - 'heat health protection network: phased implementation, monitoring, and reassessment'
+  authoritative_domains:
+  - cdc.gov
+  - hhs.gov
+  - cms.gov
+  - nih.gov
+  - ahrq.gov
+  - fda.gov
+  - who.int
+- id: student-mental-health-capacity
+  idea: Build a live-web deep-research task for an education-system strategy council deciding how to build
+    student mental-health capacity across prevention, counseling, referral, crisis response, and privacy.
+    Require a cited long-form report that reconstructs controlling authority and chronology, joins distributed
+    evidence across the named workstreams, resolves genuine scope/date/definition conflicts, performs
+    multiple decision-relevant calculations, rejects evidence-visible near-neighbor substitutions, preserves
+    bounded uncertainty, and reaches a conditional bottom line with practical decision triggers.
+  scope: 'United States education, learning, and training policy; target decision: build student mental-health
+    capacity across prevention, counseling, referral, crisis response, and privacy'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'student mental health capacity: student population, participation, and outcome baselines'
+  - 'student mental health capacity: federal, state, local, and institutional authority'
+  - 'student mental health capacity: eligibility, admissions, placement, and completion rules'
+  - 'student mental health capacity: instructional effectiveness and evidence quality'
+  - 'student mental health capacity: educator workforce, facilities, and delivery capacity'
+  - 'student mental health capacity: funding formulas, student cost, and fiscal sustainability'
+  - 'student mental health capacity: disability access, language access, and distributional equity'
+  - 'student mental health capacity: credential value, transferability, and labor-market alignment'
+  - 'student mental health capacity: counterevidence, measurement limits, and unintended effects'
+  - 'student mental health capacity: phasing, evaluation, safeguards, and revision triggers'
+  authoritative_domains:
+  - ed.gov
+  - nces.ed.gov
+  - ies.ed.gov
+  - bls.gov
+  - dol.gov
+  - gao.gov
+  - census.gov
+- id: cosmetics-safety
+  idea: Build a live-web deep-research task for a community coalition preparing to scrutinize a public
+    proposal to implement cosmetics safety oversight across facility registration, ingredients, substantiation,
+    reporting, and recalls. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States consumer products, services, markets, and protection policy; target decision:
+    implement cosmetics safety oversight across facility registration, ingredients, substantiation, reporting,
+    and recalls'
+  as_of: '2026-07-01'
+  requester_archetype: community
+  domain: Shopping/Product Comparison
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'cosmetics safety: product or service market structure'
+  - 'cosmetics safety: controlling consumer-protection authority'
+  - 'cosmetics safety: claims, disclosures, pricing, and contract terms'
+  - 'cosmetics safety: safety, quality, reliability, and complaint evidence'
+  - 'cosmetics safety: affected populations and distributional impacts'
+  - 'cosmetics safety: vendor, platform, and intermediary responsibilities'
+  - 'cosmetics safety: remedies, enforcement, and compliance alternatives'
+  - 'cosmetics safety: quantitative incidence, cost, and outcome comparisons'
+  - 'cosmetics safety: counterevidence, scope limits, and uncertainty'
+  - 'cosmetics safety: implementation priorities, monitoring, and escalation'
+  authoritative_domains:
+  - ftc.gov
+  - cpsc.gov
+  - consumerfinance.gov
+  - fda.gov
+  - dot.gov
+  - fcc.gov
+  - usa.gov
+- id: drought-water-allocation
+  idea: Build a credible first-person live-web research request from someone directly affected by the
+    institutional decision about how to design a drought allocation framework across cities, agriculture,
+    tribes, industry, and ecosystems, who needs evidence for a well-informed meeting rather than personalized
+    professional advice. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States climate, environmental, and energy policy with relevant regional implementation;
+    target decision: design a drought allocation framework across cities, agriculture, tribes, industry,
+    and ecosystems'
+  as_of: '2026-07-01'
+  requester_archetype: general_user
+  domain: Technology
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'drought water allocation: hazard baselines and projected exposure'
+  - 'drought water allocation: federal, state, tribal, and local authority'
+  - 'drought water allocation: technology performance and lifecycle evidence'
+  - 'drought water allocation: infrastructure capacity and interdependencies'
+  - 'drought water allocation: community health, equity, and environmental justice'
+  - 'drought water allocation: capital cost, operating cost, and financing'
+  - 'drought water allocation: permitting, siting, and implementation timelines'
+  - 'drought water allocation: scenario modeling, units, and denominator alignment'
+  - 'drought water allocation: counterevidence, leakage, and uncertainty'
+  - 'drought water allocation: sequencing, triggers, monitoring, and adaptive management'
+  authoritative_domains: *id001
+- id: vacant-property-reuse
+  idea: Build a live-web deep-research task for an investigative analyst testing competing public claims
+    about whether and how to convert vacant properties into stable use across title, acquisition, demolition,
+    rehabilitation, affordability, and neighborhood effects. Require a cited long-form report that reconstructs
+    controlling authority and chronology, joins distributed evidence across the named workstreams, resolves
+    genuine scope/date/definition conflicts, performs multiple decision-relevant calculations, rejects
+    evidence-visible near-neighbor substitutions, preserves bounded uncertainty, and reaches a conditional
+    bottom line with practical decision triggers.
+  scope: 'United States housing, real-estate, and community-development policy; target decision: convert
+    vacant properties into stable use across title, acquisition, demolition, rehabilitation, affordability,
+    and neighborhood effects'
+  as_of: '2026-07-01'
+  requester_archetype: investigative
+  domain: Finance
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'vacant property reuse: housing need, supply, vacancy, and cost baselines'
+  - 'vacant property reuse: federal, state, local, and contractual authority'
+  - 'vacant property reuse: eligibility, tenant, borrower, and property scope'
+  - 'vacant property reuse: production, preservation, and rehabilitation capacity'
+  - 'vacant property reuse: finance, subsidy, insurance, and lifecycle cost'
+  - 'vacant property reuse: displacement, segregation, accessibility, and fair-housing effects'
+  - 'vacant property reuse: land use, infrastructure, climate, and neighborhood impacts'
+  - 'vacant property reuse: market response, appraisal, and quantitative assumptions'
+  - 'vacant property reuse: counterevidence, implementation failure, and uncertainty'
+  - 'vacant property reuse: sequencing, tenant safeguards, monitoring, and reassessment'
+  authoritative_domains: *id002
+- id: regenerative-agriculture-claims
+  idea: Build a neutral, open-ended live-web research request assessing the conditions under which it
+    would be justified to govern regenerative-agriculture claims across definitions, measurement, outcomes,
+    verification, and farmer burden. Require a cited long-form report that reconstructs controlling authority
+    and chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States food, agriculture, fisheries, and animal-system policy; target decision: govern
+    regenerative-agriculture claims across definitions, measurement, outcomes, verification, and farmer
+    burden'
+  as_of: '2026-07-01'
+  requester_archetype: neutral_exploratory
+  domain: Academic
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'regenerative agriculture claims: production, demand, trade, and concentration baselines'
+  - 'regenerative agriculture claims: federal, state, tribal, and local authority'
+  - 'regenerative agriculture claims: farm, processor, distributor, and retailer incentives'
+  - 'regenerative agriculture claims: food safety, animal health, and public-health evidence'
+  - 'regenerative agriculture claims: soil, water, biodiversity, and climate impacts'
+  - 'regenerative agriculture claims: labor, rural communities, and equity'
+  - 'regenerative agriculture claims: technology performance and adoption constraints'
+  - 'regenerative agriculture claims: scenario calculations, units, yields, and denominators'
+  - 'regenerative agriculture claims: counterevidence, leakage, and uncertainty'
+  - 'regenerative agriculture claims: phased implementation, monitoring, and contingency plans'
+  authoritative_domains: *id003
+- id: grant-oversight-redesign
+  idea: Build a live-web deep-research task for a state and local public-service modernization board deciding
+    how to redesign grant oversight to detect material misuse without imposing disproportionate burden
+    on capable recipients. Require a cited long-form report that reconstructs controlling authority and
+    chronology, joins distributed evidence across the named workstreams, resolves genuine scope/date/definition
+    conflicts, performs multiple decision-relevant calculations, rejects evidence-visible near-neighbor
+    substitutions, preserves bounded uncertainty, and reaches a conditional bottom line with practical
+    decision triggers.
+  scope: 'United States government administration and public-service delivery; target decision: redesign
+    grant oversight to detect material misuse without imposing disproportionate burden on capable recipients'
+  as_of: '2026-07-01'
+  requester_archetype: professional
+  domain: General Knowledge
+  task_mode: structured_evidence_reconstruction
+  required_workstreams:
+  - 'grant oversight redesign: statutory authority and program eligibility'
+  - 'grant oversight redesign: service demand and population need'
+  - 'grant oversight redesign: current performance and administrative burden'
+  - 'grant oversight redesign: federal, state, local, and tribal role allocation'
+  - 'grant oversight redesign: procurement, workforce, and vendor capacity'
+  - 'grant oversight redesign: budget authority, obligation, spending, and lifecycle cost'
+  - 'grant oversight redesign: accessibility, language access, and distributional equity'
+  - 'grant oversight redesign: privacy, due process, and accountability safeguards'
+  - 'grant oversight redesign: implementation alternatives and failure modes'
+  - 'grant oversight redesign: phasing, performance measures, and corrective triggers'
+  authoritative_domains: *id004
